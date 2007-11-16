@@ -3,6 +3,7 @@
 BUNDLEURL=$1
 GROUPID=$2
 VERSION=$3
+CLASSIFIER=$4
 
 [ "${BUNDLEURL}" = "" ] && echo && echo "You must specify a bundle URL!" && echo && exit
 
@@ -173,11 +174,15 @@ BUNDLE=tmp.jar
       cp -i ${artifactId}-${version}.jar $REPODIR/${groupId}/jars
     fi
 
-    cp -i ${artifactId}-${version}.jar ${m2dir}
-    if [ -f ${m2dir}/${artifactId}-${version}.jar ]
+    jar=${artifactId}-${version}.jar 
+    if [ ! -z ${CLASSIFIER} ]; then
+      jar=${artifactId}-${version}-${CLASSIFIER}.jar
+    fi
+    cp -i ${jar} ${m2dir}
+    if [ -f ${m2dir}/${jar} ];
     then
-      md5sum  ${m2dir}/${artifactId}-${version}.jar > ${m2dir}/${artifactId}-${version}.jar.md5
-      sha1sum ${m2dir}/${artifactId}-${version}.jar > ${m2dir}/${artifactId}-${version}.jar.sha1
+      md5sum  ${m2dir}/${jar} > ${m2dir}/${jar}.md5
+      sha1sum ${m2dir}/${jar} > ${m2dir}/${jar}.sha1
     fi
   fi
   
