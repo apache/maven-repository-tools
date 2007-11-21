@@ -31,8 +31,9 @@ PID=$$
 RUNNING=`ps -ef | grep synchronize.sh | grep -v 'sh -c' | grep -v grep | grep -v $PID`
 echo $RUNNING
 if [ ! -z "$RUNNING" ]; then
-  echo Sync already running... exiting > $SYNC_REPORTS/synchronize.log
-  echo $RUNNING > $SYNC_REPORTS/synchronize.log
+  date >> $SYNC_REPORTS/synchronize.log
+  echo Sync already running... exiting >> $SYNC_REPORTS/synchronize.log
+  echo $RUNNING >> $SYNC_REPORTS/synchronize.log
   exit 1
 fi
 
