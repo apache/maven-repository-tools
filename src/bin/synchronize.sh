@@ -9,15 +9,6 @@
 # 6. Copy the mod_rewrite rules to the Maven 1.x repository @ Ibiblio
 # ------------------------------------------------------------------------
 
-PID=$$
-RUNNING=`ps -ef | grep synchronize.sh | grep -v 'sh -c' | grep -v grep | grep -v $PID`
-echo $RUNNING
-if [ ! -z "$RUNNING" ]; then
-  echo Sync already running... exiting
-  echo $RUNNING
-  exit 1
-fi
-
 dir=`pwd`
 syncProperties=$dir/synchronize.properties
 source $syncProperties
@@ -35,6 +26,15 @@ echo "REPOCLEAN = $REPOCLEAN"
 echo "M1_M2_REWRITE_RULES = $M1_M2_REWRITE_RULES"
 echo "SYNC_REPORTS = $SYNC_REPORTS"
 echo "JAVA = $JAVA"
+
+PID=$$
+RUNNING=`ps -ef | grep synchronize.sh | grep -v 'sh -c' | grep -v grep | grep -v $PID`
+echo $RUNNING
+if [ ! -z "$RUNNING" ]; then
+  echo Sync already running... exiting > $SYNC_REPORTS/synchronize.log
+  echo $RUNNING > $SYNC_REPORTS/synchronize.log
+  exit 1
+fi
 
 [ "$MODE" = "batch" ] && echo && echo "Press any key to continue, or hit ^C to quit." && echo
 
