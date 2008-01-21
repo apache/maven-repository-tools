@@ -8,6 +8,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import org.apache.commons.mail.EmailException;
+import org.apache.commons.mail.SimpleEmail;
 import org.codehaus.plexus.util.cli.CommandLineException;
 import org.codehaus.plexus.util.cli.CommandLineUtils;
 import org.codehaus.plexus.util.cli.Commandline;
@@ -167,15 +169,36 @@ public class Synchronizer {
         synchronizer.sync(repositories);
 
         if (synchronizer.failedRepositories.isEmpty()) {
-            System.out.println("--- All repositories synchronized successfully ---");
+            synchronizer.sendEmail("--- All repositories synchronized successfully ---");
         } else {
-            System.out.println("--- Some repositories were not synchronized ---");
+            StringBuffer sb = new StringBuffer();
+            sb.append("--- Some repositories were not synchronized ---");
             Iterator it = synchronizer.failedRepositories.iterator();
             while (it.hasNext()) {
                 SyncedRepository repo = (SyncedRepository) it.next();
-                System.out.println(" * " + repo.getGroupId());
-                System.out.println(repo.getErr());
+                sb.append(repo.getGroupId());
+                sb.append("\n");
+                sb.append(repo.getErr());
+                sb.append("\n");
+                sb.append("\n");
             }
+            synchronizer.sendEmail(sb.toString());
+        }
+
+        /* send email out */
+    }
+
+    private void sendEmail(String text) {
+        SimpleEmail email = new SimpleEmail();
+        email.setHostName(options.getMailHostname());
+        try {
+            email.addTo(options.getMailTo());
+            email.setFrom(options.getMailFrom());
+            email.setSubject(options.getMailSubject());
+            email.setMsg(text);
+            email.send();
+        } catch (EmailException e) {
+            throw new RuntimeException(e);
         }
     }
 }
