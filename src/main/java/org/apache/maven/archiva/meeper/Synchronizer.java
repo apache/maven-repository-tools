@@ -84,7 +84,7 @@ public class Synchronizer {
         cl.createArg().setValue("--ignore-existing");
         addCommonArguments(cl, repo);
 
-        System.out.println("=== Synchronizing metadata " + repo.getGroupId() + " "
+        System.out.println("=== Synchronizing artifacts " + repo.getGroupId() + " "
                 + repo.getLocation());
         return executeCommandLine(cl, repo);
     }
@@ -113,7 +113,7 @@ public class Synchronizer {
 
         int exitCode;
         try {
-            exitCode = CommandLineUtils.executeCommandLine(cl, out, err);
+            exitCode = CommandLineUtils.executeCommandLine(cl, out, err, TIMEOUT);
         } catch (CommandLineException e) {
             throw new RuntimeException(e);
         }

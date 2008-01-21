@@ -2,7 +2,6 @@
 "asm","maven@forge.objectweb.org:../../groups/maven/htdocs/maven2","rsync_ssh","EugeneKuleshov","eu@javatx.org",,
 "ch.qos.logback","rsync://pixie.qos.ch/mvnrepo","rsync","Ceki Gulcu","ceki@qos.ch",,
 "ch.hortis.sonar","rsync://maven2.hortis.ch/releases","rsync","Simon Brandhof","simon.brandhof@hortis.ch",,
-,"mavensync@repository.codehaus.org:/repository","rsync",,,"-i $HOME/.ssh/new-id_dsa",
 "com.agical.rmock","mavensync@shell.sourceforge.net:/home/groups/r/rm/rmock/htdocs/repository","rsync_ssh","Daniel brolund","daniel.brolund@agical.com",,
 "com.agilejava.blammo","mavensync@shell.sourceforge.net:/home/groups/b/bl/blammo/htdocs/repository","rsync_ssh","Wilfred Springer","wilfred@agilejava.com",,
 "com.agilejava.docbkx","mvnrepo@shell.sourceforge.net:/home/groups/d/do/docbkx-tools/htdocs/repository","rsync_ssh","Wilfred Springer","wilfred@agilejava.com",,
