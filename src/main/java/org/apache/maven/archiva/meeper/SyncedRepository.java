@@ -18,13 +18,17 @@ package org.apache.maven.archiva.meeper;
 import org.apache.commons.lang.builder.ReflectionToStringBuilder;
 
 /**
- * Stores a synced repository data. 
+ * Stores a synced repository data.
  * 
  * @author <a href="mailto:carlos@apache.org">Carlos Sanchez</a>
  * @version $Id$
  */
-public class SyncedRepository
-{
+public class SyncedRepository {
+
+    public static final String PROTOCOL_SSH = "rsync_ssh";
+    public static final String PROTOCOL_RSYNC = "rsync";
+    public static final String PROTOCOL_SVN = "svn";
+
     private String groupId;
 
     private String location;
@@ -35,58 +39,58 @@ public class SyncedRepository
 
     private String contactMail;
 
-    public void setGroupId( String groupId )
-    {
+    private String sshOptions;
+
+    public void setGroupId(String groupId) {
         this.groupId = groupId;
     }
 
-    public String getGroupId()
-    {
+    public String getGroupId() {
         return groupId;
     }
 
-    public void setContactName( String contactName )
-    {
+    public void setContactName(String contactName) {
         this.contactName = contactName;
     }
 
-    public String getContactName()
-    {
+    public String getContactName() {
         return contactName;
     }
 
-    public void setContactMail( String contactMail )
-    {
+    public void setContactMail(String contactMail) {
         this.contactMail = contactMail;
     }
 
-    public String getContactMail()
-    {
+    public String getContactMail() {
         return contactMail;
     }
 
-    public void setLocation( String location )
-    {
+    public void setLocation(String location) {
         this.location = location;
     }
 
-    public String getLocation()
-    {
+    public String getLocation() {
         return location;
     }
 
-    public void setProtocol( String protocol )
-    {
+    public void setProtocol(String protocol) {
         this.protocol = protocol;
     }
 
-    public String getProtocol()
-    {
+    public String getProtocol() {
         return protocol;
     }
 
-    public String toString()
-    {
-        return ReflectionToStringBuilder.toString( this );
+    public String getSshOptions() {
+        return sshOptions;
     }
+
+    public void setSshOptions(String sshOptions) {
+        this.sshOptions = sshOptions;
+    }
+
+    public String toString() {
+        return ReflectionToStringBuilder.toString(this);
+    }
+
 }

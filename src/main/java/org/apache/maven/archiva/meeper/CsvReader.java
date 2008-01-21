@@ -29,34 +29,44 @@ import org.apache.commons.csv.CSVParser;
  * @author <a href="mailto:carlos@apache.org">Carlos Sanchez</a>
  * @version $Id$
  */
-public class Reader
-{
-    private CSVParser parser;
+public class CsvReader {
 
-    public Reader( InputStream stream )
+    /**
+     * @param is
+     * @return {@link List} of {@link SyncedRepository}
+     * @throws IOException
+     */
+    public List parse(InputStream is) throws IOException
+
     {
-        parser = new CSVParser( new InputStreamReader( stream ) );
-    }
+        InputStreamReader reader = new InputStreamReader(is);
+        CSVParser parser = new CSVParser(reader);
 
-    public List parse()
-        throws IOException
-    {
-        String[][] data = parser.getAllValues();
-        List repos = new ArrayList( data.length - 1 );
+        try {
 
-        /* ignore headers line */
-        for ( int i = 1; i < data.length; i++ )
-        {
-            int j = 0;
-            SyncedRepository repo = new SyncedRepository();
-            repo.setGroupId( data[i][j++] );
-            repo.setLocation( data[i][j++] );
-            repo.setProtocol( data[i][j++] );
-            repo.setContactName( data[i][j++] );
-            repo.setContactMail( data[i][j++] );
-            repos.add( repo );
+            String[][] data = parser.getAllValues();
+            List repos = new ArrayList(data.length - 1);
+
+            /* ignore headers line */
+            for (int i = 1; i < data.length; i++) {
+                int j = 0;
+                SyncedRepository repo = new SyncedRepository();
+                repo.setGroupId(data[i][j++]);
+                repo.setLocation(data[i][j++]);
+                repo.setProtocol(data[i][j++]);
+                repo.setContactName(data[i][j++]);
+                repo.setContactMail(data[i][j++]);
+                repos.add(repo);
+            }
+
+            return repos;
+
+        } finally {
+            try {
+                reader.close();
+            } catch (IOException e) {
+                // ignore
+            }
         }
-
-        return repos;
     }
 }
