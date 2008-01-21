@@ -81,15 +81,19 @@ public class Synchronizer {
     }
 
     private void addCommonArguments(Commandline cl, SyncedRepository repo) {
-        cl.createArg().setValue(DRY_RUN);
+        if (options.isDryRun()) {
+            cl.createArg().setValue(DRY_RUN);
+        }
         // cl.createArg().setValue("$RSYNC_OPTS");
         cl.createArg().setValue("-Lrtivz");
         if (SyncedRepository.PROTOCOL_SSH.equals(repo.getProtocol())) {
             String s = repo.getSshOptions() == null ? "" : repo.getSshOptions();
             cl.createArg().setValue("--rsh=ssh " + s);
         }
-        cl.createArg().setValue(repo.getLocation() + "/" + repo.getGroupId());
-        cl.createArg().setValue(options.getBasedir() + "/" + repo.getGroupId());
+
+        String groupDir = repo.getGroupId().replaceAll("\\.", "\\/");
+        cl.createArg().setValue(repo.getLocation() + "/" + groupDir + "/");
+        cl.createArg().setValue(options.getBasedir() + "/" + groupDir + "/");
     }
 
     private int executeCommandLine(Commandline cl) {
@@ -145,9 +149,11 @@ public class Synchronizer {
             }
         }
 
-        String go = args[i++];
-        if ((go != null) && ("go".equals(go))) {
-            options.setDryRun(false);
+        if (args.length == 3) {
+            String go = args[i++];
+            if ((go != null) && ("go".equals(go))) {
+                options.setDryRun(false);
+            }
         }
 
         synchronizer.sync(repositories);

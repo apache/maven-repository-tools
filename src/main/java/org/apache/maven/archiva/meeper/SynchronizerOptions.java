@@ -1,6 +1,7 @@
 package org.apache.maven.archiva.meeper;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -49,21 +50,21 @@ public class SynchronizerOptions {
 
     public static SynchronizerOptions parse(File f) {
 
-        FileReader reader;
+        FileInputStream is;
         try {
-            reader = new FileReader(f);
+            is = new FileInputStream(f);
         } catch (FileNotFoundException e) {
             throw new IllegalArgumentException("File does not exist: " + f, e);
         }
 
         Properties properties = new Properties();
         try {
-            properties.load(reader);
+            properties.load(is);
         } catch (IOException e) {
             throw new RuntimeException(e);
         } finally {
             try {
-                reader.close();
+                is.close();
             } catch (IOException e) {
             }
         }
