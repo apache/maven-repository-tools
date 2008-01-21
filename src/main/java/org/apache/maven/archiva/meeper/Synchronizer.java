@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
@@ -22,7 +23,12 @@ public class Synchronizer {
 
     private static final String DRY_RUN = "-n";
 
+    /** timeout in seconds for each repo */
+    private static final int TIMEOUT = 5 * 60;
+
     private SynchronizerOptions options;
+
+    private List failedRepositories = new ArrayList();
 
     public Synchronizer(SynchronizerOptions options) {
         this.options = options;
@@ -37,6 +43,7 @@ public class Synchronizer {
             } catch (RuntimeException e) {
                 System.out.println("Error synchronizing repository " + repo.getGroupId() + ". "
                         + e.getMessage());
+                failedRepositories.add(repo);
             } catch (InterruptedException e) {
                 System.out.println("Repository sync for " + repo.getGroupId() + " was interrupted");
             }
@@ -64,8 +71,9 @@ public class Synchronizer {
         cl.createArg().setValue("--exclude-from=" + options.getExclusionsFile());
         addCommonArguments(cl, repo);
 
-        System.out.println("=== Synchronizing metadata " + repo);
-        return executeCommandLine(cl);
+        System.out.println("=== Synchronizing metadata " + repo.getGroupId() + " "
+                + repo.getLocation());
+        return executeCommandLine(cl, repo);
     }
 
     private int syncArtifacts(SyncedRepository repo) {
@@ -76,8 +84,9 @@ public class Synchronizer {
         cl.createArg().setValue("--ignore-existing");
         addCommonArguments(cl, repo);
 
-        System.out.println("=== Synchronizing artifacts " + repo);
-        return executeCommandLine(cl);
+        System.out.println("=== Synchronizing metadata " + repo.getGroupId() + " "
+                + repo.getLocation());
+        return executeCommandLine(cl, repo);
     }
 
     private void addCommonArguments(Commandline cl, SyncedRepository repo) {
@@ -96,11 +105,11 @@ public class Synchronizer {
         cl.createArg().setValue(options.getBasedir() + "/" + groupDir + "/");
     }
 
-    private int executeCommandLine(Commandline cl) {
+    private int executeCommandLine(Commandline cl, SyncedRepository repo) {
         CommandLineUtils.StringStreamConsumer out = new CommandLineUtils.StringStreamConsumer();
         CommandLineUtils.StringStreamConsumer err = new CommandLineUtils.StringStreamConsumer();
 
-        System.out.println("About to execute " + cl);
+        // System.out.println("About to execute " + cl);
 
         int exitCode;
         try {
@@ -109,12 +118,11 @@ public class Synchronizer {
             throw new RuntimeException(e);
         }
 
-        System.out.println(out.getOutput());
+        repo.setOut(out.getOutput());
 
         String serr = err.getOutput();
         if ((serr != null) && serr.length() > 0) {
-            System.out.println("!!! Errors:");
-            System.err.println(serr);
+            repo.setErr(serr);
         }
 
         return exitCode;
@@ -157,5 +165,17 @@ public class Synchronizer {
         }
 
         synchronizer.sync(repositories);
+
+        if (synchronizer.failedRepositories.isEmpty()) {
+            System.out.println("--- All repositories synchronized successfully ---");
+        } else {
+            System.out.println("--- Some repositories were not synchronized ---");
+            Iterator it = synchronizer.failedRepositories.iterator();
+            while (it.hasNext()) {
+                SyncedRepository repo = (SyncedRepository) it.next();
+                System.out.println(" * " + repo.getGroupId());
+                System.out.println(repo.getErr());
+            }
+        }
     }
 }

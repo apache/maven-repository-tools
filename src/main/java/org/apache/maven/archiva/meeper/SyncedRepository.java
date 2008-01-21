@@ -41,6 +41,8 @@ public class SyncedRepository {
 
     private String sshOptions;
 
+    private String out, err;
+
     public void setGroupId(String groupId) {
         this.groupId = groupId;
     }
@@ -91,6 +93,22 @@ public class SyncedRepository {
 
     public String toString() {
         return ReflectionToStringBuilder.toString(this);
+    }
+
+    public String getOut() {
+        return out;
+    }
+
+    public void setOut(String out) {
+        this.out = out;
+    }
+
+    public String getErr() {
+        return err;
+    }
+
+    public void setErr(String err) {
+        this.err = err;
     }
 
 }
