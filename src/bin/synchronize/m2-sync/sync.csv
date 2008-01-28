@@ -32,7 +32,7 @@
 "net.sf.aislib","mavensync@shell.sourceforge.net:/home/groups/a/ai/aislib/htdocs/repos/sync","rsync_ssh","Tomasz Pik","pikus@ais.pl",,
 "net.sf.alchim","mavensync@shell.sourceforge.net:/home/groups/a/al/alchim/htdocs/download/releases","rsync_ssh","David BERNARD","dwayneb@free.fr",,
 "net.sf.buildbox","mavensync@shell.sourceforge.net:/home/groups/b/bu/buildbox/htdocs/maven2","rsync_ssh","Petr Kozelka","pkozelka@users.sourceforge.net",,
-"net.sf.dtddoc","mavensync@shell.sourceforge.net:/home/groups/d/dt/dtddoc/htdocs/m2repo/releases","rsync_ssh","Herv� BOUTEMY","herve.boutemy@free.fr",,
+"net.sf.dtddoc","mavensync@shell.sourceforge.net:/home/groups/d/dt/dtddoc/htdocs/m2repo/releases","rsync_ssh","Herve BOUTEMY","herve.boutemy@free.fr",,
 "net.sf.ehcache","mavensync@shell.sourceforge.net:/home/groups/e/eh/ehcache/htdocs/repository","rsync_ssh","Greg Luck","gluck@gregluck.com",,
 "net.sf.jguard","mavensync@shell.sourceforge.net:/home/groups/j/jg/jguard/htdocs/repository","rsync_ssh","Charles GAY","diabolo512@users.sourceforge.net",,
 "net.sf.jlynx","mavensync@shell.sourceforge.net:/home/groups/j/jl/jlynx/htdocs/repos","rsync_ssh","Greg Ritchie","gregr20@gmail.com",,
