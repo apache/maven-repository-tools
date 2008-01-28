@@ -80,3 +80,4 @@
 "org.vraptor","mavensync@vraptor.org:/usr/java/webapps/vraptor.org/maven","rsync_ssh","Fabio Kung","fabio.kung@gmail.com",,
 "pmd","mavensync@shell.sourceforge.net:/home/groups/p/pm/pmd/htdocs/maven2","rsync_ssh","Xavier Le Vourch","xavier@brittanysoftware.com",,
 "wicket","mavensync@shell.sourceforge.net:/home/groups/w/wi/wicket/htdocs/maven2","rsync_ssh","Martijn Dashorst","martijn.dashorst@gmail.com",,
+"net.sourceforge.retroweaver","mavensync@shell.sourceforge.net:/home/groups/r/re/retroweaver/htdocs/maven2","rsync_ssh","Xavier Le Vourch","xavier@brittanysoftware.com>",,
