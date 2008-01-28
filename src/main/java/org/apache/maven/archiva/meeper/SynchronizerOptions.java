@@ -14,11 +14,12 @@ public class SynchronizerOptions {
     private static final String MAIL_TO = "mailTo";
     private static final String MAIL_FROM = "mailFrom";
     private static final String MAIL_SUBJECT = "mailSubject";
+    private static final String MAIL_FOOTER = "mailFooter";
     private String exclusionsFile;
     private String basedir;
     private String logFile;
     private boolean dryRun = true;
-    private String mailHostname, mailTo, mailFrom, mailSubject;
+    private String mailHostname, mailTo, mailFrom, mailSubject, mailFooter;
 
     public String getExclusionsFile() {
         return exclusionsFile;
@@ -114,5 +115,13 @@ public class SynchronizerOptions {
 
     public void setMailSubject(String mailSubject) {
         this.mailSubject = mailSubject;
+    }
+
+    public void setMailFooter(String mailFooter) {
+        this.mailFooter = mailFooter;
+    }
+
+    public String getMailFooter() {
+        return mailFooter;
     }
 }

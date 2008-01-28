@@ -169,7 +169,7 @@ public class Synchronizer {
         synchronizer.sync(repositories);
 
         if (synchronizer.failedRepositories.isEmpty()) {
-            synchronizer.sendEmail("--- All repositories synchronized successfully ---");
+            synchronizer.sendEmail("SUCCESS", "--- All repositories synchronized successfully ---");
         } else {
             StringBuffer sb = new StringBuffer();
             sb.append("--- Some repositories were not synchronized ---");
@@ -182,19 +182,19 @@ public class Synchronizer {
                 sb.append("\n");
                 sb.append("\n");
             }
-            synchronizer.sendEmail(sb.toString());
+            synchronizer.sendEmail("FAILURE", sb.toString());
         }
 
         /* send email out */
     }
 
-    private void sendEmail(String text) {
+    private void sendEmail(String subject, String text) {
         SimpleEmail email = new SimpleEmail();
         email.setHostName(options.getMailHostname());
         try {
             email.addTo(options.getMailTo());
             email.setFrom(options.getMailFrom());
-            email.setSubject(options.getMailSubject());
+            email.setSubject(options.getMailSubject() + " " + subject);
             email.setMsg(text);
             email.send();
         } catch (EmailException e) {
