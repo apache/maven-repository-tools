@@ -161,6 +161,8 @@ public class Synchronizer
         }
         catch ( CommandLineException e )
         {
+            repo.getErr().append( "Command line executed: " );
+            repo.getErr().append( cl );
             throw new RuntimeException( e );
         }
 
