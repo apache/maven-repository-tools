@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
@@ -41,12 +42,15 @@ public class Synchronizer
 
     public void sync( List repositories )
     {
+        int i = 1;
         Iterator it = repositories.iterator();
         while ( it.hasNext() )
         {
             SyncedRepository repo = (SyncedRepository) it.next();
             try
             {
+                System.out.println( "[" + ( i++ ) + " of " + repositories.size() + "] Synchronizing " +
+                    repo.getGroupId() + " " + repo.getLocation() );
                 sync( repo );
             }
             catch ( RuntimeException e )
@@ -102,7 +106,6 @@ public class Synchronizer
         cl.createArg().setValue( "--exclude-from=" + options.getExclusionsFile() );
         addCommonArguments( cl, repo );
 
-        System.out.println( "=== Synchronizing metadata " + repo.getGroupId() + " " + repo.getLocation() );
         return executeCommandLine( cl, repo );
     }
 
@@ -115,7 +118,6 @@ public class Synchronizer
         cl.createArg().setValue( "--ignore-existing" );
         addCommonArguments( cl, repo );
 
-        System.out.println( "=== Synchronizing artifacts " + repo.getGroupId() + " " + repo.getLocation() );
         return executeCommandLine( cl, repo );
     }
 
@@ -152,7 +154,7 @@ public class Synchronizer
         CommandLineUtils.StringStreamConsumer out = new CommandLineUtils.StringStreamConsumer();
         CommandLineUtils.StringStreamConsumer err = new CommandLineUtils.StringStreamConsumer();
 
-        //System.out.println( "About to execute " + cl );
+        // System.out.println( "About to execute " + cl );
 
         int exitCode;
         try
@@ -232,13 +234,15 @@ public class Synchronizer
 
         if ( synchronizer.failedRepositories.isEmpty() )
         {
-            synchronizer.sendEmail( "SUCCESS", "--- All repositories synchronized successfully ---" );
+            synchronizer.sendEmail( Collections.EMPTY_LIST, "SUCCESS",
+                                    "--- All repositories synchronized successfully ---" );
         }
         else
         {
             StringBuffer sb = new StringBuffer();
             sb.append( "--- Some repositories were not synchronized ---" );
             sb.append( "\n" );
+
             Iterator it = synchronizer.failedRepositories.iterator();
             while ( it.hasNext() )
             {
@@ -250,7 +254,7 @@ public class Synchronizer
                 sb.append( "\n" );
                 sb.append( "\n" );
             }
-            synchronizer.sendEmail( "FAILURE", sb.toString() );
+            synchronizer.sendEmail( synchronizer.failedRepositories, "FAILURE", sb.toString() );
         }
 
     }
@@ -258,13 +262,22 @@ public class Synchronizer
     /**
      * send email out
      */
-    private void sendEmail( String subject, String text )
+    private void sendEmail( List failedRepos, String subject, String text )
     {
         SimpleEmail email = new SimpleEmail();
         email.setHostName( options.getMailHostname() );
         try
         {
             email.addTo( options.getMailTo() );
+            Iterator it = failedRepos.iterator();
+            while ( it.hasNext() )
+            {
+                SyncedRepository repo = (SyncedRepository) it.next();
+                if ( repo.getContactMail() != null )
+                {
+                    email.addTo( repo.getContactMail(), repo.getContactName() );
+                }
+            }
             email.setFrom( options.getMailFrom() );
             email.setSubject( options.getMailSubject() + " " + subject );
             email.setMsg( text + options.getMailFooter() );
