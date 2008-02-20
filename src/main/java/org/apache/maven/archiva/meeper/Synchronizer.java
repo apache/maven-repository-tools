@@ -143,12 +143,12 @@ public class Synchronizer
             throw new RuntimeException( e );
         }
 
-        repo.setOut( out.getOutput() );
+        repo.getOut().append( out.getOutput() );
 
         String serr = err.getOutput();
         if ( ( serr != null ) && serr.length() > 0 )
         {
-            repo.setErr( serr );
+            repo.getErr().append( serr );
         }
 
         return exitCode;

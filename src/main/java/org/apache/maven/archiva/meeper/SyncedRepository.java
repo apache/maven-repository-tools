@@ -46,7 +46,9 @@ public class SyncedRepository
 
     private String svnUrl;
 
-    private String out, err;
+    private StringBuffer out = new StringBuffer();
+
+    private StringBuffer err = new StringBuffer();
 
     public void setGroupId( String groupId )
     {
@@ -123,24 +125,14 @@ public class SyncedRepository
         return ReflectionToStringBuilder.toString( this );
     }
 
-    public String getOut()
+    public StringBuffer getOut()
     {
         return out;
     }
 
-    public void setOut( String out )
-    {
-        this.out = out;
-    }
-
-    public String getErr()
+    public StringBuffer getErr()
     {
         return err;
-    }
-
-    public void setErr( String err )
-    {
-        this.err = err;
     }
 
 }
