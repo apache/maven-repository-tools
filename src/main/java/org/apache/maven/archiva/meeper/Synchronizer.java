@@ -152,7 +152,7 @@ public class Synchronizer
         CommandLineUtils.StringStreamConsumer out = new CommandLineUtils.StringStreamConsumer();
         CommandLineUtils.StringStreamConsumer err = new CommandLineUtils.StringStreamConsumer();
 
-        System.out.println( "About to execute " + cl );
+        //System.out.println( "About to execute " + cl );
 
         int exitCode;
         try
