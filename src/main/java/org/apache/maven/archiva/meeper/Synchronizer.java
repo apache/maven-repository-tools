@@ -23,6 +23,8 @@ public class Synchronizer
 
     private static final String RSYNC = "rsync";
 
+    private static final String SVN = "svn";
+
     private static final String DRY_RUN = "-n";
 
     /** timeout in seconds for each repo */
@@ -62,6 +64,20 @@ public class Synchronizer
     public void sync( SyncedRepository repo )
         throws InterruptedException
     {
+        /* update from svn if necessary */
+        if ( SyncedRepository.PROTOCOL_SVN.equals( repo.getProtocol() ) )
+        {
+            Commandline cl = new Commandline();
+            cl.setExecutable( SVN );
+            cl.createArg().setValue( "update" );
+            cl.createArg().setValue( appendGroupFolder( repo, repo.getLocation() ) );
+            int exitCode = executeCommandLine( cl, repo );
+            if ( exitCode != 0 )
+            {
+                throw new RuntimeException( "Error updating from SVN. Exit code: " + exitCode );
+            }
+        }
+
         int exitCode = syncMetadata( repo );
         if ( exitCode != 0 )
         {
@@ -117,13 +133,18 @@ public class Synchronizer
             cl.createArg().setValue( "--rsh=ssh " + s );
         }
 
+        cl.createArg().setValue( appendGroupFolder( repo, repo.getLocation() ) );
+        cl.createArg().setValue( appendGroupFolder( repo, options.getBasedir() ) );
+    }
+
+    private String appendGroupFolder( SyncedRepository repo, String location )
+    {
         String groupDir = "";
         if ( repo.getGroupId() != null )
         {
             groupDir = repo.getGroupId().replaceAll( "\\.", "\\/" ) + "/";
         }
-        cl.createArg().setValue( repo.getLocation() + "/" + groupDir );
-        cl.createArg().setValue( options.getBasedir() + "/" + groupDir );
+        return location + "/" + groupDir;
     }
 
     private int executeCommandLine( Commandline cl, SyncedRepository repo )
