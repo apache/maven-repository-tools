@@ -8,6 +8,8 @@ import java.util.Properties;
 
 public class SynchronizerOptions
 {
+    private static final String DRY_RUN = "dryRun";
+
     private static final String BASEDIR = "basedir";
 
     private static final String LOG_FILE = "log";
@@ -108,6 +110,14 @@ public class SynchronizerOptions
         }
 
         SynchronizerOptions options = new SynchronizerOptions();
+
+        /* unless dryRun is explicitly false we'll use true */
+        String dryRun = properties.getProperty( DRY_RUN );
+        if ( Boolean.toString( false ).equalsIgnoreCase( dryRun ) )
+        {
+            options.setDryRun( false );
+        }
+
         options.setExclusionsFile( properties.getProperty( EXCLUSIONS_FILE ) );
         options.setLogFile( properties.getProperty( LOG_FILE ) );
         options.setBasedir( properties.getProperty( BASEDIR ) );
