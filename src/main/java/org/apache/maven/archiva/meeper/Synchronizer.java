@@ -133,7 +133,10 @@ public class Synchronizer
         }
 
         cl.createArg().setValue( appendGroupFolder( repo, repo.getLocation() ) );
-        cl.createArg().setValue( appendGroupFolder( repo, options.getBasedir() ) );
+
+        String destinationFolder = appendGroupFolder( repo, options.getBasedir() );
+        ( new File( destinationFolder ) ).mkdirs();
+        cl.createArg().setValue( destinationFolder );
     }
 
     private String appendGroupFolder( SyncedRepository repo, String location )
