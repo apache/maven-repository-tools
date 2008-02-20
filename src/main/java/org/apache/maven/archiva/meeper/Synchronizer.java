@@ -102,16 +102,20 @@ public class Synchronizer {
             cl.createArg().setValue("--rsh=ssh " + s);
         }
 
-        String groupDir = repo.getGroupId().replaceAll("\\.", "\\/");
-        cl.createArg().setValue(repo.getLocation() + "/" + groupDir + "/");
-        cl.createArg().setValue(options.getBasedir() + "/" + groupDir + "/");
+        String groupDir = "";
+        if ( repo.getGroupId() != null )
+        {
+            groupDir = repo.getGroupId().replaceAll( "\\.", "\\/" ) + "/";
+        }
+        cl.createArg().setValue( repo.getLocation() + "/" + groupDir );
+        cl.createArg().setValue( options.getBasedir() + "/" + groupDir );
     }
 
     private int executeCommandLine(Commandline cl, SyncedRepository repo) {
         CommandLineUtils.StringStreamConsumer out = new CommandLineUtils.StringStreamConsumer();
         CommandLineUtils.StringStreamConsumer err = new CommandLineUtils.StringStreamConsumer();
 
-        // System.out.println("About to execute " + cl);
+        System.out.println("About to execute " + cl);
 
         int exitCode;
         try {

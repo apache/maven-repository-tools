@@ -48,15 +48,31 @@ public class CsvReader {
             List repos = new ArrayList(data.length - 1);
 
             /* ignore headers line */
-            for (int i = 1; i < data.length; i++) {
-                int j = 0;
+            for ( int i = 1; i < data.length; i++ )
+            {
+                int j = data[i].length -1;
                 SyncedRepository repo = new SyncedRepository();
-                repo.setGroupId(data[i][j++]);
-                repo.setLocation(data[i][j++]);
-                repo.setProtocol(data[i][j++]);
-                repo.setContactName(data[i][j++]);
-                repo.setContactMail(data[i][j++]);
-                repos.add(repo);
+                switch ( data[i].length )
+                {
+                    case 7:
+                        repo.setSvnUrl( getValue(data[i][j--]));
+                    case 6:
+                        repo.setSshOptions( getValue(data[i][j--]));
+                    case 5:
+                        repo.setContactMail( getValue(data[i][j--]));
+                    case 4:
+                        repo.setContactName( getValue(data[i][j--]));
+                    case 3:
+                        repo.setProtocol(getValue( data[i][j--]));
+                    case 2:
+                        repo.setLocation( getValue(data[i][j--]));
+                    case 1:
+                        repo.setGroupId(getValue( data[i][j--]));
+                        repos.add( repo );
+                        break;
+                    default:
+                        //line ignored data[i];
+                }
             }
 
             return repos;
@@ -67,6 +83,18 @@ public class CsvReader {
             } catch (IOException e) {
                 // ignore
             }
+        }
+    }
+
+    private String getValue( String value )
+    {
+        if ( ( value == null ) || ( value.length() == 0 ) )
+        {
+            return null;
+        }
+        else
+        {
+            return value;
         }
     }
 }

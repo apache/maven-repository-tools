@@ -41,6 +41,8 @@ public class SyncedRepository {
 
     private String sshOptions;
 
+    private String svnUrl;
+
     private String out, err;
 
     public void setGroupId(String groupId) {
@@ -89,6 +91,16 @@ public class SyncedRepository {
 
     public void setSshOptions(String sshOptions) {
         this.sshOptions = sshOptions;
+    }
+
+    public String getSvnUrl()
+    {
+        return svnUrl;
+    }
+
+    public void setSvnUrl( String svnUrl )
+    {
+        this.svnUrl = svnUrl;
     }
 
     public String toString() {

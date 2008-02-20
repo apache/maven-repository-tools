@@ -21,25 +21,41 @@ import java.util.List;
 
 import junit.framework.TestCase;
 
-public class CsvReaderTest extends TestCase {
+public class CsvReaderTest
+    extends TestCase
+{
 
     private CsvReader reader;
 
-    protected void setUp() throws Exception {
+    protected void setUp()
+        throws Exception
+    {
         super.setUp();
 
         reader = new CsvReader();
     }
 
-    public void testParse() throws Exception {
-        InputStream is = this.getClass().getClassLoader().getResourceAsStream(
-                "org/apache/maven/archiva/meeper/sync.csv");
-        List repos = reader.parse(is);
-        assertEquals(2, repos.size());
-        for (Iterator it = repos.iterator(); it.hasNext();) {
+    public void testParse()
+        throws Exception
+    {
+        InputStream is =
+            this.getClass().getClassLoader().getResourceAsStream( "org/apache/maven/archiva/meeper/sync.csv" );
+        List repos = reader.parse( is );
+        for ( Iterator it = repos.iterator(); it.hasNext(); )
+        {
             SyncedRepository repo = (SyncedRepository) it.next();
-            System.out.println(repo);
+            System.out.println( repo );
         }
+
+        assertEquals( 4, repos.size() );
+
+        SyncedRepository codehausRepo = (SyncedRepository) repos.get( 2 );
+        assertNotNull( codehausRepo.getSshOptions() );
+        assertNull( codehausRepo.getGroupId() );
+
+        SyncedRepository svnRepo = (SyncedRepository) repos.get( 3 );
+        assertNull( svnRepo.getSshOptions() );
+        assertNotNull( svnRepo.getSvnUrl() );
     }
 
 }
