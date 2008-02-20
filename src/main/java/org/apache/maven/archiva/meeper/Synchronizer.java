@@ -53,16 +53,17 @@ public class Synchronizer
             {
                 System.out.println( "Error synchronizing repository " + repo.getGroupId() + ". " + e.getMessage() );
                 failedRepositories.add( repo );
-            }
-            catch ( InterruptedException e )
-            {
-                System.out.println( "Repository sync for " + repo.getGroupId() + " was interrupted" );
+                Throwable cause = e;
+                while ( cause != null )
+                {
+                    repo.getErr().append( cause.getMessage() );
+                    cause = cause.getCause();
+                }
             }
         }
     }
 
     public void sync( SyncedRepository repo )
-        throws InterruptedException
     {
         /* update from svn if necessary */
         if ( SyncedRepository.PROTOCOL_SVN.equals( repo.getProtocol() ) )
@@ -91,7 +92,6 @@ public class Synchronizer
     }
 
     private int syncMetadata( SyncedRepository repo )
-        throws InterruptedException
     {
         Commandline cl = new Commandline();
         cl.setExecutable( RSYNC );
@@ -236,12 +236,14 @@ public class Synchronizer
         {
             StringBuffer sb = new StringBuffer();
             sb.append( "--- Some repositories were not synchronized ---" );
+            sb.append( "\n" );
             Iterator it = synchronizer.failedRepositories.iterator();
             while ( it.hasNext() )
             {
                 SyncedRepository repo = (SyncedRepository) it.next();
+                sb.append( "groupId: " );
                 sb.append( repo.getGroupId() );
-                sb.append( "\n" );
+                sb.append( "\nError:\n" );
                 sb.append( repo.getErr() );
                 sb.append( "\n" );
                 sb.append( "\n" );
@@ -249,9 +251,11 @@ public class Synchronizer
             synchronizer.sendEmail( "FAILURE", sb.toString() );
         }
 
-        /* send email out */
     }
 
+    /**
+     * send email out
+     */
     private void sendEmail( String subject, String text )
     {
         SimpleEmail email = new SimpleEmail();
