@@ -29,58 +29,66 @@ import org.apache.commons.csv.CSVParser;
  * @author <a href="mailto:carlos@apache.org">Carlos Sanchez</a>
  * @version $Id$
  */
-public class CsvReader {
+public class CsvReader
+{
 
     /**
      * @param is
      * @return {@link List} of {@link SyncedRepository}
      * @throws IOException
      */
-    public List parse(InputStream is) throws IOException
+    public List parse( InputStream is )
+        throws IOException
 
     {
-        InputStreamReader reader = new InputStreamReader(is);
-        CSVParser parser = new CSVParser(reader);
+        InputStreamReader reader = new InputStreamReader( is );
+        CSVParser parser = new CSVParser( reader );
 
-        try {
+        try
+        {
 
             String[][] data = parser.getAllValues();
-            List repos = new ArrayList(data.length - 1);
+            List repos = new ArrayList( data.length - 1 );
 
             /* ignore headers line */
             for ( int i = 1; i < data.length; i++ )
             {
-                int j = data[i].length -1;
+                int j = data[i].length - 1;
                 SyncedRepository repo = new SyncedRepository();
                 switch ( data[i].length )
                 {
                     case 7:
-                        repo.setSvnUrl( getValue(data[i][j--]));
+                        repo.setSvnUrl( getValue( data[i][j--] ) );
                     case 6:
-                        repo.setSshOptions( getValue(data[i][j--]));
+                        repo.setSshOptions( getValue( data[i][j--] ) );
                     case 5:
-                        repo.setContactMail( getValue(data[i][j--]));
+                        repo.setContactMail( getValue( data[i][j--] ) );
                     case 4:
-                        repo.setContactName( getValue(data[i][j--]));
+                        repo.setContactName( getValue( data[i][j--] ) );
                     case 3:
-                        repo.setProtocol(getValue( data[i][j--]));
+                        repo.setProtocol( getValue( data[i][j--] ) );
                     case 2:
-                        repo.setLocation( getValue(data[i][j--]));
+                        repo.setLocation( getValue( data[i][j--] ) );
                     case 1:
-                        repo.setGroupId(getValue( data[i][j--]));
+                        repo.setGroupId( getValue( data[i][j--] ) );
                         repos.add( repo );
                         break;
                     default:
-                        //line ignored data[i];
+                        // line ignored data[i];
                 }
             }
 
             return repos;
 
-        } finally {
-            try {
+        }
+        finally
+        {
+            try
+            {
                 reader.close();
-            } catch (IOException e) {
+            }
+            catch ( IOException e )
+            {
                 // ignore
             }
         }

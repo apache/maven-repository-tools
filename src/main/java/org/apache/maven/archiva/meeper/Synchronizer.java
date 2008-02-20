@@ -15,11 +15,11 @@ import org.codehaus.plexus.util.cli.CommandLineUtils;
 import org.codehaus.plexus.util.cli.Commandline;
 
 /**
- * exclusions=$HOME/bin/synchronize/syncopate/exclusions.txt
- * BASEDIR=$HOME/repository-staging/to-ibiblio/maven2
+ * exclusions=$HOME/bin/synchronize/syncopate/exclusions.txt BASEDIR=$HOME/repository-staging/to-ibiblio/maven2
  * CHANGED_LOG=/tmp/sync-changed.log
  */
-public class Synchronizer {
+public class Synchronizer
+{
 
     private static final String RSYNC = "rsync";
 
@@ -32,74 +32,89 @@ public class Synchronizer {
 
     private List failedRepositories = new ArrayList();
 
-    public Synchronizer(SynchronizerOptions options) {
+    public Synchronizer( SynchronizerOptions options )
+    {
         this.options = options;
     }
 
-    public void sync(List repositories) {
+    public void sync( List repositories )
+    {
         Iterator it = repositories.iterator();
-        while (it.hasNext()) {
+        while ( it.hasNext() )
+        {
             SyncedRepository repo = (SyncedRepository) it.next();
-            try {
-                sync(repo);
-            } catch (RuntimeException e) {
-                System.out.println("Error synchronizing repository " + repo.getGroupId() + ". "
-                        + e.getMessage());
-                failedRepositories.add(repo);
-            } catch (InterruptedException e) {
-                System.out.println("Repository sync for " + repo.getGroupId() + " was interrupted");
+            try
+            {
+                sync( repo );
+            }
+            catch ( RuntimeException e )
+            {
+                System.out.println( "Error synchronizing repository " + repo.getGroupId() + ". " + e.getMessage() );
+                failedRepositories.add( repo );
+            }
+            catch ( InterruptedException e )
+            {
+                System.out.println( "Repository sync for " + repo.getGroupId() + " was interrupted" );
             }
         }
     }
 
-    public void sync(SyncedRepository repo) throws InterruptedException {
-        int exitCode = syncMetadata(repo);
-        if (exitCode != 0) {
-            throw new RuntimeException("Error synchronizing metadata. Exit code: " + exitCode);
+    public void sync( SyncedRepository repo )
+        throws InterruptedException
+    {
+        int exitCode = syncMetadata( repo );
+        if ( exitCode != 0 )
+        {
+            throw new RuntimeException( "Error synchronizing metadata. Exit code: " + exitCode );
         }
-        exitCode = syncArtifacts(repo);
-        if (exitCode != 0) {
-            throw new RuntimeException("Error synchronizing artifacts. Exit code: " + exitCode);
+        exitCode = syncArtifacts( repo );
+        if ( exitCode != 0 )
+        {
+            throw new RuntimeException( "Error synchronizing artifacts. Exit code: " + exitCode );
         }
     }
 
-    private int syncMetadata(SyncedRepository repo) throws InterruptedException {
+    private int syncMetadata( SyncedRepository repo )
+        throws InterruptedException
+    {
         Commandline cl = new Commandline();
-        cl.setExecutable(RSYNC);
+        cl.setExecutable( RSYNC );
 
-        cl.createArg().setValue("--include=*/");
-        cl.createArg().setValue("--include=**/maven-metadata.xml*");
-        cl.createArg().setValue("--exclude=*");
-        cl.createArg().setValue("--exclude-from=" + options.getExclusionsFile());
-        addCommonArguments(cl, repo);
+        cl.createArg().setValue( "--include=*/" );
+        cl.createArg().setValue( "--include=**/maven-metadata.xml*" );
+        cl.createArg().setValue( "--exclude=*" );
+        cl.createArg().setValue( "--exclude-from=" + options.getExclusionsFile() );
+        addCommonArguments( cl, repo );
 
-        System.out.println("=== Synchronizing metadata " + repo.getGroupId() + " "
-                + repo.getLocation());
-        return executeCommandLine(cl, repo);
+        System.out.println( "=== Synchronizing metadata " + repo.getGroupId() + " " + repo.getLocation() );
+        return executeCommandLine( cl, repo );
     }
 
-    private int syncArtifacts(SyncedRepository repo) {
+    private int syncArtifacts( SyncedRepository repo )
+    {
         Commandline cl = new Commandline();
-        cl.setExecutable(RSYNC);
+        cl.setExecutable( RSYNC );
 
-        cl.createArg().setValue("--exclude-from=" + options.getExclusionsFile());
-        cl.createArg().setValue("--ignore-existing");
-        addCommonArguments(cl, repo);
+        cl.createArg().setValue( "--exclude-from=" + options.getExclusionsFile() );
+        cl.createArg().setValue( "--ignore-existing" );
+        addCommonArguments( cl, repo );
 
-        System.out.println("=== Synchronizing artifacts " + repo.getGroupId() + " "
-                + repo.getLocation());
-        return executeCommandLine(cl, repo);
+        System.out.println( "=== Synchronizing artifacts " + repo.getGroupId() + " " + repo.getLocation() );
+        return executeCommandLine( cl, repo );
     }
 
-    private void addCommonArguments(Commandline cl, SyncedRepository repo) {
-        if (options.isDryRun()) {
-            cl.createArg().setValue(DRY_RUN);
+    private void addCommonArguments( Commandline cl, SyncedRepository repo )
+    {
+        if ( options.isDryRun() )
+        {
+            cl.createArg().setValue( DRY_RUN );
         }
         // cl.createArg().setValue("$RSYNC_OPTS");
-        cl.createArg().setValue("-Lrtivz");
-        if (SyncedRepository.PROTOCOL_SSH.equals(repo.getProtocol())) {
+        cl.createArg().setValue( "-Lrtivz" );
+        if ( SyncedRepository.PROTOCOL_SSH.equals( repo.getProtocol() ) )
+        {
             String s = repo.getSshOptions() == null ? "" : repo.getSshOptions();
-            cl.createArg().setValue("--rsh=ssh " + s);
+            cl.createArg().setValue( "--rsh=ssh " + s );
         }
 
         String groupDir = "";
@@ -111,98 +126,126 @@ public class Synchronizer {
         cl.createArg().setValue( options.getBasedir() + "/" + groupDir );
     }
 
-    private int executeCommandLine(Commandline cl, SyncedRepository repo) {
+    private int executeCommandLine( Commandline cl, SyncedRepository repo )
+    {
         CommandLineUtils.StringStreamConsumer out = new CommandLineUtils.StringStreamConsumer();
         CommandLineUtils.StringStreamConsumer err = new CommandLineUtils.StringStreamConsumer();
 
-        System.out.println("About to execute " + cl);
+        System.out.println( "About to execute " + cl );
 
         int exitCode;
-        try {
-            exitCode = CommandLineUtils.executeCommandLine(cl, out, err, TIMEOUT);
-        } catch (CommandLineException e) {
-            throw new RuntimeException(e);
+        try
+        {
+            exitCode = CommandLineUtils.executeCommandLine( cl, out, err, TIMEOUT );
+        }
+        catch ( CommandLineException e )
+        {
+            throw new RuntimeException( e );
         }
 
-        repo.setOut(out.getOutput());
+        repo.setOut( out.getOutput() );
 
         String serr = err.getOutput();
-        if ((serr != null) && serr.length() > 0) {
-            repo.setErr(serr);
+        if ( ( serr != null ) && serr.length() > 0 )
+        {
+            repo.setErr( serr );
         }
 
         return exitCode;
     }
 
-    public static void main(String[] args) {
-        if ((args.length != 2) && (args.length != 3)) {
-            System.out.println("Arguments required: CONFIG_PROPERTIES_FILE REPOSITORIES_FILE [go]");
+    public static void main( String[] args )
+    {
+        if ( ( args.length != 2 ) && ( args.length != 3 ) )
+        {
+            System.out.println( "Arguments required: CONFIG_PROPERTIES_FILE REPOSITORIES_FILE [go]" );
             return;
         }
 
         int i = 0;
-        SynchronizerOptions options = SynchronizerOptions.parse(new File(args[i++]));
-        Synchronizer synchronizer = new Synchronizer(options);
+        SynchronizerOptions options = SynchronizerOptions.parse( new File( args[i++] ) );
+        Synchronizer synchronizer = new Synchronizer( options );
 
         FileInputStream is = null;
-        try {
-            is = new FileInputStream(new File(args[i++]));
-        } catch (FileNotFoundException e) {
-            System.err.println("Repositories file " + args[i - 1] + " is not present");
+        try
+        {
+            is = new FileInputStream( new File( args[i++] ) );
+        }
+        catch ( FileNotFoundException e )
+        {
+            System.err.println( "Repositories file " + args[i - 1] + " is not present" );
         }
 
         List repositories;
-        try {
-            repositories = new CsvReader().parse(is);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        } finally {
-            try {
+        try
+        {
+            repositories = new CsvReader().parse( is );
+        }
+        catch ( IOException e )
+        {
+            throw new RuntimeException( e );
+        }
+        finally
+        {
+            try
+            {
                 is.close();
-            } catch (IOException e) {
+            }
+            catch ( IOException e )
+            {
             }
         }
 
-        if (args.length == 3) {
+        if ( args.length == 3 )
+        {
             String go = args[i++];
-            if ((go != null) && ("go".equals(go))) {
-                options.setDryRun(false);
+            if ( ( go != null ) && ( "go".equals( go ) ) )
+            {
+                options.setDryRun( false );
             }
         }
 
-        synchronizer.sync(repositories);
+        synchronizer.sync( repositories );
 
-        if (synchronizer.failedRepositories.isEmpty()) {
-            synchronizer.sendEmail("SUCCESS", "--- All repositories synchronized successfully ---");
-        } else {
+        if ( synchronizer.failedRepositories.isEmpty() )
+        {
+            synchronizer.sendEmail( "SUCCESS", "--- All repositories synchronized successfully ---" );
+        }
+        else
+        {
             StringBuffer sb = new StringBuffer();
-            sb.append("--- Some repositories were not synchronized ---");
+            sb.append( "--- Some repositories were not synchronized ---" );
             Iterator it = synchronizer.failedRepositories.iterator();
-            while (it.hasNext()) {
+            while ( it.hasNext() )
+            {
                 SyncedRepository repo = (SyncedRepository) it.next();
-                sb.append(repo.getGroupId());
-                sb.append("\n");
-                sb.append(repo.getErr());
-                sb.append("\n");
-                sb.append("\n");
+                sb.append( repo.getGroupId() );
+                sb.append( "\n" );
+                sb.append( repo.getErr() );
+                sb.append( "\n" );
+                sb.append( "\n" );
             }
-            synchronizer.sendEmail("FAILURE", sb.toString());
+            synchronizer.sendEmail( "FAILURE", sb.toString() );
         }
 
         /* send email out */
     }
 
-    private void sendEmail(String subject, String text) {
+    private void sendEmail( String subject, String text )
+    {
         SimpleEmail email = new SimpleEmail();
-        email.setHostName(options.getMailHostname());
-        try {
-            email.addTo(options.getMailTo());
-            email.setFrom(options.getMailFrom());
-            email.setSubject(options.getMailSubject() + " " + subject);
-            email.setMsg(text);
+        email.setHostName( options.getMailHostname() );
+        try
+        {
+            email.addTo( options.getMailTo() );
+            email.setFrom( options.getMailFrom() );
+            email.setSubject( options.getMailSubject() + " " + subject );
+            email.setMsg( text );
             email.send();
-        } catch (EmailException e) {
-            throw new RuntimeException(e);
+        }
+        catch ( EmailException e )
+        {
+            throw new RuntimeException( e );
         }
     }
 }
