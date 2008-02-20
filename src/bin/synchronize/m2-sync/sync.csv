@@ -66,6 +66,7 @@
 "org.apache","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh",,,,
 "org.appfuse","mavensync@static.appfuse.org:/var/www/appfuse-releases","rsync_ssh",,"mraible@dev.java.net",,
 "org.dspace","mavensync@maven.dspace.org:/var/maven/release","rsync_ssh","DSpace Developers","dspace-devel@lists.sourceforge.net",,
+"org.extrema-sistemas.loom","mavensync@shell.sourceforge.net:/home/groups/l/lo/loom/htdocs/repository","rsync_ssh","ignacio coloma","icoloma@gmail.com",,
 "org.hdiv","mavensync@shell.sourceforge.net:/home/groups/h/hd/hdiv/htdocs/repository","rsync_ssh","Roberto Velasco","roberto@hdiv.org",,
 "org.jdtaus","rsync://repository.jdtaus.org/repository","rsync","Christian Schulte","cs@jdtaus.org",,
 "org.jframework","mavensync@shell.sf.net:/home/groups/j/jf/jframework/repository","rsync_ssh","Misha Gridnev","mishalg@users.sourceforge.net",,
