@@ -1,5 +1,5 @@
 "groupId","location","protocol","contactName","contactMail","ssh options","svn url"
-"","mavensync@repository.codehaus.org:/repository","rsync_ssh",,repo-maintainers@maven.apache.org,"'-i $HOME/.ssh/new-id_dsa'"
+"","mavensync@repository.codehaus.org:/repository","rsync_ssh",,repo-maintainers@maven.apache.org,"-i $HOME/.ssh/new-id_dsa"
 "asm","maven@forge.objectweb.org:../../groups/maven/htdocs/maven2","rsync_ssh","EugeneKuleshov","eu@javatx.org",,
 "ch.qos.logback","rsync://pixie.qos.ch/mvnrepo","rsync","Ceki Gulcu","ceki@qos.ch",,
 "ch.hortis.sonar","rsync://maven2.hortis.ch/releases","rsync","Simon Brandhof","simon.brandhof@hortis.ch",,
