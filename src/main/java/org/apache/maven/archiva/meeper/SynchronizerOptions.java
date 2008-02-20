@@ -26,6 +26,8 @@ public class SynchronizerOptions
 
     private static final String MAIL_FOOTER = "mailFooter";
 
+    private static final String TIMEOUT = "timeout";
+
     private String exclusionsFile;
 
     private String basedir;
@@ -35,6 +37,8 @@ public class SynchronizerOptions
     private boolean dryRun = true;
 
     private String mailHostname, mailTo, mailFrom, mailSubject, mailFooter;
+
+    private int timeout = 10;
 
     public String getExclusionsFile()
     {
@@ -118,6 +122,12 @@ public class SynchronizerOptions
             options.setDryRun( false );
         }
 
+        String timeoutString = properties.getProperty( TIMEOUT );
+        if ( timeoutString != null )
+        {
+            options.setTimeout( Integer.parseInt( timeoutString ) );
+        }
+
         options.setExclusionsFile( properties.getProperty( EXCLUSIONS_FILE ) );
         options.setLogFile( properties.getProperty( LOG_FILE ) );
         options.setBasedir( properties.getProperty( BASEDIR ) );
@@ -177,5 +187,18 @@ public class SynchronizerOptions
     public String getMailFooter()
     {
         return mailFooter;
+    }
+
+    public void setTimeout( int timeout )
+    {
+        this.timeout = timeout;
+    }
+
+    /**
+     * Timeout for each repo in minutes
+     */
+    public int getTimeout()
+    {
+        return timeout;
     }
 }

@@ -28,9 +28,6 @@ public class Synchronizer
 
     private static final String DRY_RUN = "-n";
 
-    /** timeout in seconds for each repo */
-    private static final int TIMEOUT = 5 * 60;
-
     private SynchronizerOptions options;
 
     private List failedRepositories = new ArrayList();
@@ -159,7 +156,7 @@ public class Synchronizer
         int exitCode;
         try
         {
-            exitCode = CommandLineUtils.executeCommandLine( cl, out, err, TIMEOUT );
+            exitCode = CommandLineUtils.executeCommandLine( cl, out, err, options.getTimeout() * 60 );
         }
         catch ( CommandLineException e )
         {
