@@ -115,6 +115,7 @@ public class SynchronizerOptions
         options.setMailTo( properties.getProperty( MAIL_TO ) );
         options.setMailFrom( properties.getProperty( MAIL_FROM ) );
         options.setMailSubject( properties.getProperty( MAIL_SUBJECT ) );
+        options.setMailFooter( properties.getProperty( MAIL_FOOTER ) );
         return options;
     }
 

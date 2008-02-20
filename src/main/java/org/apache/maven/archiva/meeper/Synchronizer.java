@@ -240,7 +240,7 @@ public class Synchronizer
             email.addTo( options.getMailTo() );
             email.setFrom( options.getMailFrom() );
             email.setSubject( options.getMailSubject() + " " + subject );
-            email.setMsg( text );
+            email.setMsg( text + options.getMailFooter() );
             email.send();
         }
         catch ( EmailException e )
