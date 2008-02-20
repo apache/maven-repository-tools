@@ -1,4 +1,15 @@
 # Cron jobs for the maven repository
-MAILTO=repository@maven.org
-0  */4 * * * cd $HOME/bin; ./kill_long_runners.sh rsync 3 && ./synchronize.sh
-0   0  * * * cd $HOME/reports; ./run.sh
+# try to make then run at pseudo-random hours and minutes to avoid high load 
+#MAILTO=repository@maven.org
+# sync m1 repos and convert to m2
+28 2,14 * * * cd $HOME/bin; ./synchronize-m1.sh
+# sync rewrite rules to m1 repo at ibiblio
+51 19 * * * cd $HOME/bin; ./synchronize-rewrite-rules-to-ibiblio.sh $HOME/bin/synchronize.properties
+# sync m2 repos
+16 0,4,8,12,16,20 * * * cd $HOME/bin/synchronize/m2-sync; java -jar maven-meeper-1-SNAPSHOT-jar-with-dependencies.jar sync.properties sync.csv
+# sync central to cica.es mirror
+30 1,5,9,13,17,21 * * * cd $HOME/bin; ./synchronize-central-to-cica.sh $HOME/bin/synchronize.properties
+# sync central to ibiblio
+5  3,11,20 * * * cd $HOME/bin; ./synchronize-central-to-ibiblio.sh $HOME/bin/synchronize.properties
+# run reports
+34 2  * * * cd $HOME/reports; ./run.sh

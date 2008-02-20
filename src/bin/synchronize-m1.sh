@@ -90,41 +90,4 @@ mv $CL/maven-metadata.xml.tmp $CL/maven-metadata.xml
 md5sum $CL/maven-metadata.xml > $CL/maven-metadata.xml.md5
 sha1sum $CL/maven-metadata.xml > $CL/maven-metadata.xml.sha1
 
-# ------------------------------------------------------------------------
-# 4. Sync Maven 2.x repositories to central
-# ------------------------------------------------------------------------
-
-[ "$MODE" = "batch" ] && echo && echo "Press any key to sync Maven 2.x repositories to central, or hit ^C to quit." && echo
-
-(
-  cd $M2_SYNC
-  ./m2-sync.sh go
-)
-
-# ------------------------------------------------------------------------
-# Cica.es synchronization: sync the central repository to Cica.es 
-# ------------------------------------------------------------------------
-
-[ "$MODE" = "batch" ] && echo && echo "Press any key to run the sync to Cica, or hit ^C to quit." && echo
-
-./synchronize-central-to-cica.sh $syncProperties
-retval=$?; if [ $retval != 0 ]; then exit $retval; fi
-retval=$?; if [ $retval != 0 ]; then exit $retval; fi
-
-# ------------------------------------------------------------------------
-# Ibiblio synchronization: sync the central repository to Ibiblio 
-# ------------------------------------------------------------------------
-
-[ "$MODE" = "batch" ] && echo && echo "Press any key to run the sync to Ibiblio, or hit ^C to quit." && echo
-
-./synchronize-central-to-ibiblio.sh $syncProperties
-retval=$?; if [ $retval != 0 ]; then exit $retval; fi
-retval=$?; if [ $retval != 0 ]; then exit $retval; fi
-
-# ------------------------------------------------------------------------
-# Copy the mod_rewrite rules to the Maven 1.x repository
-# ------------------------------------------------------------------------
-
-./synchronize-rewrite-rules-to-ibiblio.sh $syncProperties
-
 ) | tee $SYNC_REPORTS/last-sync-results.txt ) 2>&1
