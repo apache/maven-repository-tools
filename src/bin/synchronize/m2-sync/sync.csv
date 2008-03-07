@@ -89,8 +89,8 @@
 "org.ow2","maven@forge.objectweb.org:../../groups/maven/htdocs/maven2","rsync_ssh","xavier.moghrabi@objectweb.org""",,,
 "org.parancoe","web3160@maven2.parancoe.org:/home/web/maven2.parancoe.org/repository/repo","rsync_ssh","Lucio Benfante","lucio.benfante@jugpadova.it",,
 "org.slf4j","rsync://pixie.qos.ch/mvnrepo","rsync","Ceki Gulcu","ceki@qos.ch",,
-"org.springframework","/home/maven/repository-staging/to-ibiblio/maven-spring","rsync","Ben Hale","bhale@interface21.com ",,"https://springframework.svn.sourceforge.net/svnroot/springframework/repos/repo"
-"org.springmodules","/home/maven/repository-staging/to-ibiblio/maven-spring","rsync","Ben Hale","bhale@interface21.com ",,"https://springframework.svn.sourceforge.net/svnroot/springframework/repos/repo"
+"org.springframework","/home/maven/repository-staging/to-ibiblio/maven-spring","svn","Ben Hale","bhale@interface21.com ",,"https://springframework.svn.sourceforge.net/svnroot/springframework/repos/repo"
+"org.springmodules","/home/maven/repository-staging/to-ibiblio/maven-spring","svn","Ben Hale","bhale@interface21.com ",,"https://springframework.svn.sourceforge.net/svnroot/springframework/repos/repo"
 "org.vraptor","mavensync@vraptor.org:/usr/java/webapps/vraptor.org/maven","rsync_ssh","Fabio Kung","fabio.kung@gmail.com",,
 "org.wickettools.extjs","mavensync@shell.sourceforge.net:/home/groups/w/wi/wicket-extjs/htdocs/maven2","rsync_ssh","Jeremy Fergason","jdfergason@users.sourceforge.net",,
 "pmd","mavensync@shell.sourceforge.net:/home/groups/p/pm/pmd/htdocs/maven2","rsync_ssh","Xavier Le Vourch","xavier@brittanysoftware.com",,
