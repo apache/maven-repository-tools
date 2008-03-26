@@ -5,8 +5,7 @@
 "com.agical.rmock","mavensync@shell.sourceforge.net:/home/groups/r/rm/rmock/htdocs/repository","rsync_ssh","Daniel brolund","daniel.brolund@agical.com",,
 "com.agilejava.blammo","mavensync@shell.sourceforge.net:/home/groups/b/bl/blammo/htdocs/repository","rsync_ssh","Wilfred Springer","wilfred@agilejava.com",,
 "com.agilejava.docbkx","mvnrepo@shell.sourceforge.net:/home/groups/d/do/docbkx-tools/htdocs/repository","rsync_ssh","Wilfred Springer","wilfred@agilejava.com",,
-"com.capgemini.platina","mavensync@shell.sourceforge.net:/home/groups/p/pl/platina/htdocs/releases
-","rsync_ssh","Nicolas De Loof","nicolas.deloof@gmail.com",,
+"com.capgemini.platina","mavensync@shell.sourceforge.net:/home/groups/p/pl/platina/htdocs/releases","rsync_ssh","Nicolas De Loof","nicolas.deloof@gmail.com",,
 "com.cedarsoft","mavensync@maven.cedarsoft.com:/home/maven/public/release","rsync_ssh",,"info@cedarsoft.de",,
 "com.discursive","mvnrepo@mars.discursive.com:/var/www/html/www.discursive.com/maven2","rsync_ssh","Tim O'Brien","tobrien@discursive.com",,
 "com.exadel.flamingo","maven@build.exadel.com:/home/maven/repository","rsync_ssh","Slava Novik","snovik@exadel.com",,
