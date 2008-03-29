@@ -17,12 +17,14 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <parent>
-    <groupId>org.apache.maven.archiva.tools</groupId>
-    <artifactId>tools-parent</artifactId>
-    <version>1-SNAPSHOT</version>
-  </parent>
   <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.apache.maven</groupId>
+    <artifactId>maven-parent</artifactId>
+    <version>5</version>
+    <relativePath>../pom/maven/pom.xml</relativePath>
+  </parent>
+
   <artifactId>maven-meeper</artifactId>
   <name>Maven Meeper</name>
 
@@ -94,4 +96,9 @@
     </repository>
   </repositories>
 
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/repository-tools/trunk</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/repository-tools/trunk</developerConnection>
+    <url>http://svn.apache.org/viewcvs.cgi/maven/repository-tools/trunk</url>
+  </scm>
 </project>
