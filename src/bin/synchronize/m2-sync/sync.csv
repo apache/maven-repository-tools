@@ -34,7 +34,7 @@
 "gr.abiss.js.sarissa","mavensync@shell.sourceforge.net:/home/groups/s/sa/sarissa/htdocs/repository/releases","rsync_ssh","Manos Batsis","mbatsis@users.sourceforge.net",,
 "gr.abiss.md4j","mavensync@shell.sourceforge.net:/home/groups/m/md/md4j/htdocs/repository/releases","rsync_ssh","Manos Batsis","mbatsis@users.sourceforge.net",,
 "gr.abiss.mvn.plugins","mavensync@shell.sourceforge.net:/home/groups/m/mv/mvn-jstools/htdocs/repository/releases","rsync_ssh","Manos Batsis","mbatsis@users.sourceforge.net",,
-"javassist ","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",," "
+"javassist","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",," "
 "log4j","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh",,,,
 "mysql","maven@rsync.mysql.com:/web/sites/live/maven","rsync","Mark Matthews","mark@mysql.com",,
 "net.databinder","maven@databinder.net:/var/dbwww/maven","rsync_ssh","Nathan Hamblen","nathan@technically.us",,
@@ -81,6 +81,7 @@
 "net.sourceforge.jwebunit","mavensync@shell.sourceforge.net:/home/groups/j/jw/jwebunit/htdocs/m2-repo","rsync_ssh","Julien HENRY","henryju@yahoo.fr",,
 "net.sourceforge.maven-taglib","mavensync@shell.sourceforge.net:/home/groups/m/ma/maven-taglib/htdocs/m2repo","rsync_ssh","fabrizio giustina","fgiust@gmail.com",,
 "net.sourceforge.mvn-dp-plugin","mavensync@shell.sourceforge.net:/home/groups/m/mv/mvn-dp-plugin/htdocs/repository/releases","rsync_ssh","Siamak Haschemi","siamak_haschemi@users.sourceforge.net",," "
+"net.sourceforge.nekohtml","mavensync@shell.sourceforge.net:/home/groups/n/ne/nekohtml/htdocs/m2-repo","rsync_ssh","Marc Guillemot","mguillem@users.sourceforge.net",,
 "net.sourceforge.openutils","mavensync@shell.sourceforge.net:/home/groups/o/op/openutils/htdocs/repository/releases","rsync_ssh","fabrizio giustina","fgiust@gmail.com",,
 "net.sourceforge.retroweaver","mavensync@shell.sourceforge.net:/home/groups/r/re/retroweaver/htdocs/maven2","rsync_ssh","Xavier Le Vourch","xavier@brittanysoftware.com>",,
 "net.sourceforge.wicketwebbeans","mavensync@shell.sourceforge.net:/home/groups/w/wi/wicketwebbeans/htdocs/repository","rsync_ssh","Dan Syrstad","dsyrstad@users.sourceforge.net",,
