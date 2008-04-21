@@ -92,6 +92,7 @@
 "opensymphony","maven2.opensymphony.com:/opt/repository/maven2","rsync_ssh","Patrick Lightbody","plightbo@gmail.com",,
 "org.acegisecurity","mavensync@shell.sourceforge.net:/home/groups/a/ac/acegisecurity/htdocs/repository/releases","rsync_ssh","Carlos Sanchez","carlos@apache.org",,
 "org.apache","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh",,,,
+"org.apithefire","nobody@apithefire.org:/var/www/apithefire.org/m2repo","rsync_ssh","Chew Boon Aik","apithefire@gmail.com",, 
 "org.appfuse","mavensync@static.appfuse.org:/var/www/appfuse-releases","rsync_ssh",,"mraible@dev.java.net",,
 "org.databene","mavensync@shell.sourceforge.net:/home/groups/b/be/benerator/htdocs/m2/repository","rsync_ssh","Volker Bergmann","volker@databene.org",,
 "org.dbunit","mavensync@shell.sourceforge.net:/home/groups/d/db/dbunit/htdocs/m2repo","rsync_ssh","Roberto Lo Giacco","rlogiacco@users.sourceforge.net",,
