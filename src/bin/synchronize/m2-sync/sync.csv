@@ -1,7 +1,6 @@
 "groupId","location","protocol","contactName","contactMail","ssh options","svn url"
 "ant-contrib","mavensync@shell.sourceforge.net:/home/groups/a/an/ant-contrib/htdocs/m2-repo","rsync_ssh","Curt Arnold","carnold@apache.org",,
 "asm","maven@forge.objectweb.org:../../groups/maven/htdocs/maven2","rsync_ssh","EugeneKuleshov","eu@javatx.org",,
-"ch.hortis.sonar","rsync://maven2.hortis.ch/releases","rsync","Simon Brandhof","simon.brandhof@hortis.ch",,
 "ch.qos.logback","rsync://pixie.qos.ch/mvnrepo","rsync","Ceki Gulcu","ceki@qos.ch",,
 "com.adobe.blazeds","mavensync@shell.sourceforge.net:/home/users/s/st/stoicflame/m2","rsync_ssh","Ryan Heaton","ryan@webcohesion.com",," "
 "com.agical.rmock","mavensync@shell.sourceforge.net:/home/groups/r/rm/rmock/htdocs/repository","rsync_ssh","Daniel brolund","daniel.brolund@agical.com",,
@@ -63,6 +62,7 @@
 "net.sf.jsptest","mavensync@shell.sourceforge.net:/home/groups/j/js/jsptest/htdocs/maven2","rsync_ssh","Lasse Koskela","lasse.koskela@gmail.com",,
 "net.sf.jtreemap","mavensync@shell.sourceforge.net:/home/groups/o/ob/objectlabkit/htdocs/m2-repo","rsync_ssh","Marcin Jekot","marchy@users.sourceforge.net",,
 "net.sf.jxls","mavensync@shell.sourceforge.net:/home/groups/j/jx/jxls/htdocs/repository/releases","rsync_ssh","Leonid Vysochyn","leonid.vysochyn@gmail.com",,
+"net.sf.jyntax","mavensync@shell.sourceforge.net:/home/groups/j/jy/jyntax/htdocs/m2repo","rsync_ssh","Clemens Renner","clemensrenner@users.sourceforge.net",,
 "net.sf.locale4j","mavensync@shell.sourceforge.net:/home/groups/l/lo/locale4j/maven/upload-repo","rsync_ssh",,"tom.cort@state.vt.us",,
 "net.sf.logdistiller","mavensync@shell.sourceforge.net:/home/groups/l/lo/logdistiller/htdocs/m2repo/releases","rsync_ssh","Herve BOUTEMY","hboutemy@users.sourceforge.net",,
 "net.sf.mapasuta","mavensync@shell.sourceforge.net:/home/groups/m/ma/mapasuta/maven/upload-repo","rsync_ssh",,"twenstar@users.sourceforge.net""",,
@@ -79,6 +79,7 @@
 "net.sourceforge.basher","mavensync@shell.sourceforge.net:/home/groups/b/ba/basher/htdocs/repository","rsync_ssh","johan lindquist","johanlindquist@users.sourceforge.net",,
 "net.sourceforge.cssparser","mavensync@shell.sourceforge.net:/home/groups/c/cs/cssparser/htdocs/m2-repo","rsync_ssh","Daniel Gredler","sdanig@users.sourceforge.net",,
 "net.sourceforge.htmlunit","mavensync@shell.sourceforge.net:/home/groups/h/ht/htmlunit/htdocs/m2-repo","rsync_ssh","Marc Guillemot","mguillem@users.sourceforge.net",,
+"net.sourceforge.jeuclid","mavensync@shell.sourceforge.net:/home/groups/j/je/jeuclid/htdocs/m2-release","rsync_ssh","Erik Putrycz","eputrycz@users.sourceforge.net",," "
 "net.sourceforge.jeuclid","mavensync@shell.sourceforge.net:/home/groups/j/je/jeuclid/htdocs/m2-release","rsync_ssh","max berger","max@berger.name",,
 "net.sourceforge.jwebunit","mavensync@shell.sourceforge.net:/home/groups/j/jw/jwebunit/htdocs/m2-repo","rsync_ssh","Julien HENRY","henryju@yahoo.fr",,
 "net.sourceforge.maven-taglib","mavensync@shell.sourceforge.net:/home/groups/m/ma/maven-taglib/htdocs/m2repo","rsync_ssh","fabrizio giustina","fgiust@gmail.com",,
@@ -92,8 +93,9 @@
 "opensymphony","maven2.opensymphony.com:/opt/repository/maven2","rsync_ssh","Patrick Lightbody","plightbo@gmail.com",,
 "org.acegisecurity","mavensync@shell.sourceforge.net:/home/groups/a/ac/acegisecurity/htdocs/repository/releases","rsync_ssh","Carlos Sanchez","carlos@apache.org",,
 "org.apache","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh",,,,
-"org.apithefire","nobody@apithefire.org:/var/www/apithefire.org/m2repo","rsync_ssh","Chew Boon Aik","apithefire@gmail.com",, 
+"org.apithefire","nobody@apithefire.org:/var/www/apithefire.org/m2repo","rsync_ssh","Chew Boon Aik","apithefire@gmail.com",," "
 "org.appfuse","mavensync@static.appfuse.org:/var/www/appfuse-releases","rsync_ssh",,"mraible@dev.java.net",,
+"org.compass-project","rsync://repo.compass-project.org","rsync","Shay Banon","kimchy@gmail.com",,
 "org.databene","mavensync@shell.sourceforge.net:/home/groups/b/be/benerator/htdocs/m2/repository","rsync_ssh","Volker Bergmann","volker@databene.org",,
 "org.dbunit","mavensync@shell.sourceforge.net:/home/groups/d/db/dbunit/htdocs/m2repo","rsync_ssh","Roberto Lo Giacco","rlogiacco@users.sourceforge.net",,
 "org.dspace","mavensync@maven.dspace.org:/var/maven/release","rsync_ssh","DSpace Developers","dspace-devel@lists.sourceforge.net",,
@@ -112,6 +114,7 @@
 "org.mattressframework","mavensync@shell.sourceforge.net:/home/groups/m/ma/mattress/htdocs/repositories/release","rsync_ssh","Josh Devins","joshdevins@mattressframework.org",,
 "org.microemu","mavensync@pyx4me.com::maven2-release","rsync","Vlad Skarzhevskyy","skarzhevskyy@gmail.com",,
 "org.mockftpserver","mavensync@shell.sourceforge.net:/home/groups/m/mo/mockftpserver/htdocs/m2repo","rsync_ssh","Chris Mair"," chrismair@users.sourceforge.net ",,
+"org.nakedobjects","mavensync@shell.sourceforge.net:/home/groups/n/na/nakedobjects/htdocs/m2-repo/release","rsync_ssh","Robert Matthews","rmatthews@nakedobjects.org",,
 "org.objectweb","maven@forge.objectweb.org:../../groups/maven/htdocs/maven2","rsync_ssh","xavier.moghrabi@objectweb.org""",,,
 "org.openfast","mavensync@shell.sf.net:/home/groups/o/op/openfast/maven/release","rsync_ssh","Jacob Northey","jacob_northey@users.sourceforge.net",,
 "org.ops4j","maven-sync@www.ops4j.org:/var/http/repository.ops4j.org/m2release","rsync_ssh","Niclas Hedhman","niclas@hedhman.org",,
@@ -122,7 +125,9 @@
 "org.springmodules","/home/maven/repository-staging/to-ibiblio/maven-spring","svn","Ben Hale","bhale@interface21.com ",,"https://springframework.svn.sourceforge.net/svnroot/springframework/repos/repo"
 "org.vraptor","mavensync@vraptor.org:/usr/java/webapps/vraptor.org/maven","rsync_ssh","Fabio Kung","fabio.kung@gmail.com",,
 "org.wickettools.extjs","mavensync@shell.sourceforge.net:/home/groups/w/wi/wicket-extjs/htdocs/maven2","rsync_ssh","Jeremy Fergason","jdfergason@users.sourceforge.net",,
+"org.xerial","mavensync@shell.sf.net:/home/groups/x/xe/xerial/htdocs/maven/release","rsync_ssh","Taro L. Saito","leo@xerial.org",," "
 "org.xsocket","mavensync@shell.sourceforge.net:/home/groups/x/xs/xsocket/htdocs/m2repo","rsync_ssh","Gregor Roth","gregor.roth@xsocket.org",,
+"org.zkoss","maven@mavensync.zkoss.org:/home/maven/repository","rsync_ssh","WebMaster","webmaster@zkoss.org",,
 "pmd","mavensync@shell.sourceforge.net:/home/groups/p/pm/pmd/htdocs/maven2","rsync_ssh","Xavier Le Vourch","xavier@brittanysoftware.com",,
 "wicket","mavensync@shell.sourceforge.net:/home/groups/w/wi/wicket/htdocs/maven2","rsync_ssh","Martijn Dashorst","martijn.dashorst@gmail.com",,
 ,"mavensync@repository.codehaus.org:/repository","rsync_ssh",,"repo-maintainers@maven.apache.org","-i $HOME/.ssh/new-id_dsa",
