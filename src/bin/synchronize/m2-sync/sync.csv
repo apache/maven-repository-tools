@@ -26,6 +26,7 @@
 "commons-lang","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh",,,,
 "commons-logging","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh",,,,
 "commons-math","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh",,,,
+"commons-scxml","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh",Rahul Akolkar,rahul.akolkar@gmail.com,,
 "de.berlios.jsunit","mavensync@shell.berlios.de:/home/groups/jsunit/htdocs/maven2/repo","rsync_ssh","Joerg Schaible","joerg.schaible@gmx.de",,
 "de.sven-jacobs.loremipsum","mavensync@shell.sourceforge.net:/home/groups/l/lo/loremipsum/htdocs/repository","rsync_ssh","Sven Jacobs","sven.jacobs@web.de",,
 "displaytag","mavensync@shell.sourceforge.net:/home/groups/d/di/displaytag/htdocs/m2repo","rsync_ssh","fabrizio giustina","fgiust@gmail.com",,
@@ -132,3 +133,4 @@
 "pmd","mavensync@shell.sourceforge.net:/home/groups/p/pm/pmd/htdocs/maven2","rsync_ssh","Xavier Le Vourch","xavier@brittanysoftware.com",,
 "wicket","mavensync@shell.sourceforge.net:/home/groups/w/wi/wicket/htdocs/maven2","rsync_ssh","Martijn Dashorst","martijn.dashorst@gmail.com",,
 ,"mavensync@repository.codehaus.org:/repository","rsync_ssh",,"repo-maintainers@maven.apache.org","-i $HOME/.ssh/new-id_dsa",
+"org.unitils","mavensync@shell.sourceforge.net:/home/groups/u/un/unitils/htdocs/m2-repo","rsync_ssh","Tim Ducheyne","tim.ducheyne@unitils.org",, 
