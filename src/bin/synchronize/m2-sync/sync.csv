@@ -19,6 +19,7 @@
 "com.healthmarketscience","maven@open.hmsonline.com:/home/repo/html/maven2","rsync_ssh",,"openhms-bugs@lists.sourceforge.net",,
 "com.hp.hpl.jena","mavensync@jena.hpl.hp.com:/var/repo","rsync_ssh","Andy Seaborne","andy.seaborne@hp.com",,
 "com.mobilvox.ossi","mavensync@shell.sourceforge.net:/home/groups/m/ma/maven-js-plugin/htdocs/m2repo","rsync_ssh","Adam Altemus","aaltemus@mobilvox.com",,
+"com.octo","jvanzyl@people.apache.org:/home/aheritier/rsync-to-central","rsync_ssh","Arnaud Heritier","aheritier@apache.org",,
 "com.opensymphony","maven2.opensymphony.com:/opt/repository/maven2","rsync_ssh","Patrick Lightbody","plightbo@gmail.com",,
 "com.pyx4j","mavensync@pyx4me.com::maven2-release","rsync","Vlad Skarzhevskyy","skarzhevskyy@gmail.com",,
 "com.pyx4me","mavensync@pyx4me.com::maven2-release","rsync","Vlad Skarzhevskyy","skarzhevskyy@gmail.com",,
