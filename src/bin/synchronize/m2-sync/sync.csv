@@ -1,7 +1,7 @@
 "groupId","location","protocol","contactName","contactMail","ssh options","svn url"
 "ant-contrib","mavensync@shell.sourceforge.net:/home/groups/a/an/ant-contrib/htdocs/m2-repo","rsync_ssh","Curt Arnold","carnold@apache.org",,
 "asm","maven@forge.objectweb.org:../../groups/maven/htdocs/maven2","rsync_ssh","EugeneKuleshov","eu@javatx.org",,
-"br.com.caelum.seleniumdsl","mavensync@shell.sourceforge.net:/home/groups/c/ca/caelum-stella/htdocs/maven","rsync_ssh","Caue Guerra","caue.guerra@caelum.com.br",," "
+"br.com.caelum.seleniumdsl","mavensync@shell.sourceforge.net:/home/groups/s/se/seleniumdsl/htdocs/maven","rsync_ssh","Caue Guerra","caue.guerra@caelum.com.br",," "
 "br.com.caelum.stella","mavensync@shell.sourceforge.net:/home/groups/c/ca/caelum-stella/htdocs/maven","rsync_ssh","Caue Guerra","caue.guerra@caelum.com.br",," "
 "ch.qos.logback","rsync://pixie.qos.ch/mvnrepo","rsync","Ceki Gulcu","ceki@qos.ch",,
 "com.adobe.blazeds","mavensync@shell.sourceforge.net:/home/users/s/st/stoicflame/m2","rsync_ssh","Ryan Heaton","ryan@webcohesion.com",," "
@@ -24,6 +24,7 @@
 "com.pyx4j","mavensync@pyx4me.com::maven2-release","rsync","Vlad Skarzhevskyy","skarzhevskyy@gmail.com",,
 "com.pyx4me","mavensync@pyx4me.com::maven2-release","rsync","Vlad Skarzhevskyy","skarzhevskyy@gmail.com",,
 "com.yahoo.platform.yui","jvanzyl@people.apache.org:/x1/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
+"commons-chain","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh","Niall Pemberton","niallp@apache.org",,
 "commons-collections","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh","Niall Pemberton","niallp@apache.org",,
 "commons-email","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh",,,,
 "commons-fileupload","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh","Jochen Wiedmann","jochen@apache.org",,
@@ -50,7 +51,6 @@
 "net.sf.alchim","mavensync@shell.sourceforge.net:/home/groups/a/al/alchim/htdocs/download/releases","rsync_ssh","David BERNARD","dwayneb@free.fr",,
 "net.sf.btb","mavensync@shell.sourceforge.net:/home/groups/b/bt/btb/htdocs/m2repo","rsync_ssh","Jean-Philippe Gravel","jpgravel77@users.sourceforge.net",,
 "net.sf.buildbox","mavensync@shell.sourceforge.net:/home/groups/b/bu/buildbox/htdocs/maven2","rsync_ssh","Petr Kozelka","pkozelka@users.sourceforge.net",,
-"net.sf.caelum-stella","mavensync@shell.sourceforge.net:/home/groups/c/ca/caelum-stella/htdocs/maven","rsync_ssh","Caue Guerra","caue.guerra@caelum.com.br",," "
 "net.sf.click","mavensync@shell.sourceforge.net:/home/groups/c/cl/click/htdocs/maven2","rsync_ssh","Bob Schellink","sabob1@gmail.com",," "
 "net.sf.dobo","mavensync@shell.sourceforge.net:/home/groups/d/do/dobo/htdocs/m2repo","rsync_ssh","Arif Rachim","a.arif.r@gmail.com",,
 "net.sf.dtddoc","mavensync@shell.sourceforge.net:/home/groups/d/dt/dtddoc/htdocs/m2repo/releases","rsync_ssh","Herve BOUTEMY","hboutemy@users.sourceforge.net",,
@@ -81,7 +81,6 @@
 "net.sf.patterntesting","mavensync@shell.sourceforge.net:/home/groups/p/pa/patterntesting/htdocs/m2/repository","rsync_ssh","Oliver Boehm","ob@aosd.de",,
 "net.sf.qdwizard","mavensync@shell.sourceforge.net:/home/groups/q/qd/qdwizard/htdocs/repository","rsync_ssh","Bertrand Florat","bertrand@florat.net",,
 "net.sf.scannotation","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",," "
-"net.sf.seleniumdsl","mavensync@shell.sourceforge.net:/home/groups/s/se/seleniumdsl/htdocs/maven","rsync_ssh","Caue Guerra","caue.guerra@caelum.com.br",," "
 "net.sf.stat-scm","mavensync@shell.sourceforge.net:/home/groups/s/st/stat-scm/htdocs/maven2","rsync_ssh","Doug Culnane","doug@culnane.net",,
 "net.sf.sugar","mavensync@shell.sourceforge.net:/home/groups/s/su/sugar/htdocs/m2repo","rsync_ssh","Keith Bishop","bishi@users.sourceforge.net",," "
 "net.sf.tacos","mavensync@shell.sourceforge.net:/home/groups/t/ta/tacos/htdocs/repository","rsync_ssh","Igor Drobiazko","igor.drobiazko@gmail.com",,
@@ -105,6 +104,7 @@
 "opensymphony","maven2.opensymphony.com:/opt/repository/maven2","rsync_ssh","Patrick Lightbody","plightbo@gmail.com",,
 "org.acegisecurity","mavensync@shell.sourceforge.net:/home/groups/a/ac/acegisecurity/htdocs/repository/releases","rsync_ssh","Carlos Sanchez","carlos@apache.org",,
 "org.apache","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh",,,,
+"org.apithefire","nobody@apithefire.org:/var/www/apithefire.org/m2repo","rsync_ssh","Chew Boon Aik","apithefire@gmail.com",,
 "org.apithefire","nobody@apithefire.org:/var/www/apithefire.org/m2repo","rsync_ssh","Chew Boon Aik","apithefire@gmail.com",," "
 "org.appfuse","mavensync@static.appfuse.org:/var/www/appfuse-releases","rsync_ssh",,"mraible@dev.java.net",,
 "org.compass-project","rsync://repo.compass-project.org","rsync","Shay Banon","kimchy@gmail.com",,
