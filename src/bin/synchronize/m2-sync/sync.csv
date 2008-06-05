@@ -46,6 +46,7 @@
 "mysql","maven@rsync.mysql.com:/web/sites/live/maven","rsync","Mark Matthews","mark@mysql.com",,
 "net.databinder","maven@databinder.net:/var/dbwww/maven","rsync_ssh","Nathan Hamblen","nathan@technically.us",,
 "net.fckeditor","rsync://java.fckeditor.net/m2repo","rsync","Michael Osipov","michael-o@users.sourceforge.net",,
+"net.homeip.yusuke","mavensync@yusuke.homeip.net:/Users/mavensync/maven2","rsync_ssh","Yusuke Yamamoto","yusuke@mac.com",,
 "net.israfil","ibiblio@www.israfil.net:maven2","rsync_ssh","Christian Gruber","cgruber@israfil.net","-l ibiblio",
 "net.sf.aislib","mavensync@shell.sourceforge.net:/home/groups/a/ai/aislib/htdocs/repos/sync","rsync_ssh","Tomasz Pik","pikus@ais.pl",,
 "net.sf.alchim","mavensync@shell.sourceforge.net:/home/groups/a/al/alchim/htdocs/download/releases","rsync_ssh","David BERNARD","dwayneb@free.fr",,
