@@ -23,7 +23,7 @@
 "com.opensymphony","maven2.opensymphony.com:/opt/repository/maven2","rsync_ssh","Patrick Lightbody","plightbo@gmail.com",,
 "com.pyx4j","mavensync@pyx4me.com::maven2-release","rsync","Vlad Skarzhevskyy","skarzhevskyy@gmail.com",,
 "com.pyx4me","mavensync@pyx4me.com::maven2-release","rsync","Vlad Skarzhevskyy","skarzhevskyy@gmail.com",,
-"com.rabbitmq","maven@195.224.125.254:/home/maven/rabbitmq-java-client/","rsync_ssh","Ben Hood","ben@lshift.net",,
+"com.rabbitmq","maven@195.224.125.254:/home/maven/rabbitmq-java-client","rsync_ssh","Ben Hood","ben@lshift.net",,
 "com.yahoo.platform.yui","jvanzyl@people.apache.org:/x1/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
 "commons-chain","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh","Niall Pemberton","niallp@apache.org",,
 "commons-collections","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh","Niall Pemberton","niallp@apache.org",,
