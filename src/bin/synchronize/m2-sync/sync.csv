@@ -110,7 +110,6 @@
 "org.apache","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh",,,,
 "org.apithefire","nobody@apithefire.org:/var/www/apithefire.org/m2repo","rsync_ssh","Chew Boon Aik","apithefire@gmail.com",,
 "org.appfuse","mavensync@static.appfuse.org:/var/www/appfuse-releases","rsync_ssh",,"mraible@dev.java.net",,
-"org.compass-project","rsync://repo.compass-project.org","rsync","Shay Banon","kimchy@gmail.com",,
 "org.databene","mavensync@shell.sourceforge.net:/home/groups/b/be/benerator/htdocs/m2/repository","rsync_ssh","Volker Bergmann","volker@databene.org",,
 "org.dbunit","mavensync@shell.sourceforge.net:/home/groups/d/db/dbunit/htdocs/m2repo","rsync_ssh","Roberto Lo Giacco","rlogiacco@users.sourceforge.net",,
 "org.domdrides","mavensync@shell.sourceforge.net:/home/groups/d/do/domdrides/htdocs/m2repo/releases","rsync_ssh","James Carman","james@carmanconsulting.com",,
