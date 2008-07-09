@@ -43,6 +43,7 @@
 "gr.abiss.js.sarissa","mavensync@shell.sourceforge.net:/home/groups/s/sa/sarissa/htdocs/repository/releases","rsync_ssh","Manos Batsis","mbatsis@users.sourceforge.net",,
 "gr.abiss.md4j","mavensync@shell.sourceforge.net:/home/groups/m/md/md4j/htdocs/repository/releases","rsync_ssh","Manos Batsis","mbatsis@users.sourceforge.net",,
 "gr.abiss.mvn.plugins","mavensync@shell.sourceforge.net:/home/groups/m/mv/mvn-jstools/htdocs/repository/releases","rsync_ssh","Manos Batsis","mbatsis@users.sourceforge.net",,
+"gr.abiss.xcluder","mavensync@shell.sourceforge.net:/home/groups/x/xc/xcluder/htdocs/repository/releases","rsync_ssh","Manos Batsis","mbatsis@users.sourceforge.net",,
 "gr.spinellis","mavensync@shell.sourceforge.net:/home/groups/c/ck/ckjm/htdocs/m2repo","rsync_ssh","Nicolas Dordet","dordet.n@gmail.com",,
 "it.cnr.isti.domoware","maven-central@domoware.isti.cnr.it:/maven2","rsync_ssh","Stefano Lenzi","stefano.lenzi@isti.cnr.it",,
 "javassist","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
