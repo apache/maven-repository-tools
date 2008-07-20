@@ -1,5 +1,5 @@
 "groupId","location","protocol","contactName","contactMail","ssh options","svn url"
-"codehaus","mavensync@repository.codehaus.org:/repository","rsync_ssh",,"repo-maintainers@maven.apache.org","-i $HOME/.ssh/new-id_dsa",
+,"mavensync@repository.codehaus.org:/repository","rsync_ssh",,"repo-maintainers@maven.apache.org","-i $HOME/.ssh/new-id_dsa",
 "ant-contrib","mavensync@shell.sourceforge.net:/home/groups/a/an/ant-contrib/htdocs/m2-repo","rsync_ssh","Curt Arnold","carnold@apache.org",,
 "asm","maven@forge.objectweb.org:../../groups/maven/htdocs/maven2","rsync_ssh","EugeneKuleshov","eu@javatx.org",,
 "br.com.caelum.seleniumdsl","mavensync@shell.sourceforge.net:/home/groups/s/se/seleniumdsl/htdocs/maven","rsync_ssh","Caue Guerra","caue.guerra@caelum.com.br",,
