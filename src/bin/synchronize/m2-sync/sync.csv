@@ -153,7 +153,6 @@
 "org.openfast","mavensync@shell.sf.net:/home/groups/o/op/openfast/maven/release","rsync_ssh","Jacob Northey","jacob_northey@users.sourceforge.net",,
 "org.ops4j","maven-sync@www.ops4j.org:/var/http/repository.ops4j.org/m2release","rsync_ssh","Niclas Hedhman","niclas@hedhman.org",,
 "org.ow2","maven@forge.objectweb.org:../../groups/maven/htdocs/maven2","rsync_ssh","xavier.moghrabi@objectweb.org""",,,
-"org.parancoe","web3160@maven2.parancoe.org:/home/web/maven2.parancoe.org/repository/repo","rsync_ssh","Lucio Benfante","lucio.benfante@jugpadova.it",,
 "org.slf4j","rsync://pixie.qos.ch/mvnrepo","rsync","Ceki Gulcu","ceki@qos.ch",,
 "org.sourceforge.xradar","mavensync@shell.sourceforge.net:/home/groups/x/xr/xradar/htdocs/m2repo","rsync_ssh","Nicolas Dordet","dordet.n@gmail.com",,
 "org.springframework","/home/maven/repository-staging/to-ibiblio/maven-spring","svn","Ben Hale","bhale@interface21.com",,"https://springframework.svn.sourceforge.net/svnroot/springframework/repos/repo"
