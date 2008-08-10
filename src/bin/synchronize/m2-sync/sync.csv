@@ -20,6 +20,7 @@
 "com.h2database","mavensync@shell.sourceforge.net:/home/groups/h/hs/hsql/htdocs/m2-repo","rsync_ssh","Thomas Mueller","thomas.tom.mueller@gmail.com",,
 "com.healthmarketscience","maven@open.hmsonline.com:/home/repo/html/maven2","rsync_ssh",,"openhms-bugs@lists.sourceforge.net",,
 "com.hp.hpl.jena","mavensync@jena.hpl.hp.com:/var/repo","rsync_ssh","Andy Seaborne","andy.seaborne@hp.com",,
+"com.miglayout","rsync://maven@mgrev.no-ip.com/maven/releases","rsync","Mikael Grev","miglayout@miginfocom.com",,
 "com.mobilvox.ossi","mavensync@shell.sourceforge.net:/home/groups/m/ma/maven-js-plugin/htdocs/m2repo","rsync_ssh","Adam Altemus","aaltemus@mobilvox.com",,
 "com.octo","jvanzyl@people.apache.org:/home/aheritier/rsync-to-central","rsync_ssh","Arnaud Heritier","aheritier@apache.org",,
 "com.opensymphony","maven2.opensymphony.com:/opt/repository/maven2","rsync_ssh","Patrick Lightbody","plightbo@gmail.com",,
