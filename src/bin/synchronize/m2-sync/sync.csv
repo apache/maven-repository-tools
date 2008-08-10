@@ -159,7 +159,6 @@
 "org.springframework","/home/maven/repository-staging/to-ibiblio/maven-spring","svn","Ben Hale","bhale@interface21.com",,"https://springframework.svn.sourceforge.net/svnroot/springframework/repos/repo"
 "org.springmodules","/home/maven/repository-staging/to-ibiblio/maven-spring","svn","Ben Hale","bhale@interface21.com",,"https://springframework.svn.sourceforge.net/svnroot/springframework/repos/repo"
 "org.unitils","mavensync@shell.sourceforge.net:/home/groups/u/un/unitils/htdocs/m2-repo","rsync_ssh","Tim Ducheyne","tim.ducheyne@unitils.org",,
-"org.vraptor","mavensync@vraptor.org:/usr/java/webapps/vraptor.org/maven","rsync_ssh","Fabio Kung","fabio.kung@gmail.com",,
 "org.wickettools.extjs","mavensync@shell.sourceforge.net:/home/groups/w/wi/wicket-extjs/htdocs/maven2","rsync_ssh","Jeremy Fergason","jdfergason@users.sourceforge.net",,
 "org.xerial","mavensync@shell.sf.net:/home/groups/x/xe/xerial/htdocs/maven/release","rsync_ssh","Taro L. Saito","leo@xerial.org",,
 "org.xsocket","mavensync@shell.sourceforge.net:/home/groups/x/xs/xsocket/htdocs/m2repo","rsync_ssh","Gregor Roth","gregor.roth@xsocket.org",,
