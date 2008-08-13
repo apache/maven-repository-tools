@@ -74,6 +74,7 @@
 "net.sf.gnu-hylafax","mavensync@shell.sourceforge.net:/home/groups/g/gn/gnu-hylafax/m2repo","rsync_ssh","Steven Jardine","steve@mjnservices.com",,
 "net.sf.gwt-widget","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
 "net.sf.hibernate4gwt","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
+"net.sf.beanlib","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
 "net.sf.ipsedixit","mavensync@shell.sourceforge.net:/home/groups/i/ip/ipsedixit/htdocs/m2repo/release","rsync_ssh","Jason Royals","m2ipsedixit@fragstealers.com",,
 "net.sf.jack4j","mavensync@shell.sourceforge.net:/home/groups/j/ja/jack4j/htdocs/repo","rsync_ssh","Ondrej Par","ondrejpar@gmail.com",,
 "net.sf.jaggregate","mavensync@shell.sourceforge.net:/home/groups/j/ja/jaggregate/htdocs/maven","rsync_ssh","Paul Holser","pholser@gmail.com",,
