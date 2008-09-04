@@ -16,6 +16,7 @@ package org.apache.maven.archiva.meeper;
  */
 
 import org.apache.commons.lang.builder.ReflectionToStringBuilder;
+import org.codehaus.plexus.util.cli.Commandline;
 
 /**
  * Stores a synced repository data.
@@ -49,6 +50,8 @@ public class SyncedRepository
     private StringBuffer out = new StringBuffer();
 
     private StringBuffer err = new StringBuffer();
+
+    private Commandline commandline;
 
     public void setGroupId( String groupId )
     {
@@ -133,6 +136,16 @@ public class SyncedRepository
     public StringBuffer getErr()
     {
         return err;
+    }
+
+    public void setCommandline( Commandline commandline )
+    {
+        this.commandline = commandline;
+    }
+
+    public Commandline getCommandline()
+    {
+        return commandline;
     }
 
 }

@@ -156,6 +156,8 @@ public class Synchronizer
 
         // System.out.println( "About to execute " + cl );
 
+        repo.setCommandline(cl);
+
         int exitCode;
         try
         {
@@ -163,8 +165,6 @@ public class Synchronizer
         }
         catch ( CommandLineException e )
         {
-            repo.getErr().append( "Command line executed: " );
-            repo.getErr().append( cl );
             throw new RuntimeException( e );
         }
 
@@ -178,6 +178,7 @@ public class Synchronizer
 
         return exitCode;
     }
+
 
     public static void main( String[] args )
     {
@@ -251,6 +252,9 @@ public class Synchronizer
                 sb.append( repo.getGroupId() );
                 sb.append( "\nError:\n" );
                 sb.append( repo.getErr() );
+                sb.append( "\n" );
+                sb.append( "Command line executed: " );
+                sb.append( repo.getCommandline() );
                 sb.append( "\n" );
                 sb.append( "\n" );
             }
