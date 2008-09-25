@@ -8,7 +8,7 @@
 "com.adobe.blazeds","mavensync@web.sourceforge.net:/home/users/s/st/stoicflame/m2","rsync_ssh","Ryan Heaton","ryan@webcohesion.com",,
 "com.agical.rmock","mavensync@web.sourceforge.net:/home/groups/r/rm/rmock/htdocs/repository","rsync_ssh","Daniel brolund","daniel.brolund@agical.com",,
 "com.agilejava.blammo","mavensync@web.sourceforge.net:/home/groups/b/bl/blammo/htdocs/repository","rsync_ssh","Wilfred Springer","wilfred@agilejava.com",,
-"com.agilejava.docbkx","mvnrepo@web.sourceforge.net:/home/groups/d/do/docbkx-tools/htdocs/repository","rsync_ssh","Wilfred Springer","wilfred@agilejava.com",,
+"com.agilejava.docbkx","mavensync@web.sourceforge.net:/home/groups/d/do/docbkx-tools/htdocs/repository","rsync_ssh","Wilfred Springer","wilfred@agilejava.com",,
 "com.atlassian","maven@maven.atlassian.com:/home/maven/incoming/","rsync_ssh","James William Dumay","james@atlassian.com",,
 "com.capgemini.platina","mavensync@web.sourceforge.net:/home/groups/p/pl/platina/htdocs/releases","rsync_ssh","Nicolas De Loof","nicolas.deloof@gmail.com",,
 "com.cedarsoft","mavensync@maven.cedarsoft.com:/home/maven/public/release","rsync_ssh",,"info@cedarsoft.de",,
