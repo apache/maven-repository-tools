@@ -80,7 +80,7 @@
 "com.google.code.gwt-log","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
 "com.google.code.gwtx","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
 "net.jcip","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
-"net.sf.apt-jelly","mavensync@shell.sourceforge.net:/home/groups/a/ap/apt-jelly/m2","rsync_ssh","Ryan Heaton","ryan@webcohesion.com",,
+"net.sf.apt-jelly","mavensync@web.sourceforge.net:/home/groups/a/ap/apt-jelly/m2","rsync_ssh","Ryan Heaton","ryan@webcohesion.com",,
 "net.sf.beanlib","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
 "net.sf.beanrunner","mavensync@web.sourceforge.net:/home/groups/b/be/beanrunner/htdocs/maven2","rsync_ssh","Matthew Smith","m0smith@users.sourceforge.net",,
 "net.sf.excha","mavensync@web.sourceforge.net:/home/groups/e/ex/excha/htdocs/repository","rsync_ssh","Vitaliy S","yilativs@users.sourceforge.net",,
@@ -184,7 +184,7 @@
 "org.springmodules","/home/maven/repository-staging/to-ibiblio/maven-spring","svn","Ben Hale","bhale@interface21.com",,"https://springframework.svn.sourceforge.net/svnroot/springframework/repos/repo"
 "org.unitils","mavensync@web.sourceforge.net:/home/groups/u/un/unitils/htdocs/m2-repo","rsync_ssh","Tim Ducheyne","tim.ducheyne@unitils.org",,
 "org.wickettools.extjs","mavensync@web.sourceforge.net:/home/groups/w/wi/wicket-extjs/htdocs/maven2","rsync_ssh","Jeremy Fergason","jdfergason@users.sourceforge.net",,
-"org.xerial","xerialmaven@shell.sourceforge.jp:/home/groups/x/xe/xerial/htdocs/maven/release","rsync_ssh","Taro L. Saito","leo@xerial.org",,
+"org.xerial","xerialmaven@web.sourceforge.jp:/home/groups/x/xe/xerial/htdocs/maven/release","rsync_ssh","Taro L. Saito","leo@xerial.org",,
 "org.xlightweb","mavensync@web.sourceforge.net:/home/groups/x/xl/xlightweb/htdocs/m2repo","rsync_ssh","Gregor Roth","gregor.roth@xlightweb.org",,
 "org.xsocket","mavensync@web.sourceforge.net:/home/groups/x/xs/xsocket/htdocs/m2repo","rsync_ssh","Gregor Roth","gregor.roth@xsocket.org",,
 "org.zkoss","maven@mavensync.zkoss.org:/home/maven/repository","rsync_ssh","WebMaster","webmaster@zkoss.org",,
