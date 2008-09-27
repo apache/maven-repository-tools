@@ -153,6 +153,7 @@
 "org.dspace","mavensync@maven.dspace.org:/var/maven/release","rsync_ssh","DSpace Developers","dspace-devel@lists.sourceforge.net",,
 "org.easymock","mavensync@web.sourceforge.net:/home/groups/e/ea/easymock/htdocs/maven/repository","rsync_ssh","Henri Tremblay","henri.tremblay@gmail.com",,
 "org.extrema-sistemas.loom","mavensync@web.sourceforge.net:/home/groups/l/lo/loom/htdocs/repository","rsync_ssh","ignacio coloma","icoloma@gmail.com",,
+"org.freemarker","mavensync@web.sourceforge.net:/home/groups/f/fr/freemarker/htdocs/maven2","rsync_ssh","Daniel Dekany","ddekany@freemail.hu",,
 "org.gamio","mavensync@web.sourceforge.net:/home/groups/g/ga/gamio/htdocs/m2repo","rsync_ssh","Agemo Cui","agemocui@gmail.com",,
 "org.hdiv","mavensync@web.sourceforge.net:/home/groups/h/hd/hdiv/htdocs/repository","rsync_ssh","Roberto Velasco","roberto@hdiv.org",,
 "org.ini4j","mavensync@web.sourceforge.net:/home/groups/i/in/ini4j/repository/release","rsync_ssh","Ivan Szkiba","szkiba@users.sourceforge.net",,
