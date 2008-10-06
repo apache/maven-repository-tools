@@ -16,6 +16,7 @@
 "com.cenqua","maven@maven.atlassian.com:/home/maven/incoming/","rsync_ssh","James William Dumay","james@atlassian.com",,
 "com.discursive","mvnrepo@mars.discursive.com:/var/www/html/www.discursive.com/maven2","rsync_ssh","Tim O'Brien","tobrien@discursive.com",,
 "com.extjs","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
+"com.google.code.facebookapi","mrepo@wrangler.dreamhost.com:/home/mrepo/mrepo.happyfern.com/maven2/","rsync_ssh","Fernando Padilla","fern@alum.mit.edu",,
 "com.google.gwt","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
 "com.h2database","mavensync@web.sourceforge.net:/home/groups/h/hs/hsql/htdocs/m2-repo","rsync_ssh","Thomas Mueller","thomas.tom.mueller@gmail.com",,
 "com.healthmarketscience","maven@open.hmsonline.com:/home/repo/html/maven2","rsync_ssh",,"openhms-bugs@lists.sourceforge.net",,
