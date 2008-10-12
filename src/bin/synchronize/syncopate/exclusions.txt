@@ -9,3 +9,4 @@
 **-200*
 README.txt
 **/CVS
+**/*.rip
