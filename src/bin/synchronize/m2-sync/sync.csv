@@ -196,3 +196,4 @@
 "wicket","mavensync@web.sourceforge.net:/home/groups/w/wi/wicket/htdocs/maven2","rsync_ssh","Martijn Dashorst","martijn.dashorst@gmail.com",,
 "xmlunit","mavensync@web.sourceforge.net:/home/groups/x/xm/xmlunit/htdocs/repo","rsync_ssh","Stefan Bodewig","stefan.bodewig@freenet.de",,
 "com.google","/home/maven/repository-staging/to-ibiblio/maven-google","svn","Greg Kick","gak@google.com",,"https://google-maven-repository.googlecode.com/svn/repository/"
+"net.sf.jacob-project","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
