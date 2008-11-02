@@ -146,6 +146,7 @@
 "ognl","maven2.opensymphony.com:/opt/repository/maven2","rsync_ssh","Patrick Lightbody","plightbo@gmail.com",,
 "opensymphony","maven2.opensymphony.com:/opt/repository/maven2","rsync_ssh","Patrick Lightbody","plightbo@gmail.com",,
 "org.acegisecurity","mavensync@web.sourceforge.net:/home/groups/a/ac/acegisecurity/htdocs/repository/releases","rsync_ssh","Carlos Sanchez","carlos@apache.org",,
+"org.antlr","mavensync@antlr.org:/home/mavensync/antlr-repo","rsync_ssh","Jim Idle","jimi@temporal-wave.com",,
 "org.apache","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh",,,,
 "org.apithefire","nobody@apithefire.org:/var/www/apithefire.org/m2repo","rsync_ssh","Chew Boon Aik","apithefire@gmail.com",,
 "org.apithefire","nobody@apithefire.org:/var/www/apithefire.org/m2repo","rsync_ssh","Chew Boon Aik","apithefire@gmail.com",,
@@ -184,6 +185,7 @@
 "org.ow2","maven@forge.objectweb.org:../../groups/maven/htdocs/maven2","rsync_ssh","xavier.moghrabi@objectweb.org",,,
 "org.parancoe","web3160@maven2.parancoe.org:/home/web/maven2.parancoe.org/repository/repo","rsync_ssh","Lucio Benfante","lucio.benfante@jugpadova.it",,
 "org.pojomatic","mavensync@web.sourceforge.net:/home/groups/p/po/pojomatic/releases","rsync_ssh","Ian Robertson","ian.b.robertson@gmail.com",,
+"org.puremvc","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Anthony Quinault","aquinault@cadesoft.com",,"http://svn.puremvc.org/PureMVC_Java_MultiCore/repo"
 "org.simpleframework","mavensync@web.sourceforge.net:/home/groups/s/si/simpleweb/htdocs/maven","rsync_ssh","Niall Gallagher","niallg@users.sf.net",,
 "org.slf4j","rsync://pixie.qos.ch/mvnrepo","rsync","Ceki Gulcu","ceki@qos.ch",,
 "org.sourceforge.xradar","mavensync@web.sourceforge.net:/home/groups/x/xr/xradar/htdocs/m2repo","rsync_ssh","Nicolas Dordet","dordet.n@gmail.com",,
