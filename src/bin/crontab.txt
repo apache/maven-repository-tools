@@ -1,5 +1,5 @@
 # Cron jobs for the maven repository
-# IF CHANGED, make sure you change too https://svn.apache.org/repos/asf/maven/archiva/tools/trunk/maven-meeper/src/bin/crontab.txt
+# IF CHANGED, make sure you change too https://svn.apache.org/repos/asf/maven/repository-tools/trunk/src/bin/crontab.txt
 # try to make then run at pseudo-random hours and minutes to avoid high load 
 #MAILTO=repository@maven.org
 # sync m1 repos and convert to m2
