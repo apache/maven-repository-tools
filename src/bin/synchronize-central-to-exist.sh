@@ -6,5 +6,5 @@
 
 echo ">>>>>>>>>>>>>>>>>> Syncing Maven 2.x repository to Exist"
 
-rsync -e cmd-for-rssh.sh --delete --max-delete=10 -v -z -riplt $MAVEN2_REPO/ $EXIST_USERNAME@$EXIST_SYNC_HOST:$M2_EXIST_SYNC_DIR
+rsync -e $HOME/bin/cmd-for-rssh.sh --delete --max-delete=10 -v -z -riplt $MAVEN2_REPO/ $EXIST_USERNAME@$EXIST_SYNC_HOST:$M2_EXIST_SYNC_DIR
 
