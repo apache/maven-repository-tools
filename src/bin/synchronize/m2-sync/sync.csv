@@ -45,6 +45,7 @@
 "de.berlios.jsunit","mavensync@shell.berlios.de:/home/groups/jsunit/htdocs/maven2/repo","rsync_ssh","Joerg Schaible","joerg.schaible@gmx.de",,
 "de.huxhorn.lilith","mavensync@web.sourceforge.net:/home/groups/l/li/lilith/htdocs/repository","rsync_ssh","Joern Huxhorn","huxhorn@sf.net",,
 "de.huxhorn.sulky","mavensync@web.sourceforge.net:/home/groups/s/su/sulky/htdocs/repository","rsync_ssh","Joern Huxhorn","huxhorn@sf.net",,
+"de.jflex","mavensync@web.sourceforge.net:/home/groups/j/jf/jflex/htdocs/m2repo","rsync_ssh","Regis Decamps","decamps@users.sf.net",,
 "de.sven-jacobs.loremipsum","mavensync@web.sourceforge.net:/home/groups/l/lo/loremipsum/htdocs/repository","rsync_ssh","Sven Jacobs","sven.jacobs@web.de",,
 "displaytag","mavensync@web.sourceforge.net:/home/groups/d/di/displaytag/htdocs/m2repo","rsync_ssh","fabrizio giustina","fgiust@gmail.com",,
 "dk.eobjects","mavensync@web.sourceforge.net:/home/groups/d/da/datacleaner/htdocs/m2-repo","rsync_ssh","Kasper Sorensen","kasper@eobjects.dk",,
