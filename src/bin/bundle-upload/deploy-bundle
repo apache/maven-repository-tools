@@ -105,9 +105,9 @@ BUNDLE=tmp.jar
   maven2=`cat ${POM} | grep '<modelVersion>'`
 
   echo
-  if [ ! -z "${maven2}" ]
+  if [ -z "${maven2}" ]
   then
-    echo " ========= MAVEN 2 ========= "
+    echo " ========= WARNING: Maven 1 POM won't be converted to Maven 2 ========="
   fi
 
   echo
@@ -127,70 +127,36 @@ BUNDLE=tmp.jar
   echo -n Hit Enter to continue or Ctrl-C to abort...
   read
 
-  LIC=LICENSE.txt
-
-  # A little help for manually created upload bundles
-  [ -f license.txt ] && mv license.txt $LIC
-
-  if [ -f $LIC ]
-  then
-    $SCRIPTDIR/d2u $LIC
-    mkdir -p $REPODIR/${groupId}/licenses
-    cp -i $LIC $REPODIR/${groupId}/licenses/${artifactId}-${version}.license  
-  fi
-
   cp ${POM} ${artifactId}-${version}.pom
 
   m2dir=$REPO2DIR/${groupDir}/${artifactId}/${version}
 
   mkdir -p ${m2dir}
 
-  if [ -z "${maven2}" ]
+  if [ ! -z "${maven2}" ]
   then
-    # Maven 1
-    mkdir -p $REPODIR/${groupId}/poms
-    cp -i ${artifactId}-${version}.pom $REPODIR/${groupId}/poms
-  else
     # Maven 2
     cp -i ${artifactId}-${version}.pom ${m2dir}
     md5sum  ${m2dir}/${artifactId}-${version}.pom > ${m2dir}/${artifactId}-${version}.pom.md5
     sha1sum ${m2dir}/${artifactId}-${version}.pom > ${m2dir}/${artifactId}-${version}.pom.sha1
   fi
 
-  artifactType=`echo ${artifactId} | sed -e 's/maven-.*-plugin//'`
-  
-  if [ -z ${artifactType} ]
+  echo "Deploying JAR ..."
+
+  jar=${artifactId}-${version}.jar 
+  if [ ! -z ${CLASSIFIER} ]; then
+    jar=${artifactId}-${version}-${CLASSIFIER}.jar
+  fi
+  cp -i ${jar} ${m2dir}
+  if [ -f ${m2dir}/${jar} ];
   then
-    echo "Deploying Plugin ..."
-    mkdir -p $REPODIR/${groupId}/plugins
-    cp -i ${artifactId}-${version}.jar $REPODIR/${groupId}/plugins
-  else
-    echo "Deploying JAR ..."
-
-    if [ -z "${maven2}" ]
-    then
-      # Maven 1
-      mkdir -p $REPODIR/${groupId}/jars
-      cp -i ${artifactId}-${version}.jar $REPODIR/${groupId}/jars
-    fi
-
-    jar=${artifactId}-${version}.jar 
-    if [ ! -z ${CLASSIFIER} ]; then
-      jar=${artifactId}-${version}-${CLASSIFIER}.jar
-    fi
-    cp -i ${jar} ${m2dir}
-    if [ -f ${m2dir}/${jar} ];
-    then
-      md5sum  ${m2dir}/${jar} > ${m2dir}/${jar}.md5
-      sha1sum ${m2dir}/${jar} > ${m2dir}/${jar}.sha1
-    fi
+    md5sum  ${m2dir}/${jar} > ${m2dir}/${jar}.md5
+    sha1sum ${m2dir}/${jar} > ${m2dir}/${jar}.sha1
   fi
   
   if [ -f ${artifactId}-${version}-sources.jar ]
   then
     echo "Deploying Java sources ..."
-    #mkdir -p $REPODIR/${groupId}/java-sources
-    #cp -i ${artifactId}-${version}-sources.jar $REPODIR/${groupId}/java-sources
     cp -i ${artifactId}-${version}-sources.jar ${m2dir}
     md5sum  ${m2dir}/${artifactId}-${version}-sources.jar > ${m2dir}/${artifactId}-${version}-sources.jar.md5
     sha1sum ${m2dir}/${artifactId}-${version}-sources.jar > ${m2dir}/${artifactId}-${version}-sources.jar.sha1
@@ -201,8 +167,6 @@ BUNDLE=tmp.jar
   if [ -f ${artifactId}-${version}-javadoc.jar ]
   then
     echo "Deploying Javadocs ..."
-    #mkdir -p $REPODIR/${groupId}/javadoc
-    #cp -i ${artifactId}-${version}-javadoc.jar $REPODIR/${groupId}/javadoc
     cp -i ${artifactId}-${version}-javadoc.jar ${m2dir}
     md5sum  ${m2dir}/${artifactId}-${version}-javadoc.jar > ${m2dir}/${artifactId}-${version}-javadoc.jar.md5
     sha1sum ${m2dir}/${artifactId}-${version}-javadoc.jar > ${m2dir}/${artifactId}-${version}-javadoc.jar.sha1
