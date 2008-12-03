@@ -16,4 +16,6 @@
 5  1 * * * cd $HOME/bin; ./synchronize-central-to-ibiblio.sh $HOME/bin/synchronize.properties
 # run reports
 34 2  * * * cd $HOME/reports; ./run.sh
-22 4 * * 0 cd $HOME/ide-indexer; ./indexer.sh
+#run the index at 7:22 on friday to help smooth the load over the weekend and
+#avoid the monday rush
+22 19 * * 5 cd $HOME/ide-indexer; ./indexer.sh
