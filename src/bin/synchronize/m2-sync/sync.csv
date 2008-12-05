@@ -202,6 +202,7 @@
 "org.unitils","mavensync@web.sourceforge.net:/home/groups/u/un/unitils/htdocs/m2-repo","rsync_ssh","Tim Ducheyne","tim.ducheyne@unitils.org",,
 "org.vafer","rsync@vafer.org:m2repo/releases","rsync_ssh","Torsten Curdt","tcurdt@vafer.org",,
 "org.wickettools.extjs","mavensync@web.sourceforge.net:/home/groups/w/wi/wicket-extjs/htdocs/maven2","rsync_ssh","Jeremy Fergason","jdfergason@users.sourceforge.net",,
+"org.xj4","mavensync@web.sourceforge.net:/home/groups/x/xj/xj4/htdocs/m2repo/releases","rsync_ssh","Jared Bunting","jared.bunting@peachjean.com",,
 "org.xerial","xerialmaven@shell.sourceforge.jp:/home/groups/x/xe/xerial/htdocs/maven/release","rsync_ssh","Taro L. Saito","leo@xerial.org",,
 "org.xlightweb","mavensync@web.sourceforge.net:/home/groups/x/xl/xlightweb/htdocs/m2repo","rsync_ssh","Gregor Roth","gregor.roth@xlightweb.org",,
 "org.xsocket","mavensync@web.sourceforge.net:/home/groups/x/xs/xsocket/htdocs/m2repo","rsync_ssh","Gregor Roth","gregor.roth@xsocket.org",,
