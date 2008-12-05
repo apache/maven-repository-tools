@@ -124,7 +124,7 @@
 "net.sf.stat-scm","mavensync@web.sourceforge.net:/home/groups/s/st/stat-scm/htdocs/maven2","rsync_ssh","Doug Culnane","doug@culnane.net",,
 "net.sf.sugar","mavensync@web.sourceforge.net:/home/groups/s/su/sugar/htdocs/m2repo","rsync_ssh","Keith Bishop","bishi@users.sourceforge.net",,
 "net.sf.tacos","mavensync@web.sourceforge.net:/home/groups/t/ta/tacos/htdocs/repository","rsync_ssh","Igor Drobiazko","igor.drobiazko@gmail.com",,
-"net.sf.twip","mavensync@web.sourceforge.net/home/groups/t/tw/twip/htdocs/maven/repository","rsync_ssh","Snackbox","snackbox@users.sourceforge.net",,
+"net.sf.twip","mavensync@web.sourceforge.net:/home/groups/t/tw/twip/htdocs/maven/repository","rsync_ssh","Snackbox","snackbox@users.sourceforge.net",,
 "net.sf.xradar","mavensync@web.sourceforge.net:/home/groups/x/xr/xradar/htdocs/m2repo","rsync_ssh","Nicolas Dordet","dordet.n@gmail.com",,
 "net.sf.yac-io","mavensync@web.sourceforge.net:/home/groups/y/ya/yac-io/htdocs/m2repo/release","rsync_ssh","Kenji Tayama","ktayama@users.sourceforge.net",,
 "net.smartlab.config","mavensync@web.sourceforge.net:/home/groups/s/sm/smartconfig/htdocs/releases","rsync_ssh","Antonio Talarico","atalarico@users.sourceforge.net",,
