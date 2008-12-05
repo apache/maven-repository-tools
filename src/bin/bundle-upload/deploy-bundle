@@ -45,12 +45,12 @@ BUNDLE=tmp.jar
   done
 
   echo "Searching for POM:"
-  echo "...checking for 'project.xml'"
-  POM=project.xml
+  echo "...checking for 'pom.xml'"
+  POM=pom.xml
   if [ ! -f ${POM} ]
   then
-    echo "...checking for 'pom.xml'"
-    POM=pom.xml
+    echo "...checking for 'project.xml'"
+    POM=project.xml
   fi
 
   if [ ! -f ${POM} ]
