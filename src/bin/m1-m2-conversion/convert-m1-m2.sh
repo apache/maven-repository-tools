@@ -6,9 +6,9 @@ syncProperties=$1
 
 $JAVA -jar archiva-cli-1.0-SNAPSHOT-cli.jar -c $CONVERSION_PROPERTIES
 
-dir=/home/maven/repository-staging/to-ibiblio
+dir=/home/maven/repository-staging
 src=$dir/maven2-converted-from-maven1
-dst=$dir/maven2
+dst=$dir/to-ibiblio/maven2
 log=$SYNC_REPORTS/last-changes.log
 
 rsync --ignore-existing -rvpl $src/ $dst/ > $log
