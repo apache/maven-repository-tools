@@ -4,9 +4,6 @@
 # 1. Sync Maven 1.x repositories to central
 # 2. Convert Maven 1.x repository to Maven 2.x repository
 # 3. Manual fixes
-# 4. Sync Maven 2.x repositories to central
-# 5. Sync the Maven 2.x repository to Cica and Ibiblio
-# 6. Copy the mod_rewrite rules to the Maven 1.x repository @ Ibiblio
 # ------------------------------------------------------------------------
 
 # check if script is already running
