@@ -47,6 +47,9 @@ java -jar maven-meeper-1-SNAPSHOT-jar-with-dependencies.jar sync.properties sync
 ## and to update the rewrite rules
 ./synchronize-rewrite-rules-to-ibiblio.sh synchronize.properties
 
+## Lately we just need to sync and convert to M2 some Maven 1 groups on demand, using
+./synchronize-m1-apache.sh groupId
+
 ##################################################
 # M1 synchronize from upstream repositories script
 ##################################################
