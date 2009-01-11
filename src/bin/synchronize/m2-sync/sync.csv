@@ -211,7 +211,7 @@
 "org.slf4j","rsync://pixie.qos.ch/mvnrepo","rsync","Ceki Gulcu","ceki@qos.ch",,
 "org.springframework","/home/maven/repository-staging/to-ibiblio/maven-spring","svn","Ben Hale","bhale@interface21.com",,"https://springframework.svn.sourceforge.net/svnroot/springframework/repos/repo"
 "org.springmodules","/home/maven/repository-staging/to-ibiblio/maven-spring","svn","Ben Hale","bhale@interface21.com",,"https://springframework.svn.sourceforge.net/svnroot/springframework/repos/repo"
-"org.synchronoss","mavensync@web.sourceforge.net/home/groups/c/cp/cpo/htdocs/sf-cpo-releases","rsync_ssh","Jay Colson","jcolson@users.sourceforge.net",,
+"org.synchronoss","mavensync@web.sourceforge.net:/home/groups/c/cp/cpo/htdocs/sf-cpo-releases","rsync_ssh","Jay Colson","jcolson@users.sourceforge.net",,
 "org.unitils","mavensync@web.sourceforge.net:/home/groups/u/un/unitils/htdocs/m2-repo","rsync_ssh","Tim Ducheyne","tim.ducheyne@unitils.org",,
 "org.vafer","rsync@vafer.org:m2repo/releases","rsync_ssh","Torsten Curdt","tcurdt@vafer.org",,
 "org.wickettools.extjs","mavensync@web.sourceforge.net:/home/groups/w/wi/wicket-extjs/htdocs/maven2","rsync_ssh","Jeremy Fergason","jdfergason@users.sourceforge.net",,
