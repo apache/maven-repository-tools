@@ -159,6 +159,7 @@
 "net.sourceforge.openutils","mavensync@web.sourceforge.net:/home/groups/o/op/openutils/htdocs/repository/releases","rsync_ssh","fabrizio giustina","fgiust@gmail.com",,
 "net.sourceforge.rcache","mavensync@web.sourceforge.net:/home/groups/r/rc/rcache/htdocs/maven2","rsync_ssh","Rodrigo Ruiz","nodens2k@users.sourceforge.net",,
 "net.sourceforge.retroweaver","mavensync@web.sourceforge.net:/home/groups/r/re/retroweaver/htdocs/maven2","rsync_ssh","Xavier Le Vourch","xavier@brittanysoftware.com",,
+"net.sourceforge.tink","mavensync@web.sourceforge.net:/home/groups/t/ti/tink/repository/release","rsync_ssh","Ivan Szkiba","szkiba@users.sourceforge.net",,
 "net.sourceforge.wicketwebbeans","mavensync@web.sourceforge.net:/home/groups/w/wi/wicketwebbeans/htdocs/repository","rsync_ssh","Dan Syrstad","dsyrstad@users.sourceforge.net",,
 "net.vidageek","maven_sync@vidageek.net:/home/maven_sync/maven.vidageek.net/","rsync_ssh","Jonas Abreu","jonas@vidageek.net",, 
 "ognl","maven2.opensymphony.com:/opt/repository/maven2","rsync_ssh","Patrick Lightbody","plightbo@gmail.com",,
