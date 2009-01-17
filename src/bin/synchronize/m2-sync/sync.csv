@@ -76,7 +76,7 @@
 "net.databinder","maven@databinder.net:/var/dbwww/maven","rsync_ssh","Nathan Hamblen","nathan@technically.us",,
 "net.fckeditor","rsync://java.fckeditor.net/m2repo","rsync","Michael Osipov","michael-o@users.sourceforge.net",,
 "net.homeip.yusuke","mavensync@yusuke.homeip.net:/Users/mavensync/maven2","rsync_ssh","Yusuke Yamamoto","yusuke@mac.com",,
-"net.israfil","ibiblio@www.israfil.net:maven2","rsync_ssh","Christian Gruber","cgruber@israfil.net","-l ibiblio",
+"net.israfil","ibiblio@repo.israfil.net:maven2","rsync_ssh","Christian Gruber","cgruber@israfil.net","-l ibiblio",
 "net.java.dev.jvyaml","mavensync@web.sourceforge.net:/home/users/o/ou/ouaibsky/maven/m2repo","rsync_ssh","Ouaibsky","ouaibsky@free.fr",,
 "net.jcip","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
 "net.objectlab.kit.datecalc","mavensync@web.sourceforge.net:/home/groups/o/ob/objectlabkit/htdocs/m2-repo","rsync_ssh","Marcin Jekot","marchy@users.sourceforge.net",,
