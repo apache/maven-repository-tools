@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 cd /home/maven/bin/synchronize/m2-sync
 svn up sync.csv
 /opt/java/sdk/current/bin/java -jar maven-meeper-1-SNAPSHOT-jar-with-dependencies.jar sync.properties sync.csv
