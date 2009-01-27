@@ -7,7 +7,7 @@
 # sync rewrite rules to m1 repo at ibiblio
 51 19 * * * cd $HOME/bin; ./synchronize-rewrite-rules-to-ibiblio.sh $HOME/bin/synchronize.properties
 # sync m2 repos
-16 17 * * * cd $HOME/bin/synchronize/m2-sync; svn up sync.csv; /opt/java/sdk/current/bin/java -jar maven-meeper-1-SNAPSHOT-jar-with-dependencies.jar sync.properties sync.csv; date > /home/maven/repository-staging/to-ibiblio/maven2/last_updated.txt
+16 17 * * * cd $HOME/bin/synchronize/synchronize-inbound
 # sync central to cica.es mirror
 30 21 * * * cd $HOME/bin; ./synchronize-central-to-cica.sh $HOME/bin/synchronize.properties
 # sync central to repo.exist.com mirror
