@@ -168,6 +168,7 @@
 "org.amplecode","mavensync@login.amplecode.org:/var/www/amplecode/maven2","rsync_ssh","Lars Helge Oeverland","larshelge@gmail.com",,
 "org.antlr","mavensync@antlr.org:/home/mavensync/antlr-repo","rsync_ssh","Jim Idle","jimi@temporal-wave.com",,
 "org.apache","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh",,,,
+"org.apache","nexus@repository.apache.org:/export/home/nexus/rsync-targets/releases","rsync_ssh",Brian Fox,"brianf@apache.org",,
 "org.apithefire","nobody@apithefire.org:/var/www/apithefire.org/m2repo","rsync_ssh","Chew Boon Aik","apithefire@gmail.com",,
 "org.appfuse","mavensync@static.appfuse.org:/var/www/appfuse-releases","rsync_ssh",,"mraible@dev.java.net",,
 "org.appspy","rsync@nexus.appspy.org:m2repo/releases","rsync_ssh","Olivier HEDIN","olivier@appspy.org",,
