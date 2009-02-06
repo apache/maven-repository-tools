@@ -1,4 +1,4 @@
-"groupId","location","protocol","contactName","contactMail","ssh options","svn url"
+﻿"groupId","location","protocol","contactName","contactMail","ssh options","svn url"
 ,"mavensync@repository.codehaus.org:/repository","rsync_ssh",,"repo-maintainers@maven.apache.org","-i $HOME/.ssh/new-id_dsa",
 "ant-contrib","mavensync@web.sourceforge.net:/home/groups/a/an/ant-contrib/htdocs/m2-repo","rsync_ssh","Curt Arnold","carnold@apache.org",,
 "asm","maven@forge.objectweb.org:../../groups/maven/htdocs/maven2","rsync_ssh","EugeneKuleshov","eu@javatx.org",,
@@ -15,7 +15,6 @@
 "com.capgemini.platina","mavensync@web.sourceforge.net:/home/groups/p/pl/platina/htdocs/releases","rsync_ssh","Nicolas De Loof","nicolas.deloof@gmail.com",,
 "com.cedarsoft","mavensync@maven.cedarsoft.com:/home/maven/public/release","rsync_ssh",,"info@cedarsoft.de",,
 "com.cenqua","maven@maven.atlassian.com:/home/maven/incoming/","rsync_ssh","James William Dumay","james@atlassian.com",,
-"com.discursive","mvnrepo@mars.discursive.com:/var/www/html/www.discursive.com/maven2","rsync_ssh","Tim O'Brien","tobrien@discursive.com",,
 "com.extjs","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
 "com.google","/home/maven/repository-staging/to-ibiblio/maven-google","svn","Greg Kick","gak@google.com",,"https://google-maven-repository.googlecode.com/svn/repository/"
 "com.google.code.facebookapi","mrepo@mrepo.happyfern.com:/home/mrepo/mrepo.happyfern.com/maven2/","rsync_ssh","Fernando Padilla","fern@alum.mit.edu",,
@@ -168,7 +167,7 @@
 "org.amplecode","mavensync@login.amplecode.org:/var/www/amplecode/maven2","rsync_ssh","Lars Helge Oeverland","larshelge@gmail.com",,
 "org.antlr","mavensync@antlr.org:/home/mavensync/antlr-repo","rsync_ssh","Jim Idle","jimi@temporal-wave.com",,
 "org.apache","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh",,,,
-"org.apache","nexus@repository.apache.org:/export/home/nexus/rsync-targets/releases","rsync_ssh",Brian Fox,"brianf@apache.org",,
+"org.apache","central@repository.apache.org:/export/home/central/rsync-sources/releases","rsync_ssh",Brian Fox,"brianf@apache.org",,
 "org.apithefire","nobody@apithefire.org:/var/www/apithefire.org/m2repo","rsync_ssh","Chew Boon Aik","apithefire@gmail.com",,
 "org.appfuse","mavensync@static.appfuse.org:/var/www/appfuse-releases","rsync_ssh",,"mraible@dev.java.net",,
 "org.appspy","rsync@nexus.appspy.org:m2repo/releases","rsync_ssh","Olivier HEDIN","olivier@appspy.org",,
