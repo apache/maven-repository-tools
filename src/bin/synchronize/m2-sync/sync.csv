@@ -16,7 +16,7 @@
 "com.cedarsoft","mavensync@maven.cedarsoft.com:/home/maven/public/release","rsync_ssh",,"info@cedarsoft.de",,
 "com.cenqua","maven@maven.atlassian.com:/home/maven/incoming/","rsync_ssh","James William Dumay","james@atlassian.com",,
 "com.extjs","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
-"com.google","/home/maven/repository-staging/to-ibiblio/maven-google","svn","Greg Kick","gak@google.com",,"https://google-maven-repository.googlecode.com/svn/repository/"
+"com.google","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Greg Kick","gak@google.com",,"https://google-maven-repository.googlecode.com/svn/repository/"
 "com.google.code.facebookapi","mrepo@mrepo.happyfern.com:/home/mrepo/mrepo.happyfern.com/maven2/","rsync_ssh","Fernando Padilla","fern@alum.mit.edu",,
 "com.google.code.gwt-log","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
 "com.google.code.gwtx","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
@@ -219,8 +219,8 @@
 "org.scala-lang","mavensync@scala-tools.org:/home/mavensync/repo-releases","rsync_ssh","David Bernard",,,
 "org.simpleframework","mavensync@web.sourceforge.net:/home/groups/s/si/simpleweb/htdocs/maven","rsync_ssh","Niall Gallagher","niallg@users.sf.net",,
 "org.slf4j","rsync://pixie.qos.ch/mvnrepo","rsync","Ceki Gulcu","ceki@qos.ch",,
-"org.springframework","/home/maven/repository-staging/to-ibiblio/maven-spring","svn","Ben Hale","bhale@interface21.com",,"https://springframework.svn.sourceforge.net/svnroot/springframework/repos/repo"
-"org.springmodules","/home/maven/repository-staging/to-ibiblio/maven-spring","svn","Ben Hale","bhale@interface21.com",,"https://springframework.svn.sourceforge.net/svnroot/springframework/repos/repo"
+"org.springframework","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Ben Hale","bhale@interface21.com",,"https://springframework.svn.sourceforge.net/svnroot/springframework/repos/repo"
+"org.springmodules","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Ben Hale","bhale@interface21.com",,"https://springframework.svn.sourceforge.net/svnroot/springframework/repos/repo"
 "org.synchronoss","mavensync@web.sourceforge.net:/home/groups/c/cp/cpo/htdocs/sf-cpo-releases","rsync_ssh","Jay Colson","jcolson@users.sourceforge.net",,
 "org.templateit","mavensync@web.sourceforge.net:/home/groups/t/te/templateit/htdocs/m2repo","rsync_ssh","Dmitriy Kumshayev","dq@mail.com",,
 "org.unitils","mavensync@web.sourceforge.net:/home/groups/u/un/unitils/htdocs/m2-repo","rsync_ssh","Tim Ducheyne","tim.ducheyne@unitils.org",,
