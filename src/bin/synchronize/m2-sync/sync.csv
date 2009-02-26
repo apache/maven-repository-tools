@@ -23,6 +23,7 @@
 "com.google.code.jbusycomponent","mavensync@web.sourceforge.net:/home/users/o/ou/ouaibsky/maven/m2repo","rsync_ssh","Ouaibsky","ouaibsky@free.fr",,
 "com.google.gwt","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
 "com.h2database","mavensync@web.sourceforge.net:/home/groups/h/hs/hsql/htdocs/m2-repo","rsync_ssh","Thomas Mueller","thomas.tom.mueller@gmail.com",,
+"com.hazelcast","mavensync@web.sourceforge.net:/home/groups/h/ha/hazelcast/htdocs/m2repo","rsync_ssh","Talip Ozturk","talip@hazelcast.com",,
 "com.healthmarketscience","maven@open.hmsonline.com:/home/repo/html/maven2","rsync_ssh",,"openhms-bugs@lists.sourceforge.net",,
 "com.hp.hpl.jena","mavensync@jena.hpl.hp.com:/var/repo","rsync_ssh","Andy Seaborne","andy.seaborne@hp.com",,
 "com.jgoodies","mavensync@web.sourceforge.net:/home/groups/m/mv/mvnartifacts/htdocs/m2-repo","rsync_ssh","Roland Klein","peregrin@sourceforge.net",,
@@ -217,6 +218,7 @@
 "org.puremvc","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Anthony Quinault","aquinault@cadesoft.com",,"http://svn.puremvc.org/PureMVC_Java_MultiCore/repo"
 "org.scala-tools","mavensync@scala-tools.org:/home/mavensync/repo-releases","rsync_ssh","David Bernard",,,
 "org.scala-lang","mavensync@scala-tools.org:/home/mavensync/repo-releases","rsync_ssh","David Bernard",,,
+"org.semispace","maven@semispace.org:/home/maven/repo","rsync_ssh","Erlend Nossum","semispace@semispace.org",,
 "org.simpleframework","mavensync@web.sourceforge.net:/home/groups/s/si/simpleweb/htdocs/maven","rsync_ssh","Niall Gallagher","niallg@users.sf.net",,
 "org.slf4j","rsync://pixie.qos.ch/mvnrepo","rsync","Ceki Gulcu","ceki@qos.ch",,
 "org.springframework","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Ben Hale","bhale@interface21.com",,"https://springframework.svn.sourceforge.net/svnroot/springframework/repos/repo"
