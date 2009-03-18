@@ -18,6 +18,7 @@
 "com.extjs","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
 "com.google","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Greg Kick","gak@google.com",,"https://google-maven-repository.googlecode.com/svn/repository/"
 "com.google.code.facebookapi","mrepo@mrepo.happyfern.com:/home/mrepo/mrepo.happyfern.com/maven2/","rsync_ssh","Fernando Padilla","fern@alum.mit.edu",,
+"com.google.code.findbugs","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Garvin LeClaire","garvin.leclaire@gmail.com",,"http://findbugs.googlecode.com/svn/repos/release-repository/"
 "com.google.code.gwt-log","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
 "com.google.code.gwtx","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
 "com.google.code.jbusycomponent","mavensync@web.sourceforge.net:/home/users/o/ou/ouaibsky/maven/m2repo","rsync_ssh","Ouaibsky","ouaibsky@free.fr",,
