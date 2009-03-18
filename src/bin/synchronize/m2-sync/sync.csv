@@ -30,6 +30,7 @@
 "com.jgoodies","mavensync@web.sourceforge.net:/home/groups/m/mv/mvnartifacts/htdocs/m2-repo","rsync_ssh","Roland Klein","peregrin@sourceforge.net",,
 "com.miglayout","rsync://maven@mgrev.no-ip.com/maven/releases","rsync","Mikael Grev","miglayout@miginfocom.com",,
 "com.mobilvox.ossi","mavensync@web.sourceforge.net:/home/groups/m/ma/maven-js-plugin/htdocs/m2repo","rsync_ssh","Adam Altemus","aaltemus@mobilvox.com",,
+"com.mycila","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Mathieu Carbou","mathieu.carbou@gmail.com",,"http://mc-repo.googlecode.com/svn/maven2/releases/"
 "com.mysema","rsync://source.mysema.com/releases","rsync","Timo Westkämper","info@mysema.com",,
 "com.nexirius","mavensync@web.sourceforge.net:/home/users/n/ne/nexirius/htdocs/m2repo","rsync_ssh","Marcel Baumann","marcel.baumann@nexirius.ch",,
 "com.ocpsoft","dlink@ocpsoft.com:/home/dlink/ocpsoft.com/repository","rsync_ssh","Lincoln Baxter III","lincoln@ocpsoft.com",, 
@@ -156,6 +157,7 @@
 "net.sourceforge.jeuclid","mavensync@web.sourceforge.net:/home/groups/j/je/jeuclid/htdocs/m2-release","rsync_ssh","Erik Putrycz","eputrycz@users.sourceforge.net",,
 "net.sourceforge.jpp","mavensync@web.sourceforge.net:/home/groups/j/jp/jpp/repository/release","rsync_ssh","Ivan Szkiba","szkiba@users.sourceforge.net",,
 "net.sourceforge.jsdp","mavensync@web.sourceforge.net:/home/groups/j/js/jsdp/htdocs/maven2","rsync_ssh","Claudio Di Vita","cdivita@users.sourceforge.net",,
+"net.sourceforge.jwbf","mavensync@web.sourceforge.net:/home/groups/j/jw/jwbf/m2repo-release","rsync_ssh","eldurloki","eldurloki@users.sourceforge.net",,
 "net.sourceforge.jwebunit","mavensync@web.sourceforge.net:/home/groups/j/jw/jwebunit/htdocs/m2-repo","rsync_ssh","Julien HENRY","henryju@yahoo.fr",,
 "net.sourceforge.maven-taglib","mavensync@web.sourceforge.net:/home/groups/m/ma/maven-taglib/htdocs/m2repo","rsync_ssh","fabrizio giustina","fgiust@gmail.com",,
 "net.sourceforge.mvn-dp-plugin","mavensync@web.sourceforge.net:/home/groups/m/mv/mvn-dp-plugin/htdocs/repository/releases","rsync_ssh","Siamak Haschemi","siamak_haschemi@users.sourceforge.net",,
