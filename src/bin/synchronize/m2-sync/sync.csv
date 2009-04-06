@@ -150,6 +150,7 @@
 "net.smartlab.web","mavensync@web.sourceforge.net:/home/groups/s/sm/smartweb/htdocs/releases","rsync_ssh","Antonio Talarico","atalarico@users.sourceforge.net",,
 "net.sourceforge.addressing","mavensync@web.sourceforge.net:/home/groups/a/ad/addressing/htdocs/maven2-releases","rsync_ssh","Rodrigo Ruiz","nodens2k@users.sourceforge.net",,
 "net.sourceforge.basher","mavensync@web.sourceforge.net:/home/groups/b/ba/basher/htdocs/repository","rsync_ssh","johan lindquist","johanlindquist@users.sourceforge.net",,
+"net.sourceforge.chopchophttpclient","mavensync@web.sourceforge.net:/home/groups/c/ch/chop-chophttpcl/htdocs/maven2","rsync_ssh","Rodney Beede","sourceforge+mavencentral@rodneybeede.com"
 "net.sourceforge.ckjm","mavensync@web.sourceforge.net:/home/groups/c/ck/ckjm/htdocs/m2repo","rsync_ssh","Nicolas Dordet","dordet.n@gmail.com",,
 "net.sourceforge.cssparser","mavensync@web.sourceforge.net:/home/groups/c/cs/cssparser/htdocs/m2-repo","rsync_ssh","Daniel Gredler","sdanig@users.sourceforge.net",,
 "net.sourceforge.fmpp","mavensync@web.sourceforge.net:/home/groups/f/fm/fmpp/htdocs/maven2","rsync_ssh","Daniel Dekany","ddekany@freemail.hu",,
