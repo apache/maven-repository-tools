@@ -29,6 +29,7 @@
 "com.hp.hpl.jena","mavensync@jena.hpl.hp.com:/var/repo","rsync_ssh","Andy Seaborne","andy.seaborne@hp.com",,
 "com.jgoodies","mavensync@web.sourceforge.net:/home/groups/m/mv/mvnartifacts/htdocs/m2-repo","rsync_ssh","Roland Klein","peregrin@sourceforge.net",,
 "com.miglayout","rsync://maven@mgrev.no-ip.com/maven/releases","rsync","Mikael Grev","miglayout@miginfocom.com",,
+"com.kenai.swingjavabuilderext","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Alexandre Navarro","schumnana@free.fr",,"https://kenai.com/svn/swingjavabuilderext~others/maven/release-repository"
 "com.mobilvox.ossi","mavensync@web.sourceforge.net:/home/groups/m/ma/maven-js-plugin/htdocs/m2repo","rsync_ssh","Adam Altemus","aaltemus@mobilvox.com",,
 "com.mycila","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Mathieu Carbou","mathieu.carbou@gmail.com",,"http://mc-repo.googlecode.com/svn/maven2/releases/"
 "com.mysema","rsync://source.mysema.com/releases","rsync","Timo Westkämper","info@mysema.com",,
