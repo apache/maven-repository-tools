@@ -7,7 +7,7 @@
 # sync rewrite rules to m1 repo at ibiblio
 51 19 * * * cd $HOME/bin; ./synchronize-rewrite-rules-to-ibiblio.sh $HOME/bin/synchronize.properties
 # sync m2 repos
-16 17 * * * cd $HOME/bin/; ./synchronize-inbound.sh
+16 7/17 * * * cd $HOME/bin/; ./synchronize-inbound.sh
 # sync central to cica.es mirror
 30 21 * * * cd $HOME/bin; ./synchronize-central-to-cica.sh $HOME/bin/synchronize.properties
 # sync central to repo.exist.com mirror
