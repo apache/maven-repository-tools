@@ -88,7 +88,6 @@
 "net.israfil","ibiblio@repo.israfil.net:maven2","rsync_ssh","Christian Gruber","cgruber@israfil.net","-l ibiblio",
 "net.java.dev.jvyaml","mavensync@web.sourceforge.net:/home/users/o/ou/ouaibsky/maven/m2repo","rsync_ssh","Ouaibsky","ouaibsky@free.fr",,
 "net.jcip","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
-"net.liftweb","mavensync@scala-tools.org:/home/mavensync/repo-releases","rsync_ssh","David Bernard",,,
 "net.objectlab.kit.datecalc","mavensync@web.sourceforge.net:/home/groups/o/ob/objectlabkit/htdocs/m2-repo","rsync_ssh","Marcin Jekot","marchy@users.sourceforge.net",,
 "net.sf.aislib","mavensync@web.sourceforge.net:/home/groups/a/ai/aislib/htdocs/repos/sync","rsync_ssh","Tomasz Pik","pikus@ais.pl",,
 "net.sf.alchim","mavensync@web.sourceforge.net:/home/groups/a/al/alchim/htdocs/download/releases","rsync_ssh","David BERNARD","dwayneb@free.fr",,
@@ -229,8 +228,6 @@
 "org.parancoe","web3160@maven2.parancoe.org:/home/web/maven2.parancoe.org/repository/repo","rsync_ssh","Lucio Benfante","lucio.benfante@jugpadova.it",,
 "org.pojomatic","mavensync@web.sourceforge.net:/home/groups/p/po/pojomatic/releases","rsync_ssh","Ian Robertson","ian.b.robertson@gmail.com",,
 "org.puremvc","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Anthony Quinault","aquinault@cadesoft.com",,"http://svn.puremvc.org/PureMVC_Java_MultiCore/repo"
-"org.scala-tools","mavensync@scala-tools.org:/home/mavensync/repo-releases","rsync_ssh","David Bernard",,,
-"org.scala-lang","mavensync@scala-tools.org:/home/mavensync/repo-releases","rsync_ssh","David Bernard",,,
 "org.semispace","maven@semispace.org:/home/maven/repo","rsync_ssh","Erlend Nossum","semispace@semispace.org",,
 "org.simpleframework","mavensync@web.sourceforge.net:/home/groups/s/si/simpleweb/htdocs/maven","rsync_ssh","Niall Gallagher","niallg@users.sf.net",,
 "org.slf4j","rsync://pixie.qos.ch/mvnrepo","rsync","Ceki Gulcu","ceki@qos.ch",,
