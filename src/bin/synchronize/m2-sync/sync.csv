@@ -103,7 +103,6 @@
 "net.sf.dobo","mavensync@web.sourceforge.net:/home/groups/d/do/dobo/htdocs/m2repo","rsync_ssh","Arif Rachim","a.arif.r@gmail.com",,
 "net.sf.dtddoc","mavensync@web.sourceforge.net:/home/groups/d/dt/dtddoc/htdocs/m2repo/releases","rsync_ssh","Herve BOUTEMY","hboutemy@users.sourceforge.net",,
 "net.sf.docbook","mavensync@web.sourceforge.net:/home/groups/d/do/docbook/htdocs/maven/repository","rsync_ssh","Cedric Pronzato","mimil@users.sourceforge.net",,
-"net.sf.ehcache","mavensync@web.sourceforge.net:/home/groups/e/eh/ehcache/htdocs/repository","rsync_ssh","Greg Luck","gluck@gregluck.com",,
 "net.sf.excha","mavensync@web.sourceforge.net:/home/groups/e/ex/excha/htdocs/repository","rsync_ssh","Vitaliy S","yilativs@users.sourceforge.net",,
 "net.sf.fck-faces","mavensync@web.sourceforge.net:/home/groups/f/fc/fck-faces/htdocs/maven2","rsync_ssh","Ingo Dueppe","idueppe@users.sourceforge.net",,
 "net.sf.flatpack","mavensync@web.sourceforge.net:/home/groups/o/ob/objectlabkit/htdocs/m2-repo","rsync_ssh","Marcin Jekot","marchy@users.sourceforge.net",,
