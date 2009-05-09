@@ -81,6 +81,7 @@
 "javassist","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
 "javax.portlet","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh",,,,
 "javax.jdo","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh","Craig Russell","Craig.Russell@sun.com",,
+"junit","jvanzyl@people.apache.org:/home/ptahchiev/maven-repo","rsync_ssh","Petar Tahchiev","ptahchiev@apache.org",,
 "log4j","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh",,,,
 "net.databinder","maven@databinder.net:/var/dbwww/maven","rsync_ssh","Nathan Hamblen","nathan@technically.us",,
 "net.fckeditor","rsync://java.fckeditor.net/m2repo","rsync","Michael Osipov","michael-o@users.sourceforge.net",,
