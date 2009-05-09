@@ -2,6 +2,7 @@
 ,"mavensync@repository.codehaus.org:/repository","rsync_ssh",,"repo-maintainers@maven.apache.org","-i $HOME/.ssh/new-id_dsa",
 "ant-contrib","mavensync@web.sourceforge.net:/home/groups/a/an/ant-contrib/htdocs/m2-repo","rsync_ssh","Curt Arnold","carnold@apache.org",,
 "asm","maven@forge.objectweb.org:../../groups/maven/htdocs/maven2","rsync_ssh","EugeneKuleshov","eu@javatx.org",,
+"be.roam.hue","mavensync@web.sourceforge.net:/home/groups/h/hu/hue/htdocs/m2-repo","rsync_ssh","Kevin Wetzels","kevin@roam.be",,
 "br.com.caelum.seleniumdsl","mavensync@web.sourceforge.net:/home/groups/s/se/seleniumdsl/htdocs/maven","rsync_ssh","Caue Guerra","caue.guerra@caelum.com.br",,
 "br.com.caelum.stella","mavensync@web.sourceforge.net:/home/groups/c/ca/caelum-stella/htdocs/maven","rsync_ssh","Caue Guerra","caue.guerra@caelum.com.br",,
 "br.com.caelum.tubaina","mavensync@web.sourceforge.net:/home/groups/t/tu/tubaina/htdocs/maven","rsync_ssh","Luiz Real","luiz.real@caelum.com.br",,
