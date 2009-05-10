@@ -206,7 +206,7 @@
 "org.duineframework","mavensync@web.sourceforge.net:/home/groups/d/du/duine/htdocs/m2repo","rsync_ssh","Peter Fennema","Peter.Fennema@telin.nl",,
 "org.easyb","maven@easyb.org:/var/maven/repo/release","rsync_ssh","Rod Coffin","rod@rodcoffin.com",,
 "org.easymock","mavensync@web.sourceforge.net:/home/groups/e/ea/easymock/htdocs/maven/repository","rsync_ssh","Henri Tremblay","henri.tremblay@gmail.com",,
-"org.efaps","","svn","Jan Moxter","jan.moxter@efaps.org",,"http://efaps.googlecode.com/svn/repo/released/"
+"org.efaps","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Jan Moxter","jan.moxter@efaps.org",,"http://efaps.googlecode.com/svn/repo/released/"
 "org.extrema-sistemas.loom","mavensync@web.sourceforge.net:/home/groups/l/lo/loom/htdocs/repository","rsync_ssh","ignacio coloma","icoloma@gmail.com",,
 "org.freecompany","rsync@www.freecompany.org:maven","rsync_ssh","Craig Blake","craigwblake@freecompany.org",,
 "org.freemarker","mavensync@web.sourceforge.net:/home/groups/f/fr/freemarker/htdocs/maven2","rsync_ssh","Daniel Dekany","ddekany@freemail.hu",,
