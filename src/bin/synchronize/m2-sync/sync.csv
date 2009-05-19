@@ -84,6 +84,7 @@
 "javax.jdo","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh","Craig Russell","Craig.Russell@sun.com",,
 "junit","jvanzyl@people.apache.org:/home/ptahchiev/maven-repo","rsync_ssh","Petar Tahchiev","ptahchiev@apache.org",,
 "log4j","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh",,,,
+"me.springframework","mavensync@web.sourceforge.net:/home/groups/s/sp/springme/htdocs/repository","rsync_ssh","Wilfred Springer","wilfred@flotsam.nl",,
 "net.databinder","maven@databinder.net:/var/dbwww/maven","rsync_ssh","Nathan Hamblen","nathan@technically.us",,
 "net.fckeditor","rsync://java.fckeditor.net/m2repo","rsync","Michael Osipov","michael-o@users.sourceforge.net",,
 "net.homeip.yusuke","mavensync@yusuke.homeip.net:/Users/mavensync/maven2","rsync_ssh","Yusuke Yamamoto","yusuke@mac.com",,
