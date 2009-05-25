@@ -11,7 +11,7 @@
 # sync central to cica.es mirror
 30 21 * * * cd $HOME/bin; ./synchronize-central-to-cica.sh $HOME/bin/synchronize.properties
 # sync central to repo.exist.com mirror
-0 23 * * * (cd $HOME/bin; ./synchronize-central-to-exist.sh $HOME/bin/synchronize.properties) 2>&1 | mail -s 'Exist rsync diagnostics' brett@apache.org
+0 23 * * * cd $HOME/bin; ./synchronize-central-to-exist.sh $HOME/bin/synchronize.properties
 # sync central to ibiblio
 5  1 * * * cd $HOME/bin; ./synchronize-central-to-ibiblio.sh $HOME/bin/synchronize.properties
 # run reports
