@@ -62,6 +62,7 @@
 "commons-logging","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh",,,,
 "commons-math","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh",,,,
 "commons-net","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh",,,,
+"commons-pool","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh",,,,
 "commons-scxml","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh","Rahul Akolkar","rahul.akolkar@gmail.com",,
 "de.berlios.jsunit","mavensync@shell.berlios.de:/home/groups/jsunit/htdocs/maven2/repo","rsync_ssh","Joerg Schaible","joerg.schaible@gmx.de",,
 "de.huxhorn.lilith","mavensync@web.sourceforge.net:/home/groups/l/li/lilith/htdocs/repository","rsync_ssh","Joern Huxhorn","huxhorn@sf.net",,
