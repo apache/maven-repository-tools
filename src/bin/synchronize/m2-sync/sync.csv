@@ -22,6 +22,7 @@
 "com.google.code.facebookapi","mrepo@mrepo.happyfern.com:/home/mrepo/mrepo.happyfern.com/maven2/","rsync_ssh","Fernando Padilla","fern@alum.mit.edu",,
 "com.google.code.findbugs","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Garvin LeClaire","garvin.leclaire@gmail.com",,"http://findbugs.googlecode.com/svn/repos/release-repository/"
 "com.google.code.gwt-log","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
+"com.google.code.gwt-math","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
 "com.google.code.gwtx","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
 "com.google.code.jbusycomponent","mavensync@web.sourceforge.net:/home/users/o/ou/ouaibsky/maven/m2repo","rsync_ssh","Ouaibsky","ouaibsky@free.fr",,
 "com.google.code.protoj","mavensync@web.sourceforge.net:/home/groups/p/pr/protojrepo/htdocs/mavensync","rsync_ssh","Ashley Williams","ashpublic@mac.com",, 
