@@ -199,6 +199,7 @@
 "org.appfuse","mavensync@static.appfuse.org:/var/www/appfuse-releases","rsync_ssh",,"mraible@dev.java.net",,
 "org.appspy","rsync@nexus.appspy.org:m2repo/releases","rsync_ssh","Olivier HEDIN","olivier@appspy.org",,
 "org.aspectj","rsync@simonegianni.it:/home/mavenrsync/repo","rsync_ssh","Simone Gianni","simoneg@apache.org",,
+"org.bouncycastle","bcmavensync@access.bouncycastle.org:/home/users/bcmavensync/maven/maven2","rsync_ssh","David Hook","dgh@bouncycastle.org",,
 "org.bluestemsoftware","archiva@alakai.org:/var/archiva/data/repositories/internal","rsync_ssh","Todd Wolff","twolff@bluestemsoftware.com",,
 "org.compass-project","maven@repo.compass-project.org:/var/www/domains/compass-project.org/repo/htdocs","rsync-ssh","Shay Banon","kimchy@gmail.com",,
 "org.concordion","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Jose M Beas","jose.m.beas@gmail.com",,"http://concordion.googlecode.com/svn/repos/releases/"
