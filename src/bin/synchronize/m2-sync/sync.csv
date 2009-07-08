@@ -209,6 +209,7 @@
 "org.asteriskjava","rsync://mavensync.reucon.com/opensource","rsync","Stefan Reuter","stefan.reuter@reucon.com",,
 "org.bouncycastle","bcmavensync@access.bouncycastle.org:/home/users/bcmavensync/maven/maven2","rsync_ssh","David Hook","dgh@bouncycastle.org",,
 "org.bluestemsoftware","archiva@alakai.org:/var/archiva/data/repositories/internal","rsync_ssh","Todd Wolff","twolff@bluestemsoftware.com",,
+"org.bushe","rsync@bushe.com:/home/rsync/m2repo/releases","rsync_ssh","Michael Bushe","michael@bushe.com",,
 "org.compass-project","maven@repo.compass-project.org:/var/www/domains/compass-project.org/repo/htdocs","rsync-ssh","Shay Banon","kimchy@gmail.com",,
 "org.concordion","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Jose M Beas","jose.m.beas@gmail.com",,"http://concordion.googlecode.com/svn/repos/releases/"
 "org.criticalsection","rsync@criticalsection.org:/srv/maven/repositories/cs-releases","rsync_ssh","Tim Kettler","tik@criticalsection.org",,
