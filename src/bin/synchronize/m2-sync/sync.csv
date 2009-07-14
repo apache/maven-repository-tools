@@ -212,6 +212,7 @@
 "org.bouncycastle","bcmavensync@access.bouncycastle.org:/home/users/bcmavensync/maven/maven2","rsync_ssh","David Hook","dgh@bouncycastle.org",,
 "org.bluestemsoftware","archiva@alakai.org:/var/archiva/data/repositories/internal","rsync_ssh","Todd Wolff","twolff@bluestemsoftware.com",,
 "org.bushe","rsync@bushe.com:/home/rsync/m2repo/releases","rsync_ssh","Michael Bushe","michael@bushe.com",,
+"org.codenarc","mavensync@web.sourceforge.net:/home/groups/c/co/codenarc/htdocs/m2repo","rsync_ssh","Chris Mair","chrismair@users.sourceforge.net",,
 "org.compass-project","maven@repo.compass-project.org:/var/www/domains/compass-project.org/repo/htdocs","rsync-ssh","Shay Banon","kimchy@gmail.com",,
 "org.concordion","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Jose M Beas","jose.m.beas@gmail.com",,"http://concordion.googlecode.com/svn/repos/releases/"
 "org.criticalsection","rsync@criticalsection.org:/srv/maven/repositories/cs-releases","rsync_ssh","Tim Kettler","tik@criticalsection.org",,
@@ -244,6 +245,7 @@
 "org.jmonit","mavensync@web.sourceforge.net:/home/groups/j/jm/jmonit/htdocs/releases","rsync_ssh","Nicolas De Loof","nicolas.deloof@gmail.com",,
 "org.jsdoctoolkit","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
 "org.jsecurity","mavensync@web.sourceforge.net:/home/groups/j/js/jsecurity/htdocs/m2repo","rsync_ssh","Les Hazlewood","les@hazlewood.com",,
+"org.jvnet.hudson","rsync://maven.hudson-ci.org/hudson.maven","rsync","Kohsuke Kawaguchi","kk@kohsuke.org",,
 "org.jyaml","mavensync@web.sourceforge.net:/home/groups/j/jy/jyaml/htdocs/m2-repo","rsync_ssh","Toby Ho","airportyh@users.sourceforge.net",,
 "org.liquibase","mavensync@web.sourceforge.net:/home/groups/l/li/liquibase/htdocs/maven-repository","rsync_ssh","nathan voxland","nathan@voxland.net",,
 "org.mattressframework","mavensync@web.sourceforge.net:/home/groups/m/ma/mattress/htdocs/repositories/release","rsync_ssh","Josh Devins","joshdevins@mattressframework.org",,
