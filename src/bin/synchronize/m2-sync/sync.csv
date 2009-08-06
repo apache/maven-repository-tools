@@ -30,6 +30,7 @@
 "com.googlecode.maven-overview-plugin","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Hubert Iwaniuk","neotyk@kungfoo.pl",,"http://kungfoo-m2.googlecode.com/svn/release-repo/"
 "com.h2database","mavensync@web.sourceforge.net:/home/groups/h/hs/hsql/htdocs/m2-repo","rsync_ssh","Thomas Mueller","thomas.tom.mueller@gmail.com",,
 "com.hazelcast","mavensync@web.sourceforge.net:/home/groups/h/ha/hazelcast/htdocs/m2repo","rsync_ssh","Talip Ozturk","talip@hazelcast.com",,
+"com.healthmarketscience","maven@open.hmsonline.com:/home/repo/html/maven2","rsync_ssh",,"openhms-bugs@lists.sourceforge.net",,
 "com.hp.hpl.jena","mavensync@jena.hpl.hp.com:/var/repo","rsync_ssh","Andy Seaborne","andy.seaborne@hp.com",,
 "com.ingres.jdbc","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Alan Raison","Alan.Raison@ingres.com",,http://code.ingres.com/apps/maven
 "com.jgoodies","mavensync@web.sourceforge.net:/home/groups/m/mv/mvnartifacts/htdocs/m2-repo","rsync_ssh","Roland Klein","peregrin@sourceforge.net",,
@@ -84,6 +85,7 @@
 "gr.spinellis","mavensync@web.sourceforge.net:/home/groups/c/ck/ckjm/htdocs/m2repo","rsync_ssh","Nicolas Dordet","dordet.n@gmail.com",,
 "info.magnolia","mavensync@repo.magnolia-cms.com:synched-to-central","rsync_ssh","Gregory Joseph","gregory.joseph@magnolia-cms.com",,
 "it.cnr.isti.domoware","maven-central@domoware.isti.cnr.it:/maven2","rsync_ssh","Stefano Lenzi","stefano.lenzi@isti.cnr.it",,
+"it.tidalwave.thesefoolishthings","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Fabrizio Giudici","fabrizio.giudici@tidalwave.it",,"https://kenai.com/svn/tidalwave~maven-repo/release/2/"
 "javassist","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
 "javax.portlet","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh",,,,
 "javax.jdo","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh","Craig Russell","Craig.Russell@sun.com",,
@@ -240,6 +242,7 @@
 "org.ini4j","mavensync@web.sourceforge.net:/home/groups/i/in/ini4j/repository/release","rsync_ssh","Ivan Szkiba","szkiba@users.sourceforge.net",,
 "org.jacex","mavensync@web.sourceforge.net:/home/groups/j/ja/jacex/htdocs/maven","rsync_ssh","Alexey Noskov","alexey.noskov@gmail.com",,
 "org.jasig","mavensync@web.sourceforge.net:/home/groups/a/ac/acegisecurity/htdocs/repository/releases","rsync_ssh","Carlos Sanchez","carlos@apache.org",,
+"org.jdtaus","mavensync@web.sourceforge.net:/home/groups/j/jd/jdtaus/htdocs/central","rsync_ssh","Christian Schulte","schulte2005@users.sourceforge.net",,
 "org.jframework","mavensync@web.sourceforge.net:/home/groups/j/jf/jframework/repository","rsync_ssh","Misha Gridnev","mishalg@users.sourceforge.net",,
 "org.jibx","mavensync@web.sourceforge.net:/home/groups/j/ji/jibx/htdocs/maven2","rsync_ssh","Jerome Bernard","jerome.bernard@gmail.com",,
 "org.jitr","mavensync@web.sourceforge.net:/home/groups/j/ji/jitr/htdocs/repositories/release","rsync_ssh","Josh Devins","info@joshdevins.net",,

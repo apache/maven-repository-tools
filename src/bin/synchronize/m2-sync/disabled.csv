@@ -1,4 +1,2 @@
-"com.healthmarketscience","maven@open.hmsonline.com:/home/repo/html/maven2","rsync_ssh",,"openhms-bugs@lists.sourceforge.net",,
 "net.liftweb","mavensync@scala-tools.org:/home/mavensync/repo-releases","rsync_ssh","David Bernard",,,
 "org.amplecode","mavensync@login.amplecode.org:/var/www/amplecode/maven2","rsync_ssh","Lars Helge Oeverland","larshelge@gmail.com",,
-"org.jdtaus","rsync://repository.jdtaus.org/repository","rsync","Christian Schulte","cs@jdtaus.org",,
