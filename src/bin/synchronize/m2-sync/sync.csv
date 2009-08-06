@@ -231,6 +231,7 @@
 "org.gmock","rsync@gmock.org:/home/rsync/gmock/releases","rsync_ssh","Julien Gagnet","julien.gagnet@gmail.com",,
 "org.hdiv","mavensync@web.sourceforge.net:/home/groups/h/hd/hdiv/htdocs/repository","rsync_ssh","Roberto Velasco","roberto@hdiv.org",,
 "org.hsqldb","dedmike@hsqldb.org:m2repo","rsync_ssh","Blaine Simpson","blaine.simpson@admc.com",,
+"org.icefaces","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Ted Goddard","ted.goddard@icesoft.com",,"http://anonsvn.icefaces.org/repo/maven2/releases/"
 "org.infinitest","mavensync@web.sourceforge.net:/home/groups/j/jo/jopt-simple/htdocs/maven","rsync_ssh","Paul Holser","pholser@gmail.com",,
 "org.ini4j","mavensync@web.sourceforge.net:/home/groups/i/in/ini4j/repository/release","rsync_ssh","Ivan Szkiba","szkiba@users.sourceforge.net",,
 "org.jacex","mavensync@web.sourceforge.net:/home/groups/j/ja/jacex/htdocs/maven","rsync_ssh","Alexey Noskov","alexey.noskov@gmail.com",,
