@@ -30,7 +30,6 @@
 "com.googlecode.maven-overview-plugin","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Hubert Iwaniuk","neotyk@kungfoo.pl",,"http://kungfoo-m2.googlecode.com/svn/release-repo/"
 "com.h2database","mavensync@web.sourceforge.net:/home/groups/h/hs/hsql/htdocs/m2-repo","rsync_ssh","Thomas Mueller","thomas.tom.mueller@gmail.com",,
 "com.hazelcast","mavensync@web.sourceforge.net:/home/groups/h/ha/hazelcast/htdocs/m2repo","rsync_ssh","Talip Ozturk","talip@hazelcast.com",,
-"com.healthmarketscience","maven@open.hmsonline.com:/home/repo/html/maven2","rsync_ssh",,"openhms-bugs@lists.sourceforge.net",,
 "com.hp.hpl.jena","mavensync@jena.hpl.hp.com:/var/repo","rsync_ssh","Andy Seaborne","andy.seaborne@hp.com",,
 "com.ingres.jdbc","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Alan Raison","Alan.Raison@ingres.com",,http://code.ingres.com/apps/maven
 "com.jgoodies","mavensync@web.sourceforge.net:/home/groups/m/mv/mvnartifacts/htdocs/m2-repo","rsync_ssh","Roland Klein","peregrin@sourceforge.net",,
@@ -80,8 +79,6 @@
 "gr.abiss.js.sarissa","mavensync@web.sourceforge.net:/home/groups/s/sa/sarissa/htdocs/repository/releases","rsync_ssh","Manos Batsis","mbatsis@users.sourceforge.net",,
 "gr.abiss.md4j","mavensync@web.sourceforge.net:/home/groups/m/md/md4j/htdocs/repository/releases","rsync_ssh","Manos Batsis","mbatsis@users.sourceforge.net",,
 "gr.abiss.mvn.plugins","mavensync@web.sourceforge.net:/home/groups/m/mv/mvn-jstools/htdocs/repository/releases","rsync_ssh","Manos Batsis","mbatsis@users.sourceforge.net",,
-"gr.abiss.xcluder","mavensync@web.sourceforge.net:/home/groups/x/xc/xcluder/htdocs/repository/releases","rsync_ssh","Manos Batsis","mbatsis@users.sourceforge.net",,
-"gr.abiss.xcluder","mavensync@web.sourceforge.net:/home/groups/x/xc/xcluder/htdocs/repository/releases","rsync_ssh","Manos Batsis","mbatsis@users.sourceforge.net",,
 "gr.spinellis","mavensync@web.sourceforge.net:/home/groups/c/ck/ckjm/htdocs/m2repo","rsync_ssh","Nicolas Dordet","dordet.n@gmail.com",,
 "info.magnolia","mavensync@repo.magnolia-cms.com:synched-to-central","rsync_ssh","Gregory Joseph","gregory.joseph@magnolia-cms.com",,
 "it.cnr.isti.domoware","maven-central@domoware.isti.cnr.it:/maven2","rsync_ssh","Stefano Lenzi","stefano.lenzi@isti.cnr.it",,
