@@ -2,3 +2,6 @@
 "org.amplecode","mavensync@login.amplecode.org:/var/www/amplecode/maven2","rsync_ssh","Lars Helge Oeverland","larshelge@gmail.com",,
 "gr.abiss.xcluder","mavensync@web.sourceforge.net:/home/groups/x/xc/xcluder/htdocs/repository/releases","rsync_ssh","Manos Batsis","mbatsis@users.sourceforge.net",,
 "com.healthmarketscience","maven@open.hmsonline.com:/home/repo/html/maven2","rsync_ssh",,"openhms-bugs@lists.sourceforge.net",,
+"org.duraspace","mavensync@maven.dspace.org:/var/maven/release","rsync_ssh","DSpace Developers","dspace-devel@lists.sourceforge.net",,
+"org.fedora-commons","mavensync@maven.dspace.org:/var/maven/release","rsync_ssh","DSpace Developers","dspace-devel@lists.sourceforge.net",,
+"it.cnr.isti.domoware","maven-central@domoware.isti.cnr.it:/maven2","rsync_ssh","Stefano Lenzi","stefano.lenzi@isti.cnr.it",,
