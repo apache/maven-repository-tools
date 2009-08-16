@@ -265,6 +265,7 @@
 "org.parancoe","web3160@maven2.parancoe.org:/home/web/maven2.parancoe.org/repository/repo","rsync_ssh","Lucio Benfante","lucio.benfante@jugpadova.it",,
 "org.pojomatic","mavensync@web.sourceforge.net:/home/groups/p/po/pojomatic/releases","rsync_ssh","Ian Robertson","ian.b.robertson@gmail.com",,
 "org.puremvc","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Anthony Quinault","aquinault@cadesoft.com",,"http://svn.puremvc.org/PureMVC_Java_MultiCore/repo"
+"org.reflext","jvanzyl@people.apache.org:/home/aheritier/rsync-to-central-reflext","rsync_ssh","Arnaud Heritier","aheritier@apache.org",,
 "org.scala-lang","mavensync@lion.harpoon.me:/home/scalatools/hudson/www/repo-releases","rsync_ssh","Josh Suereth","admin@scala-tools.org",,
 "org.scala-tools","mavensync@lion.harpoon.me:/home/scalatools/hudson/www/repo-releases","rsync_ssh","Josh Suereth","admin@scala-tools.org",,
 "org.seleniumhq","maven-central-repo@openqa.org:/opt/nexus/sonatype-work/nexus/storage/releases","rsync_ssh","Patrick Lightbody","patrick@lightbody.net",,
