@@ -82,6 +82,7 @@
 "gr.spinellis","mavensync@web.sourceforge.net:/home/groups/c/ck/ckjm/htdocs/m2repo","rsync_ssh","Nicolas Dordet","dordet.n@gmail.com",,
 "info.magnolia","mavensync@repo.magnolia-cms.com:synched-to-central","rsync_ssh","Gregory Joseph","gregory.joseph@magnolia-cms.com",,
 "it.tidalwave.thesefoolishthings","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Fabrizio Giudici","fabrizio.giudici@tidalwave.it",,"https://kenai.com/svn/tidalwave~maven-repo/release/2/"
+"it.tidalwave.betterbeansbinding","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Fabrizio Giudici","fabrizio.giudici@tidalwave.it",,"https://kenai.com/svn/tidalwave~maven-repo/release/2/"
 "javassist","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
 "javax.portlet","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh",,,,
 "javax.jdo","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh","Craig Russell","Craig.Russell@sun.com",,
@@ -172,6 +173,7 @@
 "net.smartlab.web","mavensync@web.sourceforge.net:/home/groups/s/sm/smartweb/htdocs/releases","rsync_ssh","Antonio Talarico","atalarico@users.sourceforge.net",,
 "net.sourceforge.addressing","mavensync@web.sourceforge.net:/home/groups/a/ad/addressing/htdocs/maven2-releases","rsync_ssh","Rodrigo Ruiz","nodens2k@users.sourceforge.net",,
 "net.sourceforge.basher","mavensync@web.sourceforge.net:/home/groups/b/ba/basher/htdocs/repository","rsync_ssh","johan lindquist","johanlindquist@users.sourceforge.net",,
+"net.sourceforge.ccxjc","mavensync@web.sourceforge.net:/home/groups/c/cc/ccxjc/htdocs/maven2/releases","rsync_ssh","The CC-XJC Project","ccxjc-notifications@lists.sourceforge.net",,
 "net.sourceforge.chopchophttpclient","mavensync@web.sourceforge.net:/home/groups/c/ch/chop-chophttpcl/htdocs/maven2","rsync_ssh","Rodney Beede","sourceforge+mavencentral@rodneybeede.com"
 "net.sourceforge.ckjm","mavensync@web.sourceforge.net:/home/groups/c/ck/ckjm/htdocs/m2repo","rsync_ssh","Nicolas Dordet","dordet.n@gmail.com",,
 "net.sourceforge.cssparser","mavensync@web.sourceforge.net:/home/groups/c/cs/cssparser/htdocs/m2-repo","rsync_ssh","Daniel Gredler","sdanig@users.sourceforge.net",,
@@ -187,6 +189,7 @@
 "net.sourceforge.jwbf","mavensync@web.sourceforge.net:/home/groups/j/jw/jwbf/m2repo-release","rsync_ssh","eldurloki","eldurloki@users.sourceforge.net",,
 "net.sourceforge.jwebunit","mavensync@web.sourceforge.net:/home/groups/j/jw/jwebunit/htdocs/m2-repo","rsync_ssh","Julien HENRY","henryju@yahoo.fr",,
 "net.sourceforge.maven-taglib","mavensync@web.sourceforge.net:/home/groups/m/ma/maven-taglib/htdocs/m2repo","rsync_ssh","fabrizio giustina","fgiust@gmail.com",,
+"net.sourceforge.mikha-utils","mavensync@web.sourceforge.net:/home/groups/m/mi/mikha-utils/htdocs/maven","rsync_ssh","Dmitry Mikhaylov","mikhailov.dmitry@gmail.com",,
 "net.sourceforge.mvn-dp-plugin","mavensync@web.sourceforge.net:/home/groups/m/mv/mvn-dp-plugin/htdocs/repository/releases","rsync_ssh","Siamak Haschemi","siamak_haschemi@users.sourceforge.net",,
 "net.sourceforge.mydoggy","mavensync@web.sourceforge.net:/home/users/m/my/mydoggy/maven/m2repo","rsync_ssh","Ouaibsky","ouaibsky@free.fr",,
 "net.sourceforge.nekohtml","mavensync@web.sourceforge.net:/home/groups/n/ne/nekohtml/htdocs/m2-repo","rsync_ssh","Marc Guillemot","mguillem@users.sourceforge.net",,
