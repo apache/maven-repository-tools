@@ -205,6 +205,7 @@
 "ognl","maven2.opensymphony.com:/opt/repository/maven2","rsync_ssh","Patrick Lightbody","plightbo@gmail.com",,
 "opensymphony","maven2.opensymphony.com:/opt/repository/maven2","rsync_ssh","Patrick Lightbody","plightbo@gmail.com",,
 "org.acegisecurity","mavensync@web.sourceforge.net:/home/groups/a/ac/acegisecurity/htdocs/repository/releases","rsync_ssh","Carlos Sanchez","carlos@apache.org",,
+"org.amplecode","mavensync@login.amplecode.org:/var/www/amplecode/maven2","rsync_ssh","Lars Helge Oeverland","larshelge@gmail.com",,
 "org.antlr","mavensync@antlr.org:/home/mavensync/antlr-repo","rsync_ssh","Jim Idle","jimi@temporal-wave.com",,
 "org.apache","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh",,,,
 "org.apache","central@repository.apache.org:/export/home/central/rsync-sources/releases","rsync_ssh",Brian Fox,"brianf@apache.org",,
