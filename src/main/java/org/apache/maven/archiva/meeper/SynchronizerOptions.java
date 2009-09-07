@@ -90,7 +90,9 @@ public class SynchronizerOptions
         }
         catch ( FileNotFoundException e )
         {
-            throw new IllegalArgumentException( "File does not exist: " + f, e );
+            IllegalArgumentException iae = new IllegalArgumentException( "File does not exist: " + f );
+            iae.initCause( e );
+            throw iae;
         }
 
         Properties properties = new Properties();
