@@ -6,9 +6,9 @@ package org.apache.maven.archiva.meeper;
  * copyright ownership. The ASF licenses this file to you under the Apache License, Version 2.0 (the
  * "License"); you may not use this file except in compliance with the License. You may obtain a
  * copy of the License at
- * 
+ *
  * http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software distributed under the License
  * is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
  * or implied. See the License for the specific language governing permissions and limitations under
@@ -22,10 +22,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.commons.csv.CSVParser;
+import org.codehaus.plexus.util.IOUtil;
 
 /**
  * Read a csv file with the synced repositories information
- * 
+ *
  * @author <a href="mailto:carlos@apache.org">Carlos Sanchez</a>
  * @version $Id$
  */
@@ -83,14 +84,7 @@ public class CsvReader
         }
         finally
         {
-            try
-            {
-                reader.close();
-            }
-            catch ( IOException e )
-            {
-                // ignore
-            }
+            IOUtil.close( reader );
         }
     }
 

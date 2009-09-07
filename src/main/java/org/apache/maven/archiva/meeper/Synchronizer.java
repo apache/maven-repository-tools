@@ -11,6 +11,7 @@ import java.util.List;
 
 import org.apache.commons.mail.EmailException;
 import org.apache.commons.mail.SimpleEmail;
+import org.codehaus.plexus.util.IOUtil;
 import org.codehaus.plexus.util.cli.CommandLineException;
 import org.codehaus.plexus.util.cli.CommandLineUtils;
 import org.codehaus.plexus.util.cli.Commandline;
@@ -213,13 +214,7 @@ public class Synchronizer
         }
         finally
         {
-            try
-            {
-                is.close();
-            }
-            catch ( IOException e )
-            {
-            }
+            IOUtil.close( is );
         }
 
         if ( args.length == 3 )

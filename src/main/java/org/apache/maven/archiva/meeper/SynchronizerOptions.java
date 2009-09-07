@@ -6,6 +6,8 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.codehaus.plexus.util.IOUtil;
+
 public class SynchronizerOptions
 {
     private static final String DRY_RUN = "dryRun";
@@ -106,13 +108,7 @@ public class SynchronizerOptions
         }
         finally
         {
-            try
-            {
-                is.close();
-            }
-            catch ( IOException e )
-            {
-            }
+            IOUtil.close( is );
         }
 
         SynchronizerOptions options = new SynchronizerOptions();
