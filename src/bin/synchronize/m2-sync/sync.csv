@@ -98,6 +98,7 @@
 "net.israfil","ibiblio@repo.israfil.net:maven2","rsync_ssh","Christian Gruber","cgruber@israfil.net","-l ibiblio",
 "net.java.dev.jets3t","mavensync@web.sourceforge.net:/home/groups/j/je/jets3t/htdocs/maven2/","rsync_ssh","James Murty","jmurty@dev.java.net",,
 "net.java.dev.jvyaml","mavensync@web.sourceforge.net:/home/users/o/ou/ouaibsky/maven/m2repo","rsync_ssh","Ouaibsky","ouaibsky@free.fr",,
+"net.javacrumbs","rsync://javacrumbs.net/m2repo","rsync","Lukas Krecan","lukas@krecan.net",,
 "net.jcip","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
 "net.liftweb","mavensync@lion.harpoon.me:/home/scalatools/hudson/www/repo-releases","rsync_ssh","Josh Suereth","admin@scala-tools.org",,
 "net.objectlab.kit.datecalc","mavensync@web.sourceforge.net:/home/groups/o/ob/objectlabkit/htdocs/m2-repo","rsync_ssh","Marcin Jekot","marchy@users.sourceforge.net",,
