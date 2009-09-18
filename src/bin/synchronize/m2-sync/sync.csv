@@ -27,7 +27,6 @@
 "com.google.code.jbusycomponent","mavensync@web.sourceforge.net:/home/users/o/ou/ouaibsky/maven/m2repo","rsync_ssh","Ouaibsky","ouaibsky@free.fr",,
 "com.google.code.protoj","mavensync@web.sourceforge.net:/home/groups/p/pr/protojrepo/htdocs/mavensync","rsync_ssh","Ashley Williams","ashpublic@mac.com",, 
 "com.google.gwt","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
-"com.googlecode.lambdaj","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Mario Fusco","mario.fusco@gmail.com",,"http://lambdaj.googlecode.com/svn/repo/releases/"
 "com.googlecode.maven-overview-plugin","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Hubert Iwaniuk","neotyk@kungfoo.pl",,"http://kungfoo-m2.googlecode.com/svn/release-repo/"
 "com.h2database","mavensync@web.sourceforge.net:/home/groups/h/hs/hsql/htdocs/m2-repo","rsync_ssh","Thomas Mueller","thomas.tom.mueller@gmail.com",,
 "com.hazelcast","mavensync@web.sourceforge.net:/home/groups/h/ha/hazelcast/htdocs/m2repo","rsync_ssh","Talip Ozturk","talip@hazelcast.com",,
@@ -49,6 +48,7 @@
 "com.seitenbau.testing","mavensync@web.sourceforge.net:/home/groups/j/ju/junitrecorder/htdocs/m2","rsync_ssh","Rainer Weinhold","rainer.weinhold@seitenbau.com",,
 "com.sourcetohtml","mavensync@web.sourceforge.net:/home/users/j/ji/jirkacelak/userweb/htdocs/maven2","rsync_ssh","Jiri Celak","jiri@celak.net",, 
 "com.subtlesolution","mvnsync@subtlesolution.com:/home/mvnsync/m2repo/releases","rsync_ssh","Brent Atkinson","mvnsyncadmin@subtlesolution.com",,
+"com.unboundid","mavensync@web.sourceforge.net:/home/groups/l/ld/ldap-sdk/htdocs/maven","rsync_ssh","Neil Wilson","neil.wilson@unboundid.com",,
 "com.yahoo.platform.yui","jvanzyl@people.apache.org:/x1/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
 "commons-beanutils","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh","Niall Pemberton","niallp@apache.org",,
 "commons-chain","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh","Niall Pemberton","niallp@apache.org",,
@@ -165,6 +165,7 @@
 "net.sf.stat-scm","mavensync@web.sourceforge.net:/home/groups/s/st/stat-scm/htdocs/maven2","rsync_ssh","Doug Culnane","doug@culnane.net",,
 "net.sf.sugar","mavensync@web.sourceforge.net:/home/groups/s/su/sugar/htdocs/m2repo","rsync_ssh","Keith Bishop","bishi@users.sourceforge.net",,
 "net.sf.tacos","mavensync@web.sourceforge.net:/home/groups/t/ta/tacos/htdocs/repository","rsync_ssh","Igor Drobiazko","igor.drobiazko@gmail.com",,
+"net.sf.transmorph","mavensync@web.sourceforge.net:/home/groups/t/tr/transmorph/htdocs/m2repo","rsync_ssh","Cedric Chabanois","cchabanois@gmail.com",,
 "net.sf.twip","mavensync@web.sourceforge.net:/home/groups/t/tw/twip/htdocs/maven/repository","rsync_ssh","Snackbox","snackbox@users.sourceforge.net",,
 "net.sf.webtestfixtures","mavensync@web.sourceforge.net:/home/groups/w/we/webtestfixtures/htdocs/m2repo/releases","rsync_ssh","Pal Brattberg","brattberg@gmail.com",,
 "net.sf.xisemele","mavensync@web.sourceforge.net:/home/groups/x/xi/xisemele/htdocs/maven","rsync_ssh","Carlos Eduardo Coral","ducoral@gmail.com",,
@@ -290,6 +291,7 @@
 "org.vafer","rsync@vafer.org:m2repo/releases","rsync_ssh","Torsten Curdt","tcurdt@vafer.org",,
 "org.vraptor","mavensync@web.sourceforge.net:/home/groups/v/vr/vraptor2/htdocs/maven","rsync_ssh","Fabio Kung","fabio.kung@caelum.com.br",,
 "org.wickettools.extjs","mavensync@web.sourceforge.net:/home/groups/w/wi/wicket-extjs/htdocs/maven2","rsync_ssh","Jeremy Fergason","jdfergason@users.sourceforge.net",,
+"org.wooddog.mavenplugins","rsync://www.wooddog.org/mavenplugins","rsync","Claus Brøndby Reimer","claus437@gmail.com",,
 "org.xerial","xerialmaven@shell.sourceforge.jp:/home/groups/x/xe/xerial/htdocs/maven/release","rsync_ssh","Taro L. Saito","leo@xerial.org",,
 "org.xj4","mavensync@web.sourceforge.net:/home/groups/x/xj/xj4/htdocs/m2repo/releases","rsync_ssh","Jared Bunting","jared.bunting@peachjean.com",,
 "org.xlightweb","mavensync@web.sourceforge.net:/home/groups/x/xl/xlightweb/htdocs/m2repo","rsync_ssh","Gregor Roth","gregor.roth@xlightweb.org",,
