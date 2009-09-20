@@ -231,6 +231,7 @@
 "org.criticalsection","rsync@criticalsection.org:/srv/maven/repositories/cs-releases","rsync_ssh","Tim Kettler","tik@criticalsection.org",,
 "org.cyclopsgroup","mavensync@web.sourceforge.net:/home/groups/c/cy/cyclops-group/m2-export","rsync_ssh","Jiaqi Guo","jiaqi.guo@gmail.com",,
 "org.databene","mavensync@web.sourceforge.net:/home/groups/b/be/benerator/htdocs/m2/repository","rsync_ssh","Volker Bergmann","volker@databene.org",,
+"org.datanucleus","jpox@www.datanucleus.org:/home/jpox/htdocs/downloads/maven2","rsync_ssh","Andy Jefferson","info@datanucleus.org",,
 "org.dbunit","mavensync@web.sourceforge.net:/home/groups/d/db/dbunit/htdocs/m2repo","rsync_ssh","Roberto Lo Giacco","rlogiacco@users.sourceforge.net",,
 "org.domdrides","mavensync@web.sourceforge.net:/home/groups/d/do/domdrides/htdocs/m2repo/releases","rsync_ssh","James Carman","james@carmanconsulting.com",,
 "org.drizzle.jdbc","mavensync@jdbc.drizzle.org:mavenrepo/releases","rsync_ssh","Marcus Eriksson","krummas@gmail.com",,
