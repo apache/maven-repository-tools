@@ -4,3 +4,5 @@
 "org.duraspace","mavensync@maven.dspace.org:/var/maven/release","rsync_ssh","DSpace Developers","dspace-devel@lists.sourceforge.net",,
 "org.fedora-commons","mavensync@maven.dspace.org:/var/maven/release","rsync_ssh","DSpace Developers","dspace-devel@lists.sourceforge.net",,
 "it.cnr.isti.domoware","maven-central@domoware.isti.cnr.it:/maven2","rsync_ssh","Stefano Lenzi","stefano.lenzi@isti.cnr.it",,
+"org.openfaces", "maven@sshrepo.openfaces.org:/home/tomcat/.m2", "rsync_ssh", "Darya Shumilina", "Darya.Shumilina@teamdev.com",
+"net.sf.jlue","mavensync@shell.sourceforge.net:/home/groups/j/jl/jlue/htdocs/m2repo","rsync_ssh","jlue","sunyat@gmail.com",,
