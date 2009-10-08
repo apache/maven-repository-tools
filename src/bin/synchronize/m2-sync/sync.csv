@@ -230,6 +230,7 @@
 "org.codenarc","mavensync@web.sourceforge.net:/home/groups/c/co/codenarc/htdocs/m2repo","rsync_ssh","Chris Mair","chrismair@users.sourceforge.net",,
 "org.compass-project","maven@repo.compass-project.org:/var/www/domains/compass-project.org/repo/htdocs","rsync-ssh","Shay Banon","kimchy@gmail.com",,
 "org.concordion","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Jose M Beas","jose.m.beas@gmail.com",,"http://concordion.googlecode.com/svn/repos/releases/"
+"org.coosproject","mavensync@web.sourceforge.net:/home/groups/c/co/coos/htdocs/m2repo","rsync_ssh","Morten Versvik","morten.versvik@tellu.no",,
 "org.criticalsection","rsync@criticalsection.org:/srv/maven/repositories/cs-releases","rsync_ssh","Tim Kettler","tik@criticalsection.org",,
 "org.cyclopsgroup","mavensync@web.sourceforge.net:/home/groups/c/cy/cyclops-group/m2-export","rsync_ssh","Jiaqi Guo","jiaqi.guo@gmail.com",,
 "org.databene","mavensync@web.sourceforge.net:/home/groups/b/be/benerator/htdocs/m2/repository","rsync_ssh","Volker Bergmann","volker@databene.org",,
