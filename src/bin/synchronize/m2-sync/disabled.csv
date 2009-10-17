@@ -6,3 +6,5 @@
 "it.cnr.isti.domoware","maven-central@domoware.isti.cnr.it:/maven2","rsync_ssh","Stefano Lenzi","stefano.lenzi@isti.cnr.it",,
 "org.openfaces", "maven@sshrepo.openfaces.org:/home/tomcat/.m2", "rsync_ssh", "Darya Shumilina", "Darya.Shumilina@teamdev.com",
 "org.apithefire","nobody@apithefire.org:/var/www/apithefire.org/m2repo","rsync_ssh","Chew Boon Aik","apithefire@gmail.com",,
+"org.appspy","rsync@nexus.appspy.org:m2repo/releases","rsync_ssh","Olivier HEDIN","olivier@appspy.org",,
+

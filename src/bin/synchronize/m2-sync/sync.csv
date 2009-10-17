@@ -220,7 +220,6 @@
 "org.apache","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh",,,,
 "org.apache","central@repository.apache.org:/export/home/central/rsync-sources/releases","rsync_ssh",Brian Fox,"brianf@apache.org",,
 "org.appfuse","mavensync@static.appfuse.org:/var/www/appfuse-releases","rsync_ssh",,"mraible@dev.java.net",,
-"org.appspy","rsync@nexus.appspy.org:m2repo/releases","rsync_ssh","Olivier HEDIN","olivier@appspy.org",,
 "org.aspectj","rsync@simonegianni.it:/home/mavenrsync/repo","rsync_ssh","Simone Gianni","simoneg@apache.org",,
 "org.asteriskjava","rsync://mavensync.reucon.com/opensource","rsync","Stefan Reuter","stefan.reuter@reucon.com",,
 "org.bouncycastle","bcmavensync@access.bouncycastle.org:/home/users/bcmavensync/maven/maven2","rsync_ssh","David Hook","dgh@bouncycastle.org",,
