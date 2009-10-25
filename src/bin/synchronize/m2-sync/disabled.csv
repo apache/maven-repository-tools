@@ -7,3 +7,15 @@
 "org.apithefire","nobody@apithefire.org:/var/www/apithefire.org/m2repo","rsync_ssh","Chew Boon Aik","apithefire@gmail.com",,
 "org.appspy","rsync@nexus.appspy.org:m2repo/releases","rsync_ssh","Olivier HEDIN","olivier@appspy.org",,
 
+#these email addresses are invalid:
+"net.sf.locale4j","mavensync@web.sourceforge.net:/home/groups/l/lo/locale4j/maven/upload-repo","rsync_ssh",,"tom.cort@state.vt.us",,
+"net.sf.maven-har","mavensync@web.sourceforge.net:/home/groups/m/ma/maven-har/maven/upload-repo","rsync_ssh",,"tom.cort@state.vt.us",,
+"net.sf.maven-sar","mavensync@web.sourceforge.net:/home/groups/m/ma/maven-sar/maven/upload-repo","rsync_ssh",,"tom.cort@state.vt.us",,
+"com.jgoodies","mavensync@web.sourceforge.net:/home/groups/m/mv/mvnartifacts/htdocs/m2-repo","rsync_ssh","Roland Klein","peregrin@sourceforge.net",,
+"net.sf.jped","mavensync@web.sourceforge.net:/home/groups/j/jp/jped/maven2/","rsync_ssh","David Delbecq","tchize@sourceforge.net",,
+"org.gamio","mavensync@web.sourceforge.net:/home/groups/g/ga/gamio/htdocs/m2repo","rsync_ssh","Agemo Cui","agemocui@gmail.com",,
+"net.sf.jlynx","mavensync@web.sourceforge.net:/home/groups/j/jl/jlynx/htdocs/repos","rsync_ssh","Greg Ritchie","gregr20@gmail.com",,
+"net.sourceforge.addressing","mavensync@web.sourceforge.net:/home/groups/a/ad/addressing/htdocs/maven2-releases","rsync_ssh","Rodrigo Ruiz","nodens2k@users.sourceforge.net",,
+"net.sourceforge.rcache","mavensync@web.sourceforge.net:/home/groups/r/rc/rcache/htdocs/maven2","rsync_ssh","Rodrigo Ruiz","nodens2k@users.sourceforge.net",,
+"net.sf.mapasuta","mavensync@web.sourceforge.net:/home/groups/m/ma/mapasuta/maven/upload-repo","rsync_ssh",,"twenstar@users.sourceforge.net",,
+#end invalid addresses
