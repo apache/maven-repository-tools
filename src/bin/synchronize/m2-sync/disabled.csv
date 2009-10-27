@@ -191,8 +191,8 @@
 "org.vraptor","mavensync@web.sourceforge.net:/home/groups/v/vr/vraptor2/htdocs/maven","rsync_ssh","Fabio Kung","fabio.kung@caelum.com.br",,
 "org.wickettools.extjs","mavensync@web.sourceforge.net:/home/groups/w/wi/wicket-extjs/htdocs/maven2","rsync_ssh","Jeremy Fergason","jdfergason@users.sourceforge.net",,
 "org.xj4","mavensync@web.sourceforge.net:/home/groups/x/xj/xj4/htdocs/m2repo/releases","rsync_ssh","Jared Bunting","jared.bunting@peachjean.com",,
-"org.xlightweb","mavensync@web.sourceforge.net:/home/groups/x/xl/xlightweb/htdocs/m2repo","rsync_ssh","Gregor Roth","gregor.roth@xlightweb.org",,
-"org.xsocket","mavensync@web.sourceforge.net:/home/groups/x/xs/xsocket/htdocs/m2repo","rsync_ssh","Gregor Roth","gregor.roth@xsocket.org",,
+"org.xlightweb","mavensync@web.sourceforge.net:/home/groups/x/xl/xlightweb/htdocs/m2repo","rsync_ssh","Gregor Roth","grro@xlightweb.org",,
+"org.xsocket","mavensync@web.sourceforge.net:/home/groups/x/xs/xsocket/htdocs/m2repo","rsync_ssh","Gregor Roth","grro@xsocket.org",,
 "uk.co.flamingpenguin.jewelcli","mavensync@web.sourceforge.net:/home/groups/j/je/jewelcli/htdocs/m2repo","rsync_ssh","Tim Wood","tim@flamingpenguin.co.uk",,
 
 "org.simpleframework","mavensync@web.sourceforge.net:/home/groups/s/si/simpleweb/htdocs/maven","rsync_ssh","Niall Gallagher","niallg@users.sf.net",,
