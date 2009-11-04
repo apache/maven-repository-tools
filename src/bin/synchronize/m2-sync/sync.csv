@@ -99,6 +99,7 @@
 "org.dspace","mavensync@maven.dspace.org:/var/maven/release","rsync_ssh","DSpace Developers","dspace-devel@lists.sourceforge.net",,
 "org.easyb","maven@easyb.org:/var/maven/repo/release","rsync_ssh","Rod Coffin","rod@rodcoffin.com",,
 "org.freecompany","rsync@www.freecompany.org:maven","rsync_ssh","Craig Blake","craigwblake@freecompany.org",,
+"org.glassfish","rsync@maven.glassfish.org:/export/home/rsync/master-pom-repo","rsync_ssh","Jane Young,"jane.young@sun.com",,
 "org.gmock","rsync@gmock.org:/home/rsync/gmock/releases","rsync_ssh","Julien Gagnet","julien.gagnet@gmail.com",,
 "org.hsqldb","dedmike@hsqldb.org:m2repo","rsync_ssh","Blaine Simpson","blaine.simpson@admc.com",,
 "org.icefaces","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Ted Goddard","ted.goddard@icesoft.com",,"http://anonsvn.icefaces.org/repo/maven2/releases/"
