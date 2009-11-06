@@ -91,7 +91,7 @@
 "org.bluestemsoftware","archiva@alakai.org:/var/archiva/data/repositories/internal","rsync_ssh","Todd Wolff","twolff@bluestemsoftware.com",,
 "org.bushe","rsync@bushe.com:/home/rsync/m2repo/releases","rsync_ssh","Michael Bushe","michael@bushe.com",,
 "org.chromattic","mavensync@repository.exoplatform.org:/home/nexus/data/storage/hosted/chromattic-releases","rsync_ssh","Arnaud Heritier","aheritier@apache.org",,
-"org.compass-project","maven@repo.compass-project.org:/var/www/domains/compass-project.org/repo/htdocs","rsync-ssh","Shay Banon","kimchy@gmail.com",,
+"org.compass-project","maven@repo.compass-project.org:/var/www/domains/compass-project.org/repo/htdocs","rsync_ssh","Shay Banon","kimchy@gmail.com",,
 "org.concordion","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Jose M Beas","jose.m.beas@gmail.com",,"http://concordion.googlecode.com/svn/repos/releases/"
 "org.criticalsection","rsync@criticalsection.org:/srv/maven/repositories/cs-releases","rsync_ssh","Tim Kettler","tik@criticalsection.org",,
 "org.datanucleus","jpox@www.datanucleus.org:/home/jpox/htdocs/downloads/maven2","rsync_ssh","Andy Jefferson","info@datanucleus.org",,
