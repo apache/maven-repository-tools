@@ -210,6 +210,7 @@ public class Synchronizer
         }
         catch ( IOException e )
         {
+            synchronizer.sendEmail( synchronizer.failedRepositories, "ERROR", e.getMessage() );
             throw new RuntimeException( e );
         }
         finally
