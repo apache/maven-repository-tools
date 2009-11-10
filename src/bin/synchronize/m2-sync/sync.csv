@@ -47,9 +47,7 @@
 "commons-net","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh",,,,
 "commons-pool","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh",,,,
 "commons-scxml","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh","Rahul Akolkar","rahul.akolkar@gmail.com",,
-"de.berlios.jsunit","mavensync@shell.berlios.de:/home/groups/jsunit/htdocs/maven2/repo","rsync_ssh","Joerg Schaible","joerg.schaible@gmx.de",,
 "fr.loof","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
-"info.magnolia","mavensync@repo.magnolia-cms.com:synched-to-central","rsync_ssh","Gregory Joseph","gregory.joseph@magnolia-cms.com",,
 "it.tidalwave.thesefoolishthings","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Fabrizio Giudici","fabrizio.giudici@tidalwave.it",,"https://kenai.com/svn/tidalwave~maven-repo/release/2/"
 "it.tidalwave.betterbeansbinding","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Fabrizio Giudici","fabrizio.giudici@tidalwave.it",,"https://kenai.com/svn/tidalwave~maven-repo/release/2/"
 "javassist","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
@@ -98,7 +96,6 @@
 "org.drizzle.jdbc","mavensync@jdbc.drizzle.org:mavenrepo/releases","rsync_ssh","Marcus Eriksson","krummas@gmail.com",,
 "org.dspace","mavensync@maven.dspace.org:/var/maven/release","rsync_ssh","DSpace Developers","dspace-devel@lists.sourceforge.net",,
 "org.easyb","maven@easyb.org:/var/maven/repo/release","rsync_ssh","Rod Coffin","rod@rodcoffin.com",,
-"org.freecompany","rsync@www.freecompany.org:maven","rsync_ssh","Craig Blake","craigwblake@freecompany.org",,
 "org.glassfish","rsync@maven.glassfish.org:/export/home/rsync/master-pom-repo","rsync_ssh","Jane Young","jane.young@sun.com",,
 "org.gmock","rsync@gmock.org:/home/rsync/gmock/releases","rsync_ssh","Julien Gagnet","julien.gagnet@gmail.com",,
 "org.hsqldb","dedmike@hsqldb.org:m2repo","rsync_ssh","Blaine Simpson","blaine.simpson@admc.com",,
