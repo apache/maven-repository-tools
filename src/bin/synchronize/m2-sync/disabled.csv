@@ -7,8 +7,6 @@
 "org.apithefire","nobody@apithefire.org:/var/www/apithefire.org/m2repo","rsync_ssh","Chew Boon Aik","apithefire@gmail.com",,
 "org.appspy","rsync@nexus.appspy.org:m2repo/releases","rsync_ssh","Olivier HEDIN","olivier@appspy.org",,
 "de.berlios.jsunit","mavensync@shell.berlios.de:/home/groups/jsunit/htdocs/maven2/repo","rsync_ssh","Joerg Schaible","joerg.schaible@gmx.de",,
-"info.magnolia","mavensync@repo.magnolia-cms.com:synched-to-central","rsync_ssh","Gregory Joseph","gregory.joseph@magnolia-cms.com",,
-"org.freecompany","rsync@www.freecompany.org:maven","rsync_ssh","Craig Blake","craigwblake@freecompany.org",,
 
 #these email addresses are invalid:
 "net.sf.locale4j","mavensync@web.sourceforge.net:/home/groups/l/lo/locale4j/maven/upload-repo","rsync_ssh",,"tom.cort@state.vt.us",,
@@ -26,5 +24,6 @@
 #end invalid addresses
 
 
-#sf is currently unstable. when restored, this should go into a dedicated sync since there are so many of them.
+#not syncing and invalid email.
+"org.freecompany","rsync@www.freecompany.org:maven","rsync_ssh","Craig Blake","craigwblake@freecompany.org",,
 

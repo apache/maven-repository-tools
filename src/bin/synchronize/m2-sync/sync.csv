@@ -48,6 +48,7 @@
 "commons-pool","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh",,,,
 "commons-scxml","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh","Rahul Akolkar","rahul.akolkar@gmail.com",,
 "fr.loof","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
+"info.magnolia","mavensync@repo.magnolia-cms.com:synched-to-central","rsync_ssh","Gregory Joseph","gregory.joseph@magnolia-cms.com",,
 "it.tidalwave.thesefoolishthings","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Fabrizio Giudici","fabrizio.giudici@tidalwave.it",,"https://kenai.com/svn/tidalwave~maven-repo/release/2/"
 "it.tidalwave.betterbeansbinding","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Fabrizio Giudici","fabrizio.giudici@tidalwave.it",,"https://kenai.com/svn/tidalwave~maven-repo/release/2/"
 "javassist","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
