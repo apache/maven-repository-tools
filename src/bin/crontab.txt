@@ -13,7 +13,7 @@
 # sync central to repo.exist.com mirror
 #0 23 * * * cd $HOME/bin; ./synchronize-central-to-exist.sh $HOME/bin/synchronize.properties
 # sync central to ibiblio
-5  1 * * * cd $HOME/bin; ./synchronize-central-to-ibiblio.sh $HOME/bin/synchronize.properties
+#5  1 * * * cd $HOME/bin; ./synchronize-central-to-ibiblio.sh $HOME/bin/synchronize.properties
 # run reports
 34 2  * * * cd $HOME/reports; ./run.sh
 #run on sat morning after all the syncs
