@@ -215,6 +215,7 @@
 "net.sf.practicalxml","mavensync@web.sourceforge.net:/home/groups/p/pr/practicalxml/htdocs/releases","rsync_ssh","Keith D Gregory","kdgregory@users.sourceforge.net",,
 "net.sf.qdwizard","mavensync@web.sourceforge.net:/home/groups/q/qd/qdwizard/htdocs/repository","rsync_ssh","Bertrand Florat","bertrand@florat.net",,
 "net.sf.retrotranslator","mavensync@web.sourceforge.net:/home/groups/r/re/retrotranslator/maven2","rsync_ssh","Taras Puchko","tarasp@users.sourceforge.net",,
+"net.sf.sidaof","mavensync@web.sourceforge.net:/home/frs/project/s/si/sidaof/releases","rsync_ssh","Jeff Jensen","jeffjensen@upstairstechnology.com",,
 "net.sf.stat-scm","mavensync@web.sourceforge.net:/home/groups/s/st/stat-scm/htdocs/maven2","rsync_ssh","Doug Culnane","doug@culnane.net",,
 "net.sf.sugar","mavensync@web.sourceforge.net:/home/groups/s/su/sugar/htdocs/m2repo","rsync_ssh","Keith Bishop","bishi@users.sourceforge.net",,
 "net.sf.tacos","mavensync@web.sourceforge.net:/home/groups/t/ta/tacos/htdocs/repository","rsync_ssh","Igor Drobiazko","igor.drobiazko@gmail.com",,
