@@ -75,6 +75,7 @@
 "net.sf.jacob-project","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
 "net.sf.jour","mavensync@pyx4me.com::maven2-release","rsync","Vlad Skarzhevskyy","skarzhevskyy@gmail.com",,
 "net.sf.scannotation","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
+"net.sf.sfac","mavensync@web.sourceforge.net:/home/groups/s/sf/sfac/mavenRepo","rsync_ssh","Olivier Berlanger","olivier.berlanger@rvponp.fgov.be",,
 "net.sourceforge.wurfl","mavensync@dev.wurflpro.com:/home/nexus/sonatype-work/nexus/storage/public-releases","rsync_ssh","Filippo De Luca","filippo.deluca@wurflpro.it",,
 "net.vidageek","maven_sync@vidageek.net:/home/maven_sync/maven.vidageek.net/","rsync_ssh","Jonas Abreu","jonas@vidageek.net",, 
 "no.tornado.brap","mavensync@brap.tornado.no:/home/brap/webapps/maven/repository","rsync_ssh","Edvin Syse","edvin@sysedata.no",,
@@ -102,8 +103,10 @@
 "org.gmock","rsync@gmock.org:/home/rsync/gmock/releases","rsync_ssh","Julien Gagnet","julien.gagnet@gmail.com",,
 "org.hsqldb","dedmike@hsqldb.org:m2repo","rsync_ssh","Blaine Simpson","blaine.simpson@admc.com",,
 "org.icefaces","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Ted Goddard","ted.goddard@icesoft.com",,"http://anonsvn.icefaces.org/repo/maven2/releases/"
+"org.jminix","maven@maven.jminix.org:m2repo/releases","rsync_ssh","Laurent Bovet","lbovet@jminix.org",,
 "org.libvirt","rsync://libvirt.org/maven2","rsync","Daniel Veillard","daniel@veillard.com",,
 "org.mockito","mockito@wamblee.org:/","rsync_ssh","Erik Brakkee","erik@wamblee.org",,
+"org.mongodb","rsync://buildbot.mongodb.org/maven/","rsync","Eliot Horowitz","eliot@mongodb.org",,
 "org.neodatis.odb","mavensync@web.sourceforge.net:/home/groups/n/ne/neodatis-odb/htdocs/m2-repo","rsync_ssh","Olivier Smadja","olivier@neodatis.org",,
 "org.objectweb","maven@forge.objectweb.org:../../groups/maven/htdocs/maven2","rsync_ssh","xavier moghrabi","xavier.moghrabi@objectweb.org",,
 "org.ops4j","maven-sync@www.ops4j.org:/var/http/repository.ops4j.org/m2release","rsync_ssh","Niclas Hedhman","niclas@hedhman.org",,
