@@ -17,7 +17,7 @@
 "com.googlecode.lambdaj","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Mario Fusco","mario.fusco@gmail.com",,"http://lambdaj.googlecode.com/svn/repo/releases/"
 "com.googlecode.maven-overview-plugin","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Hubert Iwaniuk","neotyk@kungfoo.pl",,"http://kungfoo-m2.googlecode.com/svn/release-repo/"
 "com.healthmarketscience","maven@open.hmsonline.com:/home/repo/html/maven2","rsync_ssh",,"openhms-bugs@lists.sourceforge.net",,
-"com.hp.hpl.jena","mavensync@jena.hpl.hp.com:/var/repo","rsync_ssh","Andy Seaborne","andy.seaborne@hp.com",,
+"com.hp.hpl.jena","mavensync@openjena.org:/var/repo","rsync_ssh","Andy Seaborne","andy.seaborne@gmail.com",, 
 "com.ingres.jdbc","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Alan Raison","Alan.Raison@ingres.com",,http://code.ingres.com/apps/maven
 "com.kenai.swingjavabuilderext","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Alexandre Navarro","schumnana@free.fr",,"https://kenai.com/svn/swingjavabuilderext~others/maven/release-repository"
 "com.kenai.jbosh","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Mike Cumings","maven.mc@scummer.org",,"https://kenai.com/svn/jbosh~maven/release"
@@ -28,6 +28,7 @@
 "com.opensymphony","maven2.opensymphony.com:/opt/repository/maven2","rsync_ssh","Patrick Lightbody","plightbo@gmail.com",,
 "com.pyx4j","mavensync@pyx4me.com::maven2-release","rsync","Vlad Skarzhevskyy","skarzhevskyy@gmail.com",,
 "com.pyx4me","mavensync@pyx4me.com::maven2-release","rsync","Vlad Skarzhevskyy","skarzhevskyy@gmail.com",,
+"com.surelogic","rsync@surelogic.com:/home/rsync/m2repo","rsync_ssh","Nathan Boy","nathan.boy@surelogic.com"
 "com.yahoo.platform.yui","jvanzyl@people.apache.org:/x1/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
 "commons-beanutils","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh","Niall Pemberton","niallp@apache.org",,
 "commons-chain","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh","Niall Pemberton","niallp@apache.org",,
@@ -103,6 +104,7 @@
 "org.icefaces","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Ted Goddard","ted.goddard@icesoft.com",,"http://anonsvn.icefaces.org/repo/maven2/releases/"
 "org.libvirt","rsync://libvirt.org/maven2","rsync","Daniel Veillard","daniel@veillard.com",,
 "org.mockito","mockito@wamblee.org:/","rsync_ssh","Erik Brakkee","erik@wamblee.org",,
+"org.neodatis.odb","mavensync@web.sourceforge.net:/home/groups/n/ne/neodatis-odb/htdocs/m2-repo","rsync_ssh","Olivier Smadja","olivier@neodatis.org",,
 "org.objectweb","maven@forge.objectweb.org:../../groups/maven/htdocs/maven2","rsync_ssh","xavier moghrabi","xavier.moghrabi@objectweb.org",,
 "org.ops4j","maven-sync@www.ops4j.org:/var/http/repository.ops4j.org/m2release","rsync_ssh","Niclas Hedhman","niclas@hedhman.org",,
 "org.ow2","maven@forge.objectweb.org:../../groups/maven/htdocs/maven2","rsync_ssh","xavier moghrabi","xavier.moghrabi@objectweb.org",,
