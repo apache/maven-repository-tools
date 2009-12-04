@@ -7,6 +7,9 @@
 "org.apithefire","nobody@apithefire.org:/var/www/apithefire.org/m2repo","rsync_ssh","Chew Boon Aik","apithefire@gmail.com",,
 "org.appspy","rsync@nexus.appspy.org:m2repo/releases","rsync_ssh","Olivier HEDIN","olivier@appspy.org",,
 "de.berlios.jsunit","mavensync@shell.berlios.de:/home/groups/jsunit/htdocs/maven2/repo","rsync_ssh","Joerg Schaible","joerg.schaible@gmx.de",,
+"org.zeroturnaround","rsync://repos.zeroturnaround.com/maven2/","rsync","Jevgeni Kabanov","jevgeni@zeroturnaround.com",,
+"net.sf.xradar","mavensync@web.sourceforge.net:/home/groups/x/xr/xradar/htdocs/m2repo","rsync_ssh","Nicolas Dordet","dordet.n@gmail.com",,
+"net.javacrumbs","rsync://javacrumbs.net/m2repo","rsync","Lukas Krecan","lukas@krecan.net",,
 
 #these email addresses are invalid:
 "net.sf.locale4j","mavensync@web.sourceforge.net:/home/groups/l/lo/locale4j/maven/upload-repo","rsync_ssh",,"tom.cort@state.vt.us",,
