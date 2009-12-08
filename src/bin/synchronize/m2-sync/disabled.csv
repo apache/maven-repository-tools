@@ -10,6 +10,7 @@
 "org.zeroturnaround","rsync://repos.zeroturnaround.com/maven2/","rsync","Jevgeni Kabanov","jevgeni@zeroturnaround.com",,
 "net.sf.xradar","mavensync@web.sourceforge.net:/home/groups/x/xr/xradar/htdocs/m2repo","rsync_ssh","Nicolas Dordet","dordet.n@gmail.com",,
 "net.javacrumbs","rsync://javacrumbs.net/m2repo","rsync","Lukas Krecan","lukas@krecan.net",,
+"org.zkoss","maven@mavensync.zkoss.org:/home/maven/repository","rsync_ssh","WebMaster","webmaster@zkoss.org",,
 
 #these email addresses are invalid:
 "net.sf.locale4j","mavensync@web.sourceforge.net:/home/groups/l/lo/locale4j/maven/upload-repo","rsync_ssh",,"tom.cort@state.vt.us",,
