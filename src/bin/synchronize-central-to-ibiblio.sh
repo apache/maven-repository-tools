@@ -11,4 +11,4 @@ rsync -e ssh --delete --max-delete=10 -v -riplt $MAVEN2_REPO/ $IBIBLIO_SYNC_HOST
 echo ">>>>>>>>>>>>>>>>>> Syncing Maven 1.x plugins to Ibiblio"
 
 # M1 Sync only for plugins ...
-rsync -e ssh --delete --max-delete=10 -v -riplt $MAVEN1_REPO/ $IBIBLIO_SYNC_HOST:$M1_IBIBLIO_SYNC_DIR
+rsync -e ssh -v -riplt $MAVEN1_REPO/ $IBIBLIO_SYNC_HOST:$M1_IBIBLIO_SYNC_DIR
