@@ -1,4 +1,4 @@
-"groupId","location","protocol","contactName","contactMail","ssh options","svn url"
+﻿"groupId","location","protocol","contactName","contactMail","ssh options","svn url"
 ,"mavensync@repository.codehaus.org:/repository","rsync_ssh",,"repo-maintainers@maven.apache.org","-i $HOME/.ssh/new-id_dsa",
 "ant-contrib","mavensync@web.sourceforge.net:/home/groups/a/an/ant-contrib/htdocs/m2-repo","rsync_ssh","Curt Arnold","carnold@apache.org",,
 "asm","maven@forge.objectweb.org:../../groups/maven/htdocs/maven2","rsync_ssh","EugeneKuleshov","eu@javatx.org",,
@@ -215,7 +215,6 @@
 "org.amplecode","mavensync@login.amplecode.org:/var/www/amplecode/maven2","rsync_ssh","Lars Helge Oeverland","larshelge@gmail.com",,
 "org.antlr","mavensync@antlr.org:/home/mavensync/antlr-repo","rsync_ssh","Jim Idle","jimi@temporal-wave.com",,
 "org.apache","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh",,,,
-"org.apache","central@repository.apache.org:/export/home/central/rsync-sources/releases","rsync_ssh","Brian Fox","brianf@apache.org",,
 "org.appfuse","mavensync@static.appfuse.org:/var/www/appfuse-releases","rsync_ssh",,"mraible@dev.java.net",,
 "org.aspectj","rsync@simonegianni.it:/home/mavenrsync/repo","rsync_ssh","Simone Gianni","simoneg@apache.org",,
 "org.asteriskjava","rsync://mavensync.reucon.com/opensource","rsync","Stefan Reuter","stefan.reuter@reucon.com",,
