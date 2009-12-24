@@ -18,3 +18,5 @@
 34 2  * * * cd $HOME/reports; ./run.sh
 #run on sat morning after all the syncs
 22 3 * * 6 cd $HOME/ide-indexer; ./indexer.sh
+#pull in rao and nexus.codehaus.org
+0 4,8,12,16,20 * * * cd $HOME/bin; ./synchronize-nexus-repos.sh
