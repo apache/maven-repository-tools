@@ -8,8 +8,8 @@ exclusionsFile=/home/maven/bin/synchronize/syncopate/exclusions-nexus.txt
 basedir=/home/maven/repository-staging/to-ibiblio/maven2
 log=/tmp/sync-nexus-changed.log
 mailHostName=localhost
-mailTo=brianf@sonatype.com
+mailTo=repo-maintainers@maven.apache.org
 mailFrom=maven@repo1.maven.org
-mailSubject=[Maven Central Repository Synchronization]
+mailSubject=[Maven Central Nexus Repository Synchronization]
 mailFooter=This is an automated email, do not respond.\
 Contact the owners at repo-maintainers@maven.apache.org
