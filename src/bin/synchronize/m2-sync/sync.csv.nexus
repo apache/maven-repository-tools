@@ -1,0 +1,2 @@
+"groupId","location","protocol","contactName","contactMail","ssh options","svn url"
+"org.apache","central@repository.apache.org:/export/home/central/rsync-sources/releases","rsync_ssh",Brian Fox,"brianf@apache.org",,

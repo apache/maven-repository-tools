@@ -1,0 +1,15 @@
+# any other value will make it run the sync without actually copying files 
+dryRun=false
+
+# Timeout for each repo in minutes, default=10
+timeout=15
+
+exclusionsFile=/home/maven/bin/synchronize/syncopate/exclusions-nexus.txt
+basedir=/home/maven/repository-staging/to-ibiblio/maven2
+log=/tmp/sync-nexus-changed.log
+mailHostName=localhost
+mailTo=brianf@sonatype.com
+mailFrom=maven@repo1.maven.org
+mailSubject=[Maven Central Repository Synchronization]
+mailFooter=This is an automated email, do not respond.\
+Contact the owners at repo-maintainers@maven.apache.org

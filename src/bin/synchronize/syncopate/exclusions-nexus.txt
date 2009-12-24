@@ -1,0 +1,6 @@
+.htaccess
+**/.*
+**/distributions
+README.txt
+**/CVS
+**/*.rip
