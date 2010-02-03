@@ -24,8 +24,10 @@
 "com.google.code.gwt-math","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
 "com.google.code.gwtx","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
 "com.google.code.jbusycomponent","mavensync@web.sourceforge.net:/home/users/o/ou/ouaibsky/maven/m2repo","rsync_ssh","Ouaibsky","ouaibsky@free.fr",,
+"com.google.code.jcouchdb","mvnrsync@fforw.de:/home/mvnrsync/m2repo/releases","rsync_ssh","Sven Helmberger","info@fforw.de"
 "com.google.code.joto","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Eduardo Pereda","epere4@gmail.com",,"http://j-oto.googlecode.com/svn/repos/release-repository/"
 "com.google.code.protoj","mavensync@web.sourceforge.net:/home/groups/p/pr/protojrepo/htdocs/mavensync","rsync_ssh","Ashley Williams","ashpublic@mac.com",,
+"com.google.code.svenson","mvnrsync@fforw.de:/home/mvnrsync/m2repo/releases","rsync_ssh","Sven Helmberger","info@fforw.de"
 "com.google.gwt","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
 "com.googlecode.lambdaj","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Mario Fusco","mario.fusco@gmail.com",,"http://lambdaj.googlecode.com/svn/repo/releases/"
 "com.googlecode.maven-overview-plugin","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Hubert Iwaniuk","neotyk@kungfoo.pl",,"http://kungfoo-m2.googlecode.com/svn/release-repo/"
