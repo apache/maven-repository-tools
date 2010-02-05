@@ -29,7 +29,6 @@
 "com.google.code.protoj","mavensync@web.sourceforge.net:/home/groups/p/pr/protojrepo/htdocs/mavensync","rsync_ssh","Ashley Williams","ashpublic@mac.com",,
 "com.google.code.svenson","mvnrsync@fforw.de:/home/mvnrsync/m2repo/releases","rsync_ssh","Sven Helmberger","info@fforw.de"
 "com.google.gwt","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
-"com.google.gwt.inject","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
 "com.googlecode.lambdaj","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Mario Fusco","mario.fusco@gmail.com",,"http://lambdaj.googlecode.com/svn/repo/releases/"
 "com.googlecode.maven-overview-plugin","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Hubert Iwaniuk","neotyk@kungfoo.pl",,"http://kungfoo-m2.googlecode.com/svn/release-repo/"
 "com.h2database","mavensync@web.sourceforge.net:/home/groups/h/hs/hsql/htdocs/m2-repo","rsync_ssh","Thomas Mueller","thomas.tom.mueller@gmail.com",,
@@ -99,8 +98,6 @@
 "log4j","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh",,,,
 "me.springframework","mavensync@web.sourceforge.net:/home/groups/s/sp/springme/htdocs/repository","rsync_ssh","Wilfred Springer","wilfred@flotsam.nl",,
 "mysql","maven@rsync.mysql.com:/web/sites/live/maven","rsync_ssh","Mark Matthews","mark@mysql.com",,
-"net.customware.gwt.dispatch","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
-"net.customware.gwt.presenter","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
 "net.databinder","maven@databinder.net:/var/dbwww/maven","rsync_ssh","Nathan Hamblen","nathan@technically.us",,
 "net.fckeditor","rsync://java.fckeditor.net/m2repo","rsync","Wiktor Walc","w.walc@fckeditor.net",,
 "net.homeip.yusuke","mavensync@yusuke.homeip.net:/Users/mavensync/maven2","rsync_ssh","Yusuke Yamamoto","yusuke@mac.com",,
