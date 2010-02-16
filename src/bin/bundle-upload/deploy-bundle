@@ -26,7 +26,7 @@ mkdir $WORKDIR
 cd $WORKDIR
 
 echo "Retrieving URL: '${BUNDLEURL}'"
-wget --no-check-certificate $BUNDLEURL
+wget -Umaven --no-check-certificate $BUNDLEURL
 BUNDLE=`echo $BUNDLEURL | sed -e 's#^.*/##;'`
 
 echo $BUNDLE
