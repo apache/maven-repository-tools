@@ -6,7 +6,7 @@
 
 echo ">>>>>>>>>>>>>>>>>> Syncing Maven 2.x repository to Ibiblio"
 
-rsync -e ssh --delete --max-delete=10 --exclude "/**/.svn"  -O -n -v -riplt $MAVEN2_REPO/ $IBIBLIO_SYNC_HOST:$M2_IBIBLIO_SYNC_DIR
+rsync -e ssh --delete --max-delete=10 --exclude "/**/.svn"  -O -v -riplt $MAVEN2_REPO/ $IBIBLIO_SYNC_HOST:$M2_IBIBLIO_SYNC_DIR
 
 echo ">>>>>>>>>>>>>>>>>> Syncing Maven 1.x plugins to Ibiblio"
 
