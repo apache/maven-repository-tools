@@ -248,7 +248,6 @@
 "org.jacex","mavensync@web.sourceforge.net:/home/groups/j/ja/jacex/htdocs/maven","rsync_ssh","Alexey Noskov","alexey.noskov@gmail.com",,
 "org.jamon","mvnsync@jamon.org:/home/jamon/maven2","rsync_ssh","Ian Robertson","ian.b.robertson@gmail.com",,
 "org.jasig","mavensync@web.sourceforge.net:/home/groups/a/ac/acegisecurity/htdocs/repository/releases","rsync_ssh","Carlos Sanchez","carlos@apache.org",,
-"org.jdtaus","mavensync@web.sourceforge.net:/home/groups/j/jd/jdtaus/htdocs/central","rsync_ssh","Christian Schulte","schulte2005@users.sourceforge.net",,
 "org.jframework","mavensync@web.sourceforge.net:/home/groups/j/jf/jframework/repository","rsync_ssh","Misha Gridnev","mishalg@users.sourceforge.net",,
 "org.jibx","mavensync@web.sourceforge.net:/home/groups/j/ji/jibx/htdocs/maven2","rsync_ssh","Jerome Bernard","jerome.bernard@gmail.com",,
 "org.jitr","mavensync@web.sourceforge.net:/home/groups/j/ji/jitr/htdocs/repositories/release","rsync_ssh","Josh Devins","info@joshdevins.net",,
