@@ -1,3 +1,4 @@
 "groupId","location","protocol","contactName","contactMail","ssh options","svn url"
 "org.apache","central@repository.apache.org:/export/home/central/rsync-sources/releases","rsync_ssh",Brian Fox,"brianf@apache.org",,
 ,"mavensync@nexus.codehaus.org:/home/mavensync/releases","rsync_ssh",Brian Fox,"brianf@apache.org",,
+"org.fusesource","maven@repo.fusesource.com:/releases-to-central","rsync_ssh",Hiram Chirino,"hiram@hiramchirino.com",,
