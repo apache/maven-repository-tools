@@ -88,7 +88,6 @@
 "gr.abiss.md4j","mavensync@web.sourceforge.net:/home/groups/m/md/md4j/htdocs/repository/releases","rsync_ssh","Manos Batsis","mbatsis@users.sourceforge.net",,
 "gr.abiss.mvn.plugins","mavensync@web.sourceforge.net:/home/groups/m/mv/mvn-jstools/htdocs/repository/releases","rsync_ssh","Manos Batsis","mbatsis@users.sourceforge.net",,
 "gr.spinellis","mavensync@web.sourceforge.net:/home/groups/c/ck/ckjm/htdocs/m2repo","rsync_ssh","Nicolas Dordet","dordet.n@gmail.com",,
-"info.magnolia","mavensync@repo.magnolia-cms.com:synched-to-central","rsync_ssh","Gregory Joseph","gregory.joseph@magnolia-cms.com",,
 "it.tidalwave.betterbeansbinding","/home/maven/repository-staging/to-ibiblio/maven-svn","svn","Fabrizio Giudici","fabrizio.giudici@tidalwave.it",,"https://kenai.com/svn/tidalwave~maven-repo/release/2/"
 "javassist","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
 "javax.jdo","jvanzyl@people.apache.org:/www/people.apache.org/repo/m2-ibiblio-rsync-repository","rsync_ssh","Craig Russell","Craig.Russell@sun.com",,
@@ -101,7 +100,6 @@
 "net.databinder","maven@databinder.net:/var/dbwww/maven","rsync_ssh","Nathan Hamblen","nathan@technically.us",,
 "net.fckeditor","rsync://java.fckeditor.net/m2repo","rsync","Wiktor Walc","w.walc@fckeditor.net",,
 "net.homeip.yusuke","mavensync@yusuke.homeip.net:/Users/mavensync/maven2","rsync_ssh","Yusuke Yamamoto","yusuke@mac.com",,
-"net.incongru","mavensync@repo.magnolia-cms.com:synched-hosted-3rdparty-to-central","rsync_ssh","Grégory Joseph","greg.jos@gmail.com",,
 "net.israfil","ibiblio@repo.israfil.net:maven2","rsync_ssh","Christian Gruber","cgruber@israfil.net","-l ibiblio",
 "net.java.dev.jets3t","mavensync@web.sourceforge.net:/home/groups/j/je/jets3t/htdocs/maven2/","rsync_ssh","James Murty","jmurty@dev.java.net",,
 "net.java.dev.jvyaml","mavensync@web.sourceforge.net:/home/users/o/ou/ouaibsky/maven/m2repo","rsync_ssh","Ouaibsky","ouaibsky@free.fr",,
