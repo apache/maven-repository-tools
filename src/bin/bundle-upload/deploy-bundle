@@ -128,6 +128,7 @@ BUNDLE=tmp.jar
   read
 
   cp ${POM} ${artifactId}-${version}.pom
+  cp ${POM}.asc ${artifactId}-${version}.pom.asc
 
   m2dir=$REPO2DIR/${groupDir}/${artifactId}/${version}
 
@@ -137,6 +138,7 @@ BUNDLE=tmp.jar
   then
     # Maven 2
     cp -i ${artifactId}-${version}.pom ${m2dir}
+    cp -i ${artifactId}-${version}.pom.asc ${m2dir}
     md5sum  ${m2dir}/${artifactId}-${version}.pom > ${m2dir}/${artifactId}-${version}.pom.md5
     sha1sum ${m2dir}/${artifactId}-${version}.pom > ${m2dir}/${artifactId}-${version}.pom.sha1
   fi
@@ -148,6 +150,7 @@ BUNDLE=tmp.jar
     jar=${artifactId}-${version}-${CLASSIFIER}.jar
   fi
   cp -i ${jar} ${m2dir}
+  cp -i ${jar}.asc ${m2dir}
   if [ -f ${m2dir}/${jar} ];
   then
     md5sum  ${m2dir}/${jar} > ${m2dir}/${jar}.md5
@@ -158,6 +161,7 @@ BUNDLE=tmp.jar
   then
     echo "Deploying Java sources ..."
     cp -i ${artifactId}-${version}-sources.jar ${m2dir}
+    cp -i ${artifactId}-${version}-sources.jar.asc ${m2dir}
     md5sum  ${m2dir}/${artifactId}-${version}-sources.jar > ${m2dir}/${artifactId}-${version}-sources.jar.md5
     sha1sum ${m2dir}/${artifactId}-${version}-sources.jar > ${m2dir}/${artifactId}-${version}-sources.jar.sha1
   else
@@ -168,6 +172,7 @@ BUNDLE=tmp.jar
   then
     echo "Deploying Javadocs ..."
     cp -i ${artifactId}-${version}-javadoc.jar ${m2dir}
+    cp -i ${artifactId}-${version}-javadoc.jar.asc ${m2dir}
     md5sum  ${m2dir}/${artifactId}-${version}-javadoc.jar > ${m2dir}/${artifactId}-${version}-javadoc.jar.md5
     sha1sum ${m2dir}/${artifactId}-${version}-javadoc.jar > ${m2dir}/${artifactId}-${version}-javadoc.jar.sha1
   else
