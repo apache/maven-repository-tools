@@ -251,7 +251,6 @@
 "org.jlibrary","mavensync@web.sourceforge.net:/home/groups/j/jl/jlibrary/htdocs/m2repo","rsync_ssh","Roman Puchkovskiy","roman.puchkovskiy@blandware.com",,
 "org.jminix","maven@maven.jminix.org:m2repo/releases","rsync_ssh","Laurent Bovet","lbovet@jminix.org",,
 "org.jmonit","mavensync@web.sourceforge.net:/home/groups/j/jm/jmonit/htdocs/releases","rsync_ssh","Nicolas De Loof","nicolas.deloof@gmail.com",,
-"org.jomc","mavensync@web.sourceforge.net:/home/groups/j/jo/jomc/htdocs/maven2/releases","rsync_ssh","The JOMC Project","jomc-notifications@lists.sourceforge.net",,
 "org.jsdoctoolkit","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
 "org.jsecurity","mavensync@web.sourceforge.net:/home/groups/j/js/jsecurity/htdocs/m2repo","rsync_ssh","Les Hazlewood","les@hazlewood.com",,
 "org.jvnet.hudson","rsync://maven.hudson-ci.org/hudson.maven","rsync","Kohsuke Kawaguchi","kk@kohsuke.org",,
