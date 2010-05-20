@@ -1,5 +1,4 @@
 ﻿"groupId","location","protocol","contactName","contactMail","ssh options","svn url"
-,"mavensync@repository.codehaus.org:/repository","rsync_ssh",,"repo-maintainers@maven.apache.org","-i $HOME/.ssh/new-id_dsa",
 "ant-contrib","mavensync@web.sourceforge.net:/home/groups/a/an/ant-contrib/htdocs/m2-repo","rsync_ssh","Curt Arnold","carnold@apache.org",,
 "asm","maven@forge.objectweb.org:../../groups/maven/htdocs/maven2","rsync_ssh","EugeneKuleshov","eu@javatx.org",,
 "be.roam.hue","mavensync@web.sourceforge.net:/home/groups/h/hu/hue/htdocs/m2-repo","rsync_ssh","Kevin Wetzels","kevin@roam.be",,
