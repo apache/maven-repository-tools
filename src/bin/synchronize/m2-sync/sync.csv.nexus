@@ -2,3 +2,8 @@
 "org.apache","central@repository.apache.org:/export/home/central/rsync-sources/releases","rsync_ssh",Brian Fox,"brianf@apache.org",,
 ,"mavensync@nexus.codehaus.org:/home/mavensync/releases","rsync_ssh",Brian Fox,"brianf@apache.org",,
 "org.fusesource","maven@repo.fusesource.com:/home/maven/releases-to-central","rsync_ssh",Hiram Chirino,"hiram@hiramchirino.com",,
+,"mavensync@repository.codehaus.org:/repository","rsync_ssh",,"brianf@sonatype.com","-i $HOME/.ssh/new-id_dsa",
+"org.chromattic","mavensync@repository.exoplatform.org:/home/nexus/data/storage/hosted/chromattic-releases","rsync_ssh","Arnaud Heritier","aheritier@apache.org",,
+"org.reflext","mavensync@repository.exoplatform.org:/home/nexus/data/storage/hosted/reflext-releases","rsync_ssh","Arnaud Heritier","aheritier@apache.org",,
+"org.wikbook","mavensync@repository.exoplatform.org:/home/nexus/data/storage/hosted/wikbook-releases","rsync_ssh","Arnaud Heritier","aheritier@apache.org",,
+
