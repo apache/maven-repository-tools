@@ -2,7 +2,7 @@
 dryRun=false
 
 # Timeout for each repo in minutes, default=10
-timeout=30
+timeout=60
 
 exclusionsFile=/home/maven/bin/synchronize/syncopate/exclusions-nexus.txt
 basedir=/home/maven/repository-staging/to-ibiblio/maven2
