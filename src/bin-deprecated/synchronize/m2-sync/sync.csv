@@ -125,7 +125,6 @@
 "net.sf.dozer","mavensync@web.sourceforge.net:/home/groups/d/do/dozer/htdocs/m2repo","rsync_ssh","Dmitry Buzdin","buzdin@gmail.com",,
 "net.sf.excha","mavensync@web.sourceforge.net:/home/groups/e/ex/excha/htdocs/repository","rsync_ssh","Vitaliy S","yilativs@users.sourceforge.net",,
 "net.sf.fck-faces","mavensync@web.sourceforge.net:/home/groups/f/fc/fck-faces/htdocs/maven2","rsync_ssh","Ingo Dueppe","idueppe@users.sourceforge.net",,
-"net.sf.formlayoutmaker","mavensync@web.sourceforge.net:/home/groups/f/fo/formlayoutmaker/htdocs/m2repo/releases","rsync_ssh","Herve BOUTEMY","hboutemy@users.sourceforge.net",,
 "net.sf.gnu-hylafax","mavensync@web.sourceforge.net:/home/groups/g/gn/gnu-hylafax/m2repo","rsync_ssh","Steven Jardine","steve@mjnservices.com",,
 "net.sf.gwt-widget","jvanzyl@people.apache.org:/home/nicolas/rsync-to-central","rsync_ssh","Nicolas De Loof","nicolas@apache.org",,
 "net.sf.hammockmocks","mavensync@web.sourceforge.net:/home/groups/h/ha/hammockmocks/htdocs/m2repo","rsync_ssh","Carl Meijer","cameijer@sourceforge.net",,
